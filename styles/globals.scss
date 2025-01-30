@@ -22,9 +22,9 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif, Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -53,13 +53,18 @@ main {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+    position: sticky;
+    top: 0;
     padding-right: 2rem;
     margin-right: 2rem;
     border-right: 1px solid #ddd;
+    background: url(../public/menu-bg.png) 0 100% / contain no-repeat;
   }
 
   &__content {
     flex: 1;
+    position: relative;
+    padding-bottom: 2rem;
   }
 
   &__headline {

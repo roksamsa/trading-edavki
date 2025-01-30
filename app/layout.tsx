@@ -1,22 +1,8 @@
-import { Metadata, Viewport } from "next";
+import { Viewport } from "next";
 import clsx from "clsx";
-
 import { Providers } from "./providers";
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/config/fonts";
 
 import "../styles/globals.scss";
-
-export const metadata: Metadata = {
-  title: {
-    default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
-  },
-  description: siteConfig.description,
-  icons: {
-    icon: "/favicon.ico",
-  },
-};
 
 export const viewport: Viewport = {
   themeColor: [
@@ -32,19 +18,18 @@ export default function RootLayout({
 }) {
   return (
     <html suppressHydrationWarning lang="en">
-      <head />
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet"
+        ></link>
+      </head>
       <body
-        className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable,
-        )}
+        className={clsx("min-h-screen bg-background font-sans antialiased")}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
           <div className="relative flex flex-col h-screen">
             <main>{children}</main>
-            <footer className="w-full flex items-center justify-center py-3">
-              <p>Made by Rok Samsa</p>
-            </footer>
           </div>
         </Providers>
       </body>
