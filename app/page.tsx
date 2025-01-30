@@ -6,91 +6,93 @@ import { saveAs } from "file-saver";
 import { Tabs, Tab } from "@heroui/tabs";
 import { Select, SelectItem } from "@heroui/select";
 import { Input } from "@heroui/input";
+import { Button } from "@heroui/button";
 
 const taxPayerTypes = [
-  { key: "FO", label: "Fizična oseba" },
-  { key: "PO", label: "Pravna oseba" },
-  { key: "SP", label: "Fizična oseba z dejavnostjo" },
+    { key: "FO", label: "Fizična oseba" },
+    { key: "PO", label: "Pravna oseba" },
+    { key: "SP", label: "Fizična oseba z dejavnostjo" },
 ];
 
 const tradingPlatforms = [
-  { key: "DEGIRO", label: "DEGIRO" },
-  { key: "IBKR", label: "Interactive Brokers" },
-  { key: "TR", label: "Trading212" },
-  { key: "ET", label: "Etoro" },
-  { key: "RO", label: "Revolut" },
-  { key: "OT", label: "Ostalo" },
+    { key: "DEGIRO", label: "DEGIRO" },
+    { key: "IBKR", label: "Interactive Brokers" },
+    { key: "TR", label: "Trading212" },
+    { key: "ET", label: "Etoro" },
+    { key: "RO", label: "Revolut" },
+    { key: "OT", label: "Ostalo" },
 ];
 
 export default function Home() {
-  const [selectedTradingPlatform, setSelectedTradingPlatform] =
-    useState<string>("ET");
-  const [selectedTaxPayerType, setSelectedTaxPayerType] =
-    useState<string>("FO");
-  const [selectedYear, setSelectedYear] = useState<number>(
-    new Date().getFullYear() - 1,
-  );
-  const [taxNumber, setTaxNumber] = useState<string>("");
+    const [selectedTradingPlatform, setSelectedTradingPlatform] =
+        useState<string>("ET");
+    const [selectedTaxPayerType, setSelectedTaxPayerType] =
+        useState<string>("FO");
+    const [selectedYear, setSelectedYear] = useState<number>(
+        new Date().getFullYear() - 1,
+    );
+    const [taxNumber, setTaxNumber] = useState<string>("");
 
-  const [pageTabs, setPageTabs] = useState<string[]>([]);
-  const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
-  const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
-  const [importedData, setImportedData] = useState<any>();
-  const [dividendsData, setDividendsData] = useState<any[]>([]);
-  const [error, setError] = useState<string>("");
+    const [pageTabs, setPageTabs] = useState<string[]>([]);
+    const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
+    const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
 
-  const handleFileUpload = async (event: any) => {
-    const file = event.target.files[0];
+    const [importedData, setImportedData] = useState<any>();
+    const [dividendsData, setDividendsData] = useState<any[]>([]);
+    const [error, setError] = useState<string>("");
 
-    if (!file) {
-      alert("Please upload an XLSX file first.");
+    const handleFileUpload = async (event: any) => {
+        const file = event.target.files[0];
 
-      return;
-    }
+        if (!file) {
+            alert("Please upload an XLSX file first.");
 
-    const data = await file.arrayBuffer();
-    const workbook = read(data, { type: "array" });
-    const sheetName = "Dividends";
+            return;
+        }
 
-    setPageTabs(Object.keys(workbook.Sheets));
+        const data = await file.arrayBuffer();
+        const workbook = read(data, { type: "array" });
+        const sheetName = "Dividends";
 
-    if (!workbook.Sheets[sheetName]) {
-      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
+        setPageTabs(Object.keys(workbook.Sheets));
 
-      return;
-    }
+        if (!workbook.Sheets[sheetName]) {
+            setError(`Sheet "${sheetName}" not found in the uploaded file.`);
 
-    console.log("11111", workbook.Sheets);
-    setImportedData(workbook.Sheets);
+            return;
+        }
 
-    const worksheet = workbook.Sheets[sheetName];
-    const jsonData = utils.sheet_to_json(worksheet);
+        console.log("11111", workbook.Sheets);
+        setImportedData(workbook.Sheets);
 
-    console.log("Extracted Data:", jsonData);
-    setDividendsData(jsonData);
-  };
+        const worksheet = workbook.Sheets[sheetName];
+        const jsonData = utils.sheet_to_json(worksheet);
 
-  const handleGenerateXML = async () => {
-    const xmlData = generateXML(dividendsData);
-    const blob = new Blob([xmlData], { type: "application/xml" });
+        console.log("Extracted Data:", jsonData);
+        setDividendsData(jsonData);
+    };
 
-    saveAs(blob, "Doh-Div.xml");
-  };
+    const handleGenerateXML = async () => {
+        const xmlData = generateXML(dividendsData);
+        const blob = new Blob([xmlData], { type: "application/xml" });
 
-  useEffect(() => {
-    if (importedData && selectedPageTab) {
-      const worksheet = importedData[selectedPageTab];
-      const jsonData = utils.sheet_to_json(worksheet);
-      setSelectedPageTabContent(jsonData);
-    }
-  }, [selectedPageTab, importedData]);
+        saveAs(blob, "Doh-Div.xml");
+    };
 
-  useEffect(() => {
-    console.log("selectedPageTabContent", selectedPageTabContent);
-  }, [selectedPageTabContent]);
+    useEffect(() => {
+        if (importedData && selectedPageTab) {
+            const worksheet = importedData[selectedPageTab];
+            const jsonData = utils.sheet_to_json(worksheet);
+            setSelectedPageTabContent(jsonData);
+        }
+    }, [selectedPageTab, importedData]);
 
-  const generateXML = (data: any) => {
-    const header = `<?xml version="1.0" ?>
+    useEffect(() => {
+        console.log("selectedPageTabContent", selectedPageTabContent);
+    }, [selectedPageTabContent]);
+
+    const generateXML = (data: any) => {
+        const header = `<?xml version="1.0" ?>
 <Envelope xmlns="http://edavki.durs.si/Documents/Schemas/Doh_Div_3.xsd" xmlns:edp="http://edavki.durs.si/Documents/Schemas/EDP-Common-1.xsd">
 	<edp:Header>
 		<edp:taxpayer>
@@ -108,14 +110,13 @@ export default function Home() {
 			<Period>${selectedYear}</Period>
 		</Doh_Div>`;
 
-    const dividends = data
-      .map((row: any) => {
-        return `
+        const dividends = data
+            .map((row: any) => {
+                return `
 		<Dividend>
 			<Date>${row.Date}</Date>
-			<PayerIdentificationNumber>${
-        row.PayerIdentificationNumber
-      }</PayerIdentificationNumber>
+			<PayerIdentificationNumber>${row.PayerIdentificationNumber
+                    }</PayerIdentificationNumber>
 			<PayerName>${row.PayerName}</PayerName>
 			<PayerAddress>${row.PayerAddress}</PayerAddress>
 			<PayerCountry>${row.PayerCountry}</PayerCountry>
@@ -125,122 +126,126 @@ export default function Home() {
 			<SourceCountry>${row.SourceCountry}</SourceCountry>
 			<ReliefStatement/>
 		</Dividend>`;
-      })
-      .join("");
+            })
+            .join("");
 
-    const footer = `
+        const footer = `
 	</body>
 </Envelope>`;
 
-    return header + dividends + footer;
-  };
+        return header + dividends + footer;
+    };
 
-  return (
-    <div className="page flex p-6">
-      <div className="page__left-sidebar">
-        <Input
-          className="mb-5"
-          label="Davčna številka"
-          placeholder="Davčna številka"
-          type="text"
-          value={taxNumber}
-          onChange={(event) => setTaxNumber(event.target.value)}
-        />
-        <Select
-          className="max-w-xs mb-5"
-          isDisabled
-          label="Izberi borzno platformo"
-          selectedKeys={[selectedTradingPlatform]}
-          onChange={(event) => setSelectedTradingPlatform(event.target.value)}
-        >
-          {tradingPlatforms.map((platform) => (
-            <SelectItem key={platform.key}>{platform.label}</SelectItem>
-          ))}
-        </Select>
-        <Select
-          className="max-w-xs mb-5"
-          label="Izberi tip davkoplačevalca"
-          selectedKeys={[selectedTaxPayerType]}
-          onChange={(event) => setSelectedTaxPayerType(event.target.value)}
-        >
-          {taxPayerTypes.map((taxPayerType) => (
-            <SelectItem key={taxPayerType.key}>{taxPayerType.label}</SelectItem>
-          ))}
-        </Select>
-        <Input
-          label="Za leto"
-          placeholder="Za leto"
-          type="number"
-          value={selectedYear.toString()}
-          onChange={(event) => setSelectedYear(Number(event.target.value))}
-        />
-        <div className="divider"></div>
-        <Input
-          accept=".xlsx"
-          label="Upload XLSX file"
-          placeholder="Upload XLSX file"
-          type="file"
-          onChange={handleFileUpload}
-        />
-      </div>
-      <div className="page__content">
-        <div className="flex flex-col">
-          <div className="page__headline flex justify-between items-center">
-            <Tabs
-              aria-label="Options"
-              selectedKey={selectedPageTab}
-              onSelectionChange={(event) =>
-                setSelectedPageTab(event.toString())
-              }
-            >
-              {pageTabs.map((tab) => (
-                <Tab key={tab} title={tab}></Tab>
-              ))}
-            </Tabs>
-            <button
-              onClick={handleGenerateXML}
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-            >
-              Generate XML
-            </button>
-          </div>
-          <div className="page__content-container">
-            {selectedPageTabContent?.length > 0 && (
-              <>
-                <h2 className="text-lg font-bold">Dividends Data</h2>
-                <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
-                  <thead>
-                    <tr>
-                      {Object.keys(selectedPageTabContent[0]).map((key) => (
-                        <th
-                          key={key}
-                          className="border border-gray-300 p-2 bg-gray-200"
-                        >
-                          {key}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {selectedPageTabContent.map((row, index) => (
-                      <tr key={index}>
-                        {Object.keys(row).map((key) => (
-                          <td
-                            key={key}
-                            className="border border-gray-300 p-2 text-gray-700"
-                          >
-                            {row[key]}
-                          </td>
-                        ))}
-                      </tr>
+    return (
+        <div className="page flex p-6">
+            <div className="page__left-sidebar">
+                <Input
+                    className="mb-5"
+                    label="Davčna številka"
+                    placeholder="Davčna številka"
+                    type="text"
+                    value={taxNumber}
+                    onChange={(event) => setTaxNumber(event.target.value)}
+                />
+                <Select
+                    className="max-w-xs mb-5"
+                    isDisabled
+                    label="Izberi borzno platformo"
+                    selectedKeys={[selectedTradingPlatform]}
+                    onChange={(event) => setSelectedTradingPlatform(event.target.value)}
+                >
+                    {tradingPlatforms.map((platform) => (
+                        <SelectItem key={platform.key}>{platform.label}</SelectItem>
                     ))}
-                  </tbody>
-                </table>
-              </>
-            )}
-          </div>
+                </Select>
+                <Select
+                    className="max-w-xs mb-5"
+                    label="Izberi tip davkoplačevalca"
+                    selectedKeys={[selectedTaxPayerType]}
+                    onChange={(event) => setSelectedTaxPayerType(event.target.value)}
+                >
+                    {taxPayerTypes.map((taxPayerType) => (
+                        <SelectItem key={taxPayerType.key}>{taxPayerType.label}</SelectItem>
+                    ))}
+                </Select>
+                <Input
+                    label="Za leto"
+                    placeholder="Za leto"
+                    type="number"
+                    value={selectedYear.toString()}
+                    onChange={(event) => setSelectedYear(Number(event.target.value))}
+                />
+                <div className="divider"></div>
+                <Input
+                    accept=".xlsx"
+                    label="Upload XLSX file"
+                    placeholder="Upload XLSX file"
+                    type="file"
+                    onChange={handleFileUpload}
+                />
+            </div>
+            <div className="page__content">
+                <div className="flex flex-col">
+                    <div className="page__headline flex justify-between items-center">
+                        {importedData && (
+                            <Tabs
+                                aria-label="Options"
+                                selectedKey={selectedPageTab}
+                                onSelectionChange={(event) =>
+                                    setSelectedPageTab(event.toString())
+                                }
+                            >
+                                {pageTabs.map((tab) => (
+                                    <Tab key={tab} title={tab}></Tab>
+                                ))}
+                            </Tabs>
+                        )}
+                        <Button
+                            isDisabled={!importedData}
+                            disabled={!importedData}
+                            onPress={handleGenerateXML}
+                            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                        >
+                            Generate XML
+                        </Button>
+                    </div>
+                    <div className="page__content-container">
+                        {selectedPageTabContent?.length > 0 && (
+                            <>
+                                <h2 className="text-lg font-bold">Dividends Data</h2>
+                                <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
+                                    <thead>
+                                        <tr>
+                                            {Object.keys(selectedPageTabContent[0]).map((key) => (
+                                                <th
+                                                    key={key}
+                                                    className="border border-gray-300 p-2 bg-gray-200"
+                                                >
+                                                    {key}
+                                                </th>
+                                            ))}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {selectedPageTabContent.map((row, index) => (
+                                            <tr key={index}>
+                                                {Object.keys(row).map((key) => (
+                                                    <td
+                                                        key={key}
+                                                        className="border border-gray-300 p-2 text-gray-700"
+                                                    >
+                                                        {row[key]}
+                                                    </td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </>
+                        )}
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }
