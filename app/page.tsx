@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { read, utils } from "xlsx";
 import { saveAs } from "file-saver";
 import { Tabs, Tab } from "@heroui/tabs";
@@ -33,6 +33,9 @@ export default function Home() {
   const [taxNumber, setTaxNumber] = useState<string>("");
 
   const [pageTabs, setPageTabs] = useState<string[]>([]);
+  const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
+  const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
+  const [importedData, setImportedData] = useState<any>();
   const [dividendsData, setDividendsData] = useState<any[]>([]);
   const [error, setError] = useState<string>("");
 
@@ -58,6 +61,7 @@ export default function Home() {
     }
 
     console.log("11111", workbook.Sheets);
+    setImportedData(workbook.Sheets);
 
     const worksheet = workbook.Sheets[sheetName];
     const jsonData = utils.sheet_to_json(worksheet);
@@ -72,6 +76,18 @@ export default function Home() {
 
     saveAs(blob, "Doh-Div.xml");
   };
+
+  useEffect(() => {
+    if (importedData && selectedPageTab) {
+      const worksheet = importedData[selectedPageTab];
+      const jsonData = utils.sheet_to_json(worksheet);
+      setSelectedPageTabContent(jsonData);
+    }
+  }, [selectedPageTab, importedData]);
+
+  useEffect(() => {
+    console.log("selectedPageTabContent", selectedPageTabContent);
+  }, [selectedPageTabContent]);
 
   const generateXML = (data: any) => {
     const header = `<?xml version="1.0" ?>
@@ -170,7 +186,13 @@ export default function Home() {
       <div className="page__content">
         <div className="flex flex-col">
           <div className="page__headline flex justify-between items-center">
-            <Tabs aria-label="Options">
+            <Tabs
+              aria-label="Options"
+              selectedKey={selectedPageTab}
+              onSelectionChange={(event) =>
+                setSelectedPageTab(event.toString())
+              }
+            >
               {pageTabs.map((tab) => (
                 <Tab key={tab} title={tab}></Tab>
               ))}
@@ -183,13 +205,13 @@ export default function Home() {
             </button>
           </div>
           <div className="page__content-container">
-            {dividendsData?.length > 0 && (
+            {selectedPageTabContent?.length > 0 && (
               <>
                 <h2 className="text-lg font-bold">Dividends Data</h2>
                 <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
                   <thead>
                     <tr>
-                      {Object.keys(dividendsData[0]).map((key) => (
+                      {Object.keys(selectedPageTabContent[0]).map((key) => (
                         <th
                           key={key}
                           className="border border-gray-300 p-2 bg-gray-200"
@@ -200,7 +222,7 @@ export default function Home() {
                     </tr>
                   </thead>
                   <tbody>
-                    {dividendsData.map((row, index) => (
+                    {selectedPageTabContent.map((row, index) => (
                       <tr key={index}>
                         {Object.keys(row).map((key) => (
                           <td
