@@ -7,23 +7,29 @@ import { Tabs, Tab } from "@heroui/tabs";
 import { Select, SelectItem } from "@heroui/select";
 import { Input } from "@heroui/input";
 import { Button } from "@heroui/button";
+import { MdClose } from "react-icons/md";
 
 const taxPayerTypes = [
-    { key: "FO", label: "Fizična oseba" },
-    { key: "PO", label: "Pravna oseba" },
-    { key: "SP", label: "Fizična oseba z dejavnostjo" },
+  { key: "FO", label: "Fizična oseba" },
+  { key: "PO", label: "Pravna oseba" },
+  { key: "SP", label: "Fizična oseba z dejavnostjo" },
 ];
 
 const tradingPlatforms = [
-    { key: "DEGIRO", label: "DEGIRO" },
-    { key: "IBKR", label: "Interactive Brokers" },
-    { key: "TR", label: "Trading212" },
-    { key: "ET", label: "Etoro" },
-    { key: "RO", label: "Revolut" },
-    { key: "OT", label: "Ostalo" },
+  { key: "DEGIRO", label: "DEGIRO" },
+  { key: "IBKR", label: "Interactive Brokers" },
+  { key: "TR", label: "Trading212" },
+  { key: "ET", label: "Etoro" },
+  { key: "RO", label: "Revolut" },
+  { key: "OT", label: "Ostalo" },
 ];
 
 const currentYear = new Date().getFullYear();
+
+const sheetToJsonOptions = {
+  blankrows: false,
+  defval: "",
+};
 
 export default function Home() {
   const [selectedTradingPlatform, setSelectedTradingPlatform] =
@@ -33,45 +39,15 @@ export default function Home() {
   const [selectedYear, setSelectedYear] = useState<number>(currentYear - 1);
   const [taxNumber, setTaxNumber] = useState<string>("");
 
-  const [pageTabs, setPageTabs] = useState<string[]>([]);
+  const [pageTabs, setPageTabs] = useState<any[]>([]);
   const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
   const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
 
-  const [importedData, setImportedData] = useState<any>();
+  const [importedDataFileDetails, setImportedDataFileDetails] = useState<any>();
+  const [importedData, setImportedData] = useState<any[]>();
   const [dividendsData, setDividendsData] = useState<any[]>([]);
   const [error, setError] = useState<string>("");
   const [isDragging, setIsDragging] = useState(false);
-
-  const handleFileUpload = async (event: any) => {
-    const file = event.target.files[0];
-
-    if (!file) {
-      alert("Please upload an XLSX file first.");
-
-      return;
-    }
-
-    const data = await file.arrayBuffer();
-    const workbook = read(data, { type: "array" });
-    const sheetName = "Dividends";
-
-    setPageTabs(Object.keys(workbook.Sheets));
-
-    if (!workbook.Sheets[sheetName]) {
-      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
-
-      return;
-    }
-
-    console.log("11111", workbook.Sheets);
-    setImportedData(workbook.Sheets);
-
-    const worksheet = workbook.Sheets[sheetName];
-    const jsonData = utils.sheet_to_json(worksheet);
-
-    console.log("Extracted Data:", jsonData);
-    setDividendsData(jsonData);
-  };
 
   const handleGenerateXML = async () => {
     const xmlData = generateXML(dividendsData);
@@ -80,18 +56,47 @@ export default function Home() {
     saveAs(blob, "Doh-Div.xml");
   };
 
-  useEffect(() => {
-    if (importedData && selectedPageTab) {
-      const worksheet = importedData[selectedPageTab];
-      const importedDataJson = utils.sheet_to_json(worksheet);
+  const handleGenerateContent = async (companyName: string) => {
+    const prompt = `Fill missing ISIN for the following ${companyName} common stock on all markets. If there are multiple options, give me all ISINs. And can you just return ISIN string not whole sentence`;
 
-      setSelectedPageTabContent(importedDataJson);
+    try {
+      const res = await fetch("/api/generative-ai", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+
+      if (!res.ok) {
+        throw new Error("Failed to generate content");
+      }
+
+      const data = await res.json();
+
+      return data;
+    } catch (err) {
+      console.error("Error generating content:", err);
     }
-  }, [selectedPageTab, importedData]);
+  };
 
-  useEffect(() => {
-    console.log("selectedPageTabContent", selectedPageTabContent);
-  }, [selectedPageTabContent]);
+  const handleFillMissingISIN = async () => {
+    const selectedPageTabContentEdited = await Promise.all(
+      selectedPageTabContent.map(async (row: any) => {
+        if (!row.ISIN) {
+          const generatedISIN = await handleGenerateContent(
+            row["Instrument Name"],
+          );
+
+          row.ISIN = generatedISIN.response.replace(/\n/g, "");
+        }
+
+        return row;
+      }),
+    );
+
+    console.log("selectedPageTabContentEdited", selectedPageTabContentEdited);
+
+    setSelectedPageTabContent(selectedPageTabContentEdited);
+  };
 
   const generateXML = (data: any) => {
     const header = `<?xml version="1.0" ?>
@@ -156,20 +161,7 @@ export default function Home() {
     // setIsDragging(false);
   };
 
-  const handleDrop = async (event) => {
-    console.log("11111111111", event);
-
-    event.preventDefault();
-    event.stopPropagation();
-    setIsDragging(false);
-
-    const files = event.dataTransfer.files;
-    if (files.length > 0) {
-      console.log("File dropped:", files[0]); // Process the file here
-    }
-
-    const file = files[0];
-
+  const processFile = async (file) => {
     if (!file) {
       alert("Please upload an XLSX file first.");
 
@@ -179,8 +171,12 @@ export default function Home() {
     const data = await file.arrayBuffer();
     const workbook = read(data, { type: "array" });
     const sheetName = "Dividends";
+    const sheetsKeys = Object.keys(workbook.Sheets).map((key, index) => ({
+      index,
+      label: key,
+    }));
 
-    setPageTabs(Object.keys(workbook.Sheets));
+    setPageTabs(sheetsKeys);
 
     if (!workbook.Sheets[sheetName]) {
       setError(`Sheet "${sheetName}" not found in the uploaded file.`);
@@ -188,19 +184,109 @@ export default function Home() {
       return;
     }
 
-    setImportedData(workbook.Sheets);
+    const sheetsArray: any[] = Object.values(workbook.Sheets).map(
+      (sheet, index) => {
+        const sheetJson: any[] = utils.sheet_to_json(sheet, sheetToJsonOptions);
+
+        return {
+          name: sheetsKeys[index],
+          data: sheetJson,
+        };
+      },
+    );
+
+    console.log("rrrrrrrrrrrrrrrrrsheetsArraysheetsArray", sheetsArray);
+
+    setImportedData(sheetsArray);
+    setImportedDataFileDetails(file);
   };
 
+  const handleDrop = async (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    setIsDragging(false);
+
+    const files = event.dataTransfer.files;
+
+    if (files.length > 0) {
+      console.log("File dropped:", files[0]); // Process the file here
+    }
+
+    const file = files[0];
+
+    await processFile(file);
+  };
+
+  const handleFileUpload = async (event) => {
+    const file = event.target.files[0];
+
+    await processFile(file);
+  };
+
+  const handleRemoveImportedData = () => {
+    setImportedDataFileDetails(null);
+    setSelectedPageTabContent(null);
+    setImportedData([]);
+  };
+
+  useEffect(() => {
+    if (importedData && selectedPageTab) {
+      const selectedPageTabData = pageTabs.find(
+        (tab) => tab.label === selectedPageTab,
+      );
+      const worksheet = importedData[selectedPageTabData.index];
+
+      setSelectedPageTabContent(worksheet.data);
+    }
+  }, [selectedPageTab, importedData]);
+
+  useEffect(() => {
+    console.log("selectedPageTabContent", selectedPageTabContent);
+  }, [selectedPageTabContent]);
+
   return (
-    <div className="page flex">
+    <div
+      className="page flex"
+      onDragEnter={handleDragEnter}
+      onDragOver={handleDragOver}
+      onDragLeave={handleDragLeave}
+      onDrop={handleDrop}
+    >
       <div className="page__left-sidebar p-6">
-        <Input
-          accept=".xlsx"
-          label="Upload XLSX file"
-          placeholder="Upload XLSX file"
-          type="file"
-          onChange={handleFileUpload}
-        />
+        {!importedData ? (
+          <>
+            <Input
+              accept=".xlsx"
+              className="page__left-upload"
+              label="Upload XLSX file"
+              placeholder="Upload XLSX file"
+              type="file"
+              onChange={handleFileUpload}
+            />
+          </>
+        ) : (
+          <div className="page__left-title" onClick={handleRemoveImportedData}>
+            <div className="page__left-text">
+              <p className="page__left-label text-small">Datoteka</p>
+              <p className="page__left-name-wrapper">
+                <span className="page__left-name">
+                  {importedDataFileDetails?.name}
+                </span>
+              </p>
+            </div>
+            <span className="page__left-size text-small">
+              <p className="page__left-label text-small">
+                {importedDataFileDetails?.lastModifiedDate.toLocaleDateString()}
+              </p>
+              <p className="page__left-label text-small">
+                {Math.round(importedDataFileDetails?.size / 1024)} KB
+              </p>
+            </span>
+            <div className="page__left-cancel">
+              <MdClose />
+            </div>
+          </div>
+        )}
         <div className="divider"></div>
         <Input
           className="mb-5"
@@ -211,8 +297,9 @@ export default function Home() {
           onChange={(event) => setTaxNumber(event.target.value)}
         />
         <Select
-          className="max-w-xs mb-5"
+          className="mb-5"
           isDisabled
+          fullWidth={true}
           label="Izberi borzno platformo"
           selectedKeys={[selectedTradingPlatform]}
           onChange={(event) => setSelectedTradingPlatform(event.target.value)}
@@ -222,7 +309,7 @@ export default function Home() {
           ))}
         </Select>
         <Select
-          className="max-w-xs mb-5"
+          className="mb-5"
           label="Izberi tip davkoplačevalca"
           selectedKeys={[selectedTaxPayerType]}
           onChange={(event) => setSelectedTaxPayerType(event.target.value)}
@@ -246,15 +333,9 @@ export default function Home() {
           <p>Made by Rok Samsa</p>
         </footer>
       </div>
-      <div
-        className="page__content p-6"
-        onDragEnter={handleDragEnter}
-        onDragOver={handleDragOver}
-        onDragLeave={handleDragLeave}
-        onDrop={handleDrop}
-      >
-        <div className="flex flex-col">
-          <div className="page__headline flex justify-between items-center">
+      <div className="page__content p-6">
+        <div className="page__headline flex justify-between items-center">
+          <div className="page__headline-tabs">
             {importedData && (
               <Tabs
                 aria-label="Options"
@@ -264,66 +345,72 @@ export default function Home() {
                 }
               >
                 {pageTabs.map((tab) => (
-                  <Tab key={tab} title={tab}></Tab>
+                  <Tab key={tab.label} title={tab.label}></Tab>
                 ))}
               </Tabs>
             )}
-            <Button
-              isDisabled={!importedData}
-              disabled={!importedData}
-              onPress={handleGenerateXML}
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-            >
-              Generate XML
-            </Button>
           </div>
-          <div className="page__content-container">
-            {selectedPageTabContent?.length > 0 && (
-              <>
-                <h2 className="text-lg font-bold">Dividends Data</h2>
-                <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
-                  <thead>
-                    <tr>
-                      {Object.keys(selectedPageTabContent[0]).map((key) => (
-                        <th
+          <Button
+            isDisabled={!importedData}
+            disabled={!importedData}
+            onPress={handleFillMissingISIN}
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 mr-3"
+          >
+            Fill missing ISIN
+          </Button>
+          <Button
+            isDisabled={!importedData}
+            disabled={!importedData}
+            onPress={handleGenerateXML}
+            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+          >
+            Generate XML
+          </Button>
+        </div>
+        <div className="page__content-container">
+          {selectedPageTabContent?.length > 0 && (
+            <>
+              <h2 className="text-lg font-bold">Dividends Data</h2>
+              <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
+                <thead>
+                  <tr>
+                    {Object.keys(selectedPageTabContent[0]).map((key) => (
+                      <th
+                        key={key}
+                        className="border border-gray-300 p-2 bg-gray-200"
+                      >
+                        {key}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {selectedPageTabContent.map((row, index) => (
+                    <tr key={index}>
+                      {Object.keys(row).map((key) => (
+                        <td
                           key={key}
-                          className="border border-gray-300 p-2 bg-gray-200"
+                          className="border border-gray-300 p-2 text-gray-700"
                         >
-                          {key}
-                        </th>
+                          {row[key]}
+                        </td>
                       ))}
                     </tr>
-                  </thead>
-                  <tbody>
-                    {selectedPageTabContent.map((row, index) => (
-                      <tr key={index}>
-                        {Object.keys(row).map((key) => (
-                          <td
-                            key={key}
-                            className="border border-gray-300 p-2 text-gray-700"
-                          >
-                            {row[key]}
-                          </td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </>
-            )}
-          </div>
+                  ))}
+                </tbody>
+              </table>
+            </>
+          )}
         </div>
-        {isDragging && (
-          <div
-            className="absolute inset-0 bg-blue-500/50 flex items-center justify-center"
-            style={{ zIndex: 9999 }}
-          >
-            <div className="text-white text-xl font-bold">
-              Drop your file here!
-            </div>
-          </div>
-        )}
       </div>
+      {isDragging && (
+        <div
+          className="absolute inset-0 bg-blue-500/50 flex items-center justify-center"
+          style={{ zIndex: 9999 }}
+        >
+          <div className="text-xl font-bold">Drop your file here!</div>
+        </div>
+      )}
     </div>
   );
 }

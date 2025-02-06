@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f2f4f7;
   --foreground: #171717;
 }
 
@@ -55,28 +55,90 @@ main {
     flex-shrink: 0;
     position: sticky;
     top: 0;
-    padding-right: 2rem;
-    margin-right: 2rem;
+    min-width: 20%;
     border-right: 1px solid #ddd;
     background: url(../public/menu-bg.png) 0 100% / contain no-repeat;
   }
 
+  &__left-upload {
+    cursor: pointer;
+
+    input,
+    div {
+        cursor: pointer;
+    }
+  }
+
+  &__left-name-wrapper {
+    display: flex;;
+  }
+
+  &__left-size {
+    color: #4d5562;
+    font-weight: normal;
+  }
+
+  &__left-label {
+    color: #4d5562;
+    font-weight: normal;
+  }
+
+  &__left-name {
+    flex-grow: 1;
+  }
+
+  &__left-cancel {
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+
+  &__left-title {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 6px;
+    background-color: #c9d9f4;
+    font-weight: bold;
+    color: #0d3270;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+
+    &:hover {
+        background-color: #a9c3e2;
+    }
+  }
+
+  &__left-text {
+    flex-grow: 1;
+  }
+
   &__content {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
     flex: 1;
     position: relative;
     padding-bottom: 2rem;
+    height: 100%;
+    overflow: auto;
   }
 
   &__headline {
     position: sticky;
     right: 0;
     top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     background-color: white;
   }
 
+  &__headline-tabs {
+    flex-grow: 1;
+  }
+
   &__content-container {
+    flex-grow: 1;
     overflow: auto;
+    height: 100%;
   }
 }
 
