@@ -78,6 +78,7 @@ main {
     }
 
     &__content-container {
+        flex-grow: 1;
         overflow: auto;
     }
 }

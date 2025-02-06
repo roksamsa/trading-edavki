@@ -7,6 +7,7 @@ import { Tabs, Tab } from "@heroui/tabs";
 import { Select, SelectItem } from "@heroui/select";
 import { Input } from "@heroui/input";
 import { Button } from "@heroui/button";
+import { AiOutlineStock } from "react-icons/ai";
 
 const taxPayerTypes = [
     { key: "FO", label: "Fizična oseba" },
@@ -63,13 +64,11 @@ export default function Home() {
             return;
         }
 
-        console.log("11111", workbook.Sheets);
         setImportedData(workbook.Sheets);
 
         const worksheet = workbook.Sheets[sheetName];
         const jsonData = utils.sheet_to_json(worksheet);
 
-        console.log("Extracted Data:", jsonData);
         setDividendsData(jsonData);
     };
 
@@ -252,7 +251,7 @@ export default function Home() {
                 onDragLeave={handleDragLeave}
                 onDrop={handleDrop}
             >
-                <div className="flex flex-col">
+                <div className="flex flex-col h-full">
                     <div className="page__headline flex justify-between items-center">
                         <div className="page__headline-tabs">
                             {importedData && (
@@ -278,10 +277,10 @@ export default function Home() {
                             Generate XML
                         </Button>
                     </div>
-                    <div className="page__content-container">
-                        {selectedPageTabContent?.length > 0 && (
+                    <h2 className="text-2xl font-bold mb-4">{selectedPageTab}</h2>
+                    <div className={`page__content-container ${!selectedPageTabContent ? 'flex flex-col justify-center items-center' : ''}`}>
+                        {selectedPageTabContent?.length > 0 ? (
                             <>
-                                <h2 className="text-lg font-bold">{selectedPageTab}</h2>
                                 <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
                                     <thead>
                                         <tr>
@@ -296,7 +295,7 @@ export default function Home() {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        {selectedPageTabContent.map((row, index) => (
+                                        {selectedPageTabContent.map((row, index: number) => (
                                             <tr key={index}>
                                                 {Object.keys(row).map((key) => (
                                                     <td
@@ -311,6 +310,11 @@ export default function Home() {
                                     </tbody>
                                 </table>
                             </>
+                        ) : (
+                            <div className="flex flex-col items-center text-center text-gray-300">
+                                <AiOutlineStock size={60} />
+                                <p>No file imported yet!</p>
+                            </div>
                         )}
                     </div>
                 </div>
