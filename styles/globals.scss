@@ -34,8 +34,22 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #0d3270;
   text-decoration: none;
+  background-image: linear-gradient(#0d47a1, #0d47a1);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 0;
+  transition:
+    background-size 200ms ease-in-out,
+    color 200ms ease-in-out,
+    padding 200ms 200ms ease-in-out;
+
+  &:hover {
+    padding: 0 10px;
+    color: #ffffff;
+    background-size: 100% 100%;
+  }
 }
 
 main {
@@ -133,9 +147,9 @@ main {
   &__left-sidebar {
     display: flex;
     flex-direction: column;
-    flex-shrink: 0;
     position: sticky;
     top: 0;
+    min-width: 350px;
     border-right: 1px solid #ddd;
     background: url(../public/menu-bg.png) 0 100% / contain no-repeat;
   }

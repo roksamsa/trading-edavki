@@ -339,8 +339,10 @@ export default function Home() {
             )
           }
         />
-        <footer className="w-full flex items-center justify-center py-3">
-          <p>Made by Rok Samsa</p>
+        <footer className="grow w-full flex items-end justify-center py-3">
+          <p>
+            Made by <a href="https://roksamsa.com/en/">Rok Samsa</a>
+          </p>
         </footer>
       </div>
       <div className="page__content p-6">
@@ -377,7 +379,9 @@ export default function Home() {
             Generate XML
           </Button>
         </div>
-        <h2 className="text-2xl font-bold mb-4">{selectedPageTab}</h2>
+        {selectedPageTabContent?.length > 0 && (
+          <h2 className="text-2xl font-bold mb-4">{selectedPageTab}</h2>
+        )}
         <div
           className={`page__content-container ${!selectedPageTabContent && "flex items-center justify-center"}`}
         >
