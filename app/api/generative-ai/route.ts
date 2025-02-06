@@ -9,9 +9,8 @@ export async function POST(req) {
     });
   }
 
-  const genAI = new GoogleGenerativeAI(
-    "AIzaSyB-pYLS8NZ3w0j22JIhIsdGoadtKMyhQKg",
-  );
+  const googleApiKey = process.env.GOOGLE_API_KEY || "";
+  const genAI = new GoogleGenerativeAI(googleApiKey);
   const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
   try {
