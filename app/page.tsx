@@ -8,6 +8,7 @@ import { Select, SelectItem } from "@heroui/select";
 import { Input } from "@heroui/input";
 import { Button } from "@heroui/button";
 import { MdClose } from "react-icons/md";
+import { AiOutlineStock } from "react-icons/ai";
 
 const taxPayerTypes = [
   { key: "FO", label: "Fizična oseba" },
@@ -48,6 +49,35 @@ export default function Home() {
   const [dividendsData, setDividendsData] = useState<any[]>([]);
   const [error, setError] = useState<string>("");
   const [isDragging, setIsDragging] = useState(false);
+
+  const handleFileUpload = async (event: any) => {
+    const file = event.target.files[0];
+
+    if (!file) {
+      alert("Please upload an XLSX file first.");
+
+      return;
+    }
+
+    const data = await file.arrayBuffer();
+    const workbook = read(data, { type: "array" });
+    const sheetName = "Dividends";
+
+    setPageTabs(Object.keys(workbook.Sheets));
+
+    if (!workbook.Sheets[sheetName]) {
+      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
+
+      return;
+    }
+
+    setImportedData(workbook.Sheets);
+
+    const worksheet = workbook.Sheets[sheetName];
+    const jsonData = utils.sheet_to_json(worksheet);
+
+    setDividendsData(jsonData);
+  };
 
   const handleGenerateXML = async () => {
     const xmlData = generateXML(dividendsData);
@@ -97,6 +127,19 @@ export default function Home() {
 
     setSelectedPageTabContent(selectedPageTabContentEdited);
   };
+
+  useEffect(() => {
+    if (importedData && selectedPageTab) {
+      const worksheet = importedData[selectedPageTab];
+      const importedDataJson = utils.sheet_to_json(worksheet);
+
+      setSelectedPageTabContent(importedDataJson);
+    }
+  }, [selectedPageTab, importedData]);
+
+  useEffect(() => {
+    console.log("selectedPageTabContent", selectedPageTabContent);
+  }, [selectedPageTabContent]);
 
   const generateXML = (data: any) => {
     const header = `<?xml version="1.0" ?>
@@ -368,7 +411,7 @@ export default function Home() {
           </Button>
         </div>
         <div className="page__content-container">
-          {selectedPageTabContent?.length > 0 && (
+          {selectedPageTabContent?.length > 0 ? (
             <>
               <h2 className="text-lg font-bold">Dividends Data</h2>
               <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
@@ -400,6 +443,11 @@ export default function Home() {
                 </tbody>
               </table>
             </>
+          ) : (
+            <div className="flex flex-col items-center text-center text-gray-300">
+              <AiOutlineStock size={60} />
+              <p>No file imported yet!</p>
+            </div>
           )}
         </div>
       </div>
