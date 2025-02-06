@@ -26,75 +26,75 @@ const tradingPlatforms = [
 const currentYear = new Date().getFullYear();
 
 export default function Home() {
-  const [selectedTradingPlatform, setSelectedTradingPlatform] =
-    useState<string>("ET");
-  const [selectedTaxPayerType, setSelectedTaxPayerType] =
-    useState<string>("FO");
-  const [selectedYear, setSelectedYear] = useState<number>(currentYear - 1);
-  const [taxNumber, setTaxNumber] = useState<string>("");
+    const [selectedTradingPlatform, setSelectedTradingPlatform] =
+        useState<string>("ET");
+    const [selectedTaxPayerType, setSelectedTaxPayerType] =
+        useState<string>("FO");
+    const [selectedYear, setSelectedYear] = useState<number>(currentYear - 1);
+    const [taxNumber, setTaxNumber] = useState<string>("");
 
-  const [pageTabs, setPageTabs] = useState<string[]>([]);
-  const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
-  const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
+    const [pageTabs, setPageTabs] = useState<string[]>([]);
+    const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
+    const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
 
-  const [importedData, setImportedData] = useState<any>();
-  const [dividendsData, setDividendsData] = useState<any[]>([]);
-  const [error, setError] = useState<string>("");
-  const [isDragging, setIsDragging] = useState(false);
+    const [importedData, setImportedData] = useState<any>();
+    const [dividendsData, setDividendsData] = useState<any[]>([]);
+    const [error, setError] = useState<string>("");
+    const [isDragging, setIsDragging] = useState(false);
 
-  const handleFileUpload = async (event: any) => {
-    const file = event.target.files[0];
+    const handleFileUpload = async (event: any) => {
+        const file = event.target.files[0];
 
-    if (!file) {
-      alert("Please upload an XLSX file first.");
+        if (!file) {
+            alert("Please upload an XLSX file first.");
 
-      return;
-    }
+            return;
+        }
 
-    const data = await file.arrayBuffer();
-    const workbook = read(data, { type: "array" });
-    const sheetName = "Dividends";
+        const data = await file.arrayBuffer();
+        const workbook = read(data, { type: "array" });
+        const sheetName = "Dividends";
 
-    setPageTabs(Object.keys(workbook.Sheets));
+        setPageTabs(Object.keys(workbook.Sheets));
 
-    if (!workbook.Sheets[sheetName]) {
-      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
+        if (!workbook.Sheets[sheetName]) {
+            setError(`Sheet "${sheetName}" not found in the uploaded file.`);
 
-      return;
-    }
+            return;
+        }
 
-    console.log("11111", workbook.Sheets);
-    setImportedData(workbook.Sheets);
+        console.log("11111", workbook.Sheets);
+        setImportedData(workbook.Sheets);
 
-    const worksheet = workbook.Sheets[sheetName];
-    const jsonData = utils.sheet_to_json(worksheet);
+        const worksheet = workbook.Sheets[sheetName];
+        const jsonData = utils.sheet_to_json(worksheet);
 
-    console.log("Extracted Data:", jsonData);
-    setDividendsData(jsonData);
-  };
+        console.log("Extracted Data:", jsonData);
+        setDividendsData(jsonData);
+    };
 
-  const handleGenerateXML = async () => {
-    const xmlData = generateXML(dividendsData);
-    const blob = new Blob([xmlData], { type: "application/xml" });
+    const handleGenerateXML = async () => {
+        const xmlData = generateXML(dividendsData);
+        const blob = new Blob([xmlData], { type: "application/xml" });
 
-    saveAs(blob, "Doh-Div.xml");
-  };
+        saveAs(blob, "Doh-Div.xml");
+    };
 
-  useEffect(() => {
-    if (importedData && selectedPageTab) {
-      const worksheet = importedData[selectedPageTab];
-      const importedDataJson = utils.sheet_to_json(worksheet);
+    useEffect(() => {
+        if (importedData && selectedPageTab) {
+            const worksheet = importedData[selectedPageTab];
+            const importedDataJson = utils.sheet_to_json(worksheet);
 
-      setSelectedPageTabContent(importedDataJson);
-    }
-  }, [selectedPageTab, importedData]);
+            setSelectedPageTabContent(importedDataJson);
+        }
+    }, [selectedPageTab, importedData]);
 
-  useEffect(() => {
-    console.log("selectedPageTabContent", selectedPageTabContent);
-  }, [selectedPageTabContent]);
+    useEffect(() => {
+        console.log("selectedPageTabContent", selectedPageTabContent);
+    }, [selectedPageTabContent]);
 
-  const generateXML = (data: any) => {
-    const header = `<?xml version="1.0" ?>
+    const generateXML = (data: any) => {
+        const header = `<?xml version="1.0" ?>
 <Envelope xmlns="http://edavki.durs.si/Documents/Schemas/Doh_Div_3.xsd" xmlns:edp="http://edavki.durs.si/Documents/Schemas/EDP-Common-1.xsd">
 	<edp:Header>
 		<edp:taxpayer>
@@ -112,14 +112,13 @@ export default function Home() {
 			<Period>${selectedYear}</Period>
 		</Doh_Div>`;
 
-    const dividends = data
-      .map((row: any) => {
-        return `
+        const dividends = data
+            .map((row: any) => {
+                return `
 		<Dividend>
 			<Date>${row.Date}</Date>
-			<PayerIdentificationNumber>${
-        row.PayerIdentificationNumber
-      }</PayerIdentificationNumber>
+			<PayerIdentificationNumber>${row.PayerIdentificationNumber
+                    }</PayerIdentificationNumber>
 			<PayerName>${row.PayerName}</PayerName>
 			<PayerAddress>${row.PayerAddress}</PayerAddress>
 			<PayerCountry>${row.PayerCountry}</PayerCountry>
@@ -129,201 +128,203 @@ export default function Home() {
 			<SourceCountry>${row.SourceCountry}</SourceCountry>
 			<ReliefStatement/>
 		</Dividend>`;
-      })
-      .join("");
+            })
+            .join("");
 
-    const footer = `
+        const footer = `
 	</body>
 </Envelope>`;
 
-    return header + dividends + footer;
-  };
+        return header + dividends + footer;
+    };
 
-  const handleDragEnter = (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    setIsDragging(true);
-  };
+    const handleDragEnter = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        setIsDragging(true);
+    };
 
-  const handleDragOver = (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-  };
+    const handleDragOver = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+    };
 
-  const handleDragLeave = (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    // setIsDragging(false);
-  };
+    const handleDragLeave = (event) => {
+        event.preventDefault();
+        event.stopPropagation();
+        // setIsDragging(false);
+    };
 
-  const handleDrop = async (event) => {
-    console.log("11111111111", event);
+    const handleDrop = async (event) => {
+        console.log("11111111111", event);
 
-    event.preventDefault();
-    event.stopPropagation();
-    setIsDragging(false);
+        event.preventDefault();
+        event.stopPropagation();
+        setIsDragging(false);
 
-    const files = event.dataTransfer.files;
-    if (files.length > 0) {
-      console.log("File dropped:", files[0]); // Process the file here
-    }
+        const files = event.dataTransfer.files;
+        if (files.length > 0) {
+            console.log("File dropped:", files[0]); // Process the file here
+        }
 
-    const file = files[0];
+        const file = files[0];
 
-    if (!file) {
-      alert("Please upload an XLSX file first.");
+        if (!file) {
+            alert("Please upload an XLSX file first.");
 
-      return;
-    }
+            return;
+        }
 
-    const data = await file.arrayBuffer();
-    const workbook = read(data, { type: "array" });
-    const sheetName = "Dividends";
+        const data = await file.arrayBuffer();
+        const workbook = read(data, { type: "array" });
+        const sheetName = "Dividends";
 
-    setPageTabs(Object.keys(workbook.Sheets));
+        setPageTabs(Object.keys(workbook.Sheets));
 
-    if (!workbook.Sheets[sheetName]) {
-      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
+        if (!workbook.Sheets[sheetName]) {
+            setError(`Sheet "${sheetName}" not found in the uploaded file.`);
 
-      return;
-    }
+            return;
+        }
 
-    setImportedData(workbook.Sheets);
-  };
+        setImportedData(workbook.Sheets);
+    };
 
-  return (
-    <div className="page flex">
-      <div className="page__left-sidebar p-6">
-        <Input
-          accept=".xlsx"
-          label="Upload XLSX file"
-          placeholder="Upload XLSX file"
-          type="file"
-          onChange={handleFileUpload}
-        />
-        <div className="divider"></div>
-        <Input
-          className="mb-5"
-          label="Davčna številka"
-          placeholder="Davčna številka"
-          type="text"
-          value={taxNumber}
-          onChange={(event) => setTaxNumber(event.target.value)}
-        />
-        <Select
-          className="max-w-xs mb-5"
-          isDisabled
-          label="Izberi borzno platformo"
-          selectedKeys={[selectedTradingPlatform]}
-          onChange={(event) => setSelectedTradingPlatform(event.target.value)}
-        >
-          {tradingPlatforms.map((platform) => (
-            <SelectItem key={platform.key}>{platform.label}</SelectItem>
-          ))}
-        </Select>
-        <Select
-          className="max-w-xs mb-5"
-          label="Izberi tip davkoplačevalca"
-          selectedKeys={[selectedTaxPayerType]}
-          onChange={(event) => setSelectedTaxPayerType(event.target.value)}
-        >
-          {taxPayerTypes.map((taxPayerType) => (
-            <SelectItem key={taxPayerType.key}>{taxPayerType.label}</SelectItem>
-          ))}
-        </Select>
-        <Input
-          label="Za leto"
-          placeholder="Za leto"
-          type="number"
-          value={selectedYear.toString()}
-          onChange={(event) =>
-            setSelectedYear(
-              Math.min(currentYear - 1, parseInt(event.target.value)),
-            )
-          }
-        />
-        <footer className="w-full flex items-center justify-center py-3">
-          <p>Made by Rok Samsa</p>
-        </footer>
-      </div>
-      <div
-        className="page__content p-6"
-        onDragEnter={handleDragEnter}
-        onDragOver={handleDragOver}
-        onDragLeave={handleDragLeave}
-        onDrop={handleDrop}
-      >
-        <div className="flex flex-col">
-          <div className="page__headline flex justify-between items-center">
-            {importedData && (
-              <Tabs
-                aria-label="Options"
-                selectedKey={selectedPageTab}
-                onSelectionChange={(event) =>
-                  setSelectedPageTab(event.toString())
-                }
-              >
-                {pageTabs.map((tab) => (
-                  <Tab key={tab} title={tab}></Tab>
-                ))}
-              </Tabs>
-            )}
-            <Button
-              isDisabled={!importedData}
-              disabled={!importedData}
-              onPress={handleGenerateXML}
-              className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
-            >
-              Generate XML
-            </Button>
-          </div>
-          <div className="page__content-container">
-            {selectedPageTabContent?.length > 0 && (
-              <>
-                <h2 className="text-lg font-bold">Dividends Data</h2>
-                <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
-                  <thead>
-                    <tr>
-                      {Object.keys(selectedPageTabContent[0]).map((key) => (
-                        <th
-                          key={key}
-                          className="border border-gray-300 p-2 bg-gray-200"
-                        >
-                          {key}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {selectedPageTabContent.map((row, index) => (
-                      <tr key={index}>
-                        {Object.keys(row).map((key) => (
-                          <td
-                            key={key}
-                            className="border border-gray-300 p-2 text-gray-700"
-                          >
-                            {row[key]}
-                          </td>
-                        ))}
-                      </tr>
+    return (
+        <div className="page flex">
+            <div className="page__left-sidebar p-6">
+                <Input
+                    accept=".xlsx"
+                    label="Upload XLSX file"
+                    placeholder="Upload XLSX file"
+                    type="file"
+                    onChange={handleFileUpload}
+                />
+                <div className="divider"></div>
+                <Input
+                    className="mb-5"
+                    label="Davčna številka"
+                    placeholder="Davčna številka"
+                    type="text"
+                    value={taxNumber}
+                    onChange={(event) => setTaxNumber(event.target.value)}
+                />
+                <Select
+                    className="max-w-xs mb-5"
+                    isDisabled
+                    label="Izberi borzno platformo"
+                    selectedKeys={[selectedTradingPlatform]}
+                    onChange={(event) => setSelectedTradingPlatform(event.target.value)}
+                >
+                    {tradingPlatforms.map((platform) => (
+                        <SelectItem key={platform.key}>{platform.label}</SelectItem>
                     ))}
-                  </tbody>
-                </table>
-              </>
-            )}
-          </div>
-        </div>
-        {isDragging && (
-          <div
-            className="absolute inset-0 bg-blue-500/50 flex items-center justify-center"
-            style={{ zIndex: 9999 }}
-          >
-            <div className="text-white text-xl font-bold">
-              Drop your file here!
+                </Select>
+                <Select
+                    className="max-w-xs mb-5"
+                    label="Izberi tip davkoplačevalca"
+                    selectedKeys={[selectedTaxPayerType]}
+                    onChange={(event) => setSelectedTaxPayerType(event.target.value)}
+                >
+                    {taxPayerTypes.map((taxPayerType) => (
+                        <SelectItem key={taxPayerType.key}>{taxPayerType.label}</SelectItem>
+                    ))}
+                </Select>
+                <Input
+                    label="Za leto"
+                    placeholder="Za leto"
+                    type="number"
+                    value={selectedYear.toString()}
+                    onChange={(event) =>
+                        setSelectedYear(
+                            Math.min(currentYear - 1, parseInt(event.target.value)),
+                        )
+                    }
+                />
+                <footer className="w-full flex items-center justify-center py-3">
+                    <p>Made by Rok Samsa</p>
+                </footer>
             </div>
-          </div>
-        )}
-      </div>
-    </div>
-  );
+            <div
+                className="page__content p-6"
+                onDragEnter={handleDragEnter}
+                onDragOver={handleDragOver}
+                onDragLeave={handleDragLeave}
+                onDrop={handleDrop}
+            >
+                <div className="flex flex-col">
+                    <div className="page__headline flex justify-between items-center">
+                        <div className="page__headline-tabs">
+                            {importedData && (
+                                <Tabs
+                                    aria-label="Options"
+                                    selectedKey={selectedPageTab}
+                                    onSelectionChange={(event) =>
+                                        setSelectedPageTab(event.toString())
+                                    }
+                                >
+                                    {pageTabs.map((tab) => (
+                                        <Tab key={tab} title={tab}></Tab>
+                                    ))}
+                                </Tabs>
+                            )}
+                        </div>
+                        <Button
+                            isDisabled={!importedData}
+                            disabled={!importedData}
+                            onPress={handleGenerateXML}
+                            className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+                        >
+                            Generate XML
+                        </Button>
+                    </div>
+                    <div className="page__content-container">
+                        {selectedPageTabContent?.length > 0 && (
+                            <>
+                                <h2 className="text-lg font-bold">{selectedPageTab}</h2>
+                                <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
+                                    <thead>
+                                        <tr>
+                                            {Object.keys(selectedPageTabContent[0]).map((key) => (
+                                                <th
+                                                    key={key}
+                                                    className="border border-gray-300 p-2 bg-gray-200"
+                                                >
+                                                    {key}
+                                                </th>
+                                            ))}
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {selectedPageTabContent.map((row, index) => (
+                                            <tr key={index}>
+                                                {Object.keys(row).map((key) => (
+                                                    <td
+                                                        key={key}
+                                                        className="border border-gray-300 p-2 text-gray-700"
+                                                    >
+                                                        {row[key]}
+                                                    </td>
+                                                ))}
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </>
+                        )}
+                    </div>
+                </div>
+                {isDragging && (
+                    <div
+                        className="absolute inset-0 bg-blue-500/50 flex items-center justify-center"
+                        style={{ zIndex: 9999 }}
+                    >
+                        <div className="text-white text-xl font-bold">
+                            Drop your file here!
+                        </div>
+                    </div>
+                )}
+            </div>
+        </div>
+    );
 }
