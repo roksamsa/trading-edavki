@@ -50,35 +50,6 @@ export default function Home() {
   const [error, setError] = useState<string>("");
   const [isDragging, setIsDragging] = useState(false);
 
-  const handleFileUpload = async (event: any) => {
-    const file = event.target.files[0];
-
-    if (!file) {
-      alert("Please upload an XLSX file first.");
-
-      return;
-    }
-
-    const data = await file.arrayBuffer();
-    const workbook = read(data, { type: "array" });
-    const sheetName = "Dividends";
-
-    setPageTabs(Object.keys(workbook.Sheets));
-
-    if (!workbook.Sheets[sheetName]) {
-      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
-
-      return;
-    }
-
-    setImportedData(workbook.Sheets);
-
-    const worksheet = workbook.Sheets[sheetName];
-    const jsonData = utils.sheet_to_json(worksheet);
-
-    setDividendsData(jsonData);
-  };
-
   const handleGenerateXML = async () => {
     const xmlData = generateXML(dividendsData);
     const blob = new Blob([xmlData], { type: "application/xml" });
@@ -283,10 +254,6 @@ export default function Home() {
     }
   }, [selectedPageTab, importedData]);
 
-  useEffect(() => {
-    console.log("selectedPageTabContent", selectedPageTabContent);
-  }, [selectedPageTabContent]);
-
   return (
     <div
       className="page flex"
@@ -410,10 +377,12 @@ export default function Home() {
             Generate XML
           </Button>
         </div>
-        <div className="page__content-container">
+        <h2 className="text-2xl font-bold mb-4">{selectedPageTab}</h2>
+        <div
+          className={`page__content-container ${!selectedPageTabContent && "flex items-center justify-center"}`}
+        >
           {selectedPageTabContent?.length > 0 ? (
             <>
-              <h2 className="text-lg font-bold">Dividends Data</h2>
               <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
                 <thead>
                   <tr>

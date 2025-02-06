@@ -46,14 +46,8 @@ main {
 
 .page {
   width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  position: sticky;
-  top: 0;
-  min-width: 20%;
-  border-right: 1px solid #ddd;
-  background: url(../public/menu-bg.png) 0 100% / contain no-repeat;
 
   &__left-upload {
     cursor: pointer;
