@@ -1,14 +1,23 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import { AiOutlineStock } from "react-icons/ai";
+import { Button } from "@heroui/button";
+import { Input } from "@heroui/input";
+import { MdClose } from "react-icons/md";
+import { ReactGrid, Row, Id } from "@silevis/reactgrid";
 import { read, utils } from "xlsx";
 import { saveAs } from "file-saver";
-import { Tabs, Tab } from "@heroui/tabs";
 import { Select, SelectItem } from "@heroui/select";
-import { Input } from "@heroui/input";
-import { Button } from "@heroui/button";
-import { MdClose } from "react-icons/md";
-import { AiOutlineStock } from "react-icons/ai";
+import { Tabs, Tab } from "@heroui/tabs";
+import { Tooltip } from "@heroui/tooltip";
+import React, { useEffect, useState } from "react";
+
+import "@silevis/reactgrid/styles.css";
+
+interface RowType {
+  rowId: number | string;
+  cells: { type: string; text: string | number | null; }[];
+}
 
 const taxPayerTypes = [
   { key: "FO", label: "Fizična oseba" },
@@ -47,8 +56,10 @@ export default function Home() {
   const [importedDataFileDetails, setImportedDataFileDetails] = useState<any>();
   const [importedData, setImportedData] = useState<any[]>();
   const [dividendsData, setDividendsData] = useState<any[]>([]);
-  const [error, setError] = useState<string>("");
   const [isDragging, setIsDragging] = useState(false);
+
+  const [columns, setColumns] = useState<any[]>([]);
+  const [rows, setRows] = useState<any[]>([]);
 
   const handleGenerateXML = async () => {
     const xmlData = generateXML(dividendsData);
@@ -56,6 +67,14 @@ export default function Home() {
 
     saveAs(blob, "Doh-Div.xml");
   };
+
+  useEffect(() => {
+    console.log("column2222s", columns);
+  }, [columns]);
+
+  useEffect(() => {
+    console.log("rows", rows);
+  }, [rows]);
 
   const handleGenerateContent = async (companyName: string) => {
     const prompt = `Fill missing ISIN for the following ${companyName} common stock on all markets. If there are multiple options, give me all ISINs. And can you just return ISIN string not whole sentence`;
@@ -136,9 +155,8 @@ export default function Home() {
         return `
 		<Dividend>
 			<Date>${row.Date}</Date>
-			<PayerIdentificationNumber>${
-        row.PayerIdentificationNumber
-      }</PayerIdentificationNumber>
+			<PayerIdentificationNumber>${row.PayerIdentificationNumber
+          }</PayerIdentificationNumber>
 			<PayerName>${row.PayerName}</PayerName>
 			<PayerAddress>${row.PayerAddress}</PayerAddress>
 			<PayerCountry>${row.PayerCountry}</PayerCountry>
@@ -170,9 +188,10 @@ export default function Home() {
   };
 
   const handleDragLeave = (event) => {
+    console.log("handleDragLeave");
     event.preventDefault();
     event.stopPropagation();
-    // setIsDragging(false);
+    setIsDragging(false);
   };
 
   const processFile = async (file) => {
@@ -192,11 +211,7 @@ export default function Home() {
 
     setPageTabs(sheetsKeys);
 
-    if (!workbook.Sheets[sheetName]) {
-      setError(`Sheet "${sheetName}" not found in the uploaded file.`);
-
-      return;
-    }
+    if (!workbook.Sheets[sheetName]) return;
 
     const sheetsArray: any[] = Object.values(workbook.Sheets).map(
       (sheet, index) => {
@@ -208,8 +223,6 @@ export default function Home() {
         };
       },
     );
-
-    console.log("rrrrrrrrrrrrrrrrrsheetsArraysheetsArray", sheetsArray);
 
     setImportedData(sheetsArray);
     setImportedDataFileDetails(file);
@@ -249,18 +262,63 @@ export default function Home() {
         (tab) => tab.label === selectedPageTab,
       );
       const worksheet = importedData[selectedPageTabData.index];
+      const headerRow: Row = {
+        rowId: "header",
+        height: 60,
+        cells: Object.keys(worksheet.data[0]).map((key) => ({
+          type: "header",
+          text: key,
+        })),
+      };
 
+      const getRows = (data: any[]): Row[] => {
+        const dataRows = data.map<Row>((item, idx) => ({
+          rowId: idx,
+          height: 40,
+          cells: Object.keys(item).map((key) => {
+            const value = item[key];
+
+            return {
+              type: typeof value === "number" ? "number" : "text",
+              text: value !== undefined ? value : null,
+              value,
+            };
+          }),
+        }));
+
+        return [headerRow, ...dataRows];
+      };
+
+      setRows(getRows(worksheet.data));
+      setColumns(
+        Object.keys(worksheet.data[0]).map((key) => ({
+          columnId: key,
+          resizable: true,
+        })),
+      );
       setSelectedPageTabContent(worksheet.data);
     }
   }, [selectedPageTab, importedData]);
+
+  const handleColumnResize = (ci: Id, width: number) => {
+    setColumns((prevColumns) => {
+      const columnIndex = prevColumns.findIndex((el) => el.columnId === ci);
+      const resizedColumn = prevColumns[columnIndex];
+      const updatedColumn = { ...resizedColumn, width };
+
+      prevColumns[columnIndex] = updatedColumn;
+
+      return [...prevColumns];
+    });
+  };
 
   return (
     <div
       className="page flex"
       onDragEnter={handleDragEnter}
       onDragOver={handleDragOver}
-      onDragLeave={handleDragLeave}
       onDrop={handleDrop}
+      onMouseLeave={handleDragLeave}
     >
       <div className="page__left-sidebar p-6">
         {!importedData ? (
@@ -278,11 +336,13 @@ export default function Home() {
           <div className="page__left-title" onClick={handleRemoveImportedData}>
             <div className="page__left-text">
               <p className="page__left-label text-small">Datoteka</p>
-              <p className="page__left-name-wrapper">
+              <span className="page__left-name-wrapper">
                 <span className="page__left-name">
-                  {importedDataFileDetails?.name}
+                  <Tooltip content={importedDataFileDetails?.name}>
+                    {importedDataFileDetails?.name}
+                  </Tooltip>
                 </span>
-              </p>
+              </span>
             </div>
             <span className="page__left-size text-small">
               <p className="page__left-label text-small">
@@ -297,7 +357,7 @@ export default function Home() {
             </div>
           </div>
         )}
-        <div className="divider"></div>
+        <div className="divider" />
         <Input
           className="mb-5"
           label="Davčna številka"
@@ -307,8 +367,8 @@ export default function Home() {
           onChange={(event) => setTaxNumber(event.target.value)}
         />
         <Select
-          className="mb-5"
           isDisabled
+          className="mb-5"
           fullWidth={true}
           label="Izberi borzno platformo"
           selectedKeys={[selectedTradingPlatform]}
@@ -357,24 +417,24 @@ export default function Home() {
                 }
               >
                 {pageTabs.map((tab) => (
-                  <Tab key={tab.label} title={tab.label}></Tab>
+                  <Tab key={tab.label} title={tab.label} />
                 ))}
               </Tabs>
             )}
           </div>
           <Button
-            isDisabled={!importedData}
-            disabled={!importedData}
-            onPress={handleFillMissingISIN}
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 mr-3"
+            disabled={!importedData}
+            isDisabled={!importedData}
+            onPress={handleFillMissingISIN}
           >
             Fill missing ISIN
           </Button>
           <Button
-            isDisabled={!importedData}
-            disabled={!importedData}
-            onPress={handleGenerateXML}
             className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            disabled={!importedData}
+            isDisabled={!importedData}
+            onPress={handleGenerateXML}
           >
             Generate XML
           </Button>
@@ -386,38 +446,14 @@ export default function Home() {
           className={`page__content-container ${!selectedPageTabContent && "flex items-center justify-center"}`}
         >
           {selectedPageTabContent?.length > 0 ? (
-            <>
-              <table className="table-auto border-collapse border border-gray-300 w-full text-sm text-left">
-                <thead>
-                  <tr>
-                    {Object.keys(selectedPageTabContent[0]).map((key) => (
-                      <th
-                        key={key}
-                        className="border border-gray-300 p-2 bg-gray-200"
-                      >
-                        {key}
-                      </th>
-                    ))}
-                  </tr>
-                </thead>
-                <tbody>
-                  {selectedPageTabContent.map((row, index) => (
-                    <tr key={index}>
-                      {Object.keys(row).map((key) => (
-                        <td
-                          key={key}
-                          className="border border-gray-300 p-2 text-gray-700"
-                        >
-                          {row[key]}
-                        </td>
-                      ))}
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </>
+            <ReactGrid
+              columns={columns}
+              rows={rows}
+              stickyTopRows={1}
+              onColumnResized={handleColumnResize}
+            />
           ) : (
-            <div className="flex flex-col items-center text-center text-gray-300">
+            <div className="flex flex-col items-center text-center text-gray-400">
               <AiOutlineStock size={60} />
               <p>No file imported yet!</p>
             </div>
