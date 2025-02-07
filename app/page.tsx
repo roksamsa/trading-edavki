@@ -14,11 +14,6 @@ import React, { useEffect, useState } from "react";
 
 import "@silevis/reactgrid/styles.css";
 
-interface RowType {
-  rowId: number | string;
-  cells: { type: string; text: string | number | null; }[];
-}
-
 const taxPayerTypes = [
   { key: "FO", label: "Fizična oseba" },
   { key: "PO", label: "Pravna oseba" },
@@ -58,6 +53,7 @@ export default function Home() {
   const [dividendsData, setDividendsData] = useState<any[]>([]);
   const [isDragging, setIsDragging] = useState(false);
 
+  const [headerRow, setHeaderRow] = useState<any>();
   const [columns, setColumns] = useState<any[]>([]);
   const [rows, setRows] = useState<any[]>([]);
 
@@ -112,6 +108,11 @@ export default function Home() {
         return row;
       }),
     );
+
+    setColumns((prevColumns) => [
+      ...prevColumns,
+      { columnId: "ISIN", resizable: true },
+    ]);
 
     console.log("selectedPageTabContentEdited", selectedPageTabContentEdited);
 
@@ -262,7 +263,7 @@ export default function Home() {
         (tab) => tab.label === selectedPageTab,
       );
       const worksheet = importedData[selectedPageTabData.index];
-      const headerRow: Row = {
+      const headerRowTemp: Row = {
         rowId: "header",
         height: 60,
         cells: Object.keys(worksheet.data[0]).map((key) => ({
@@ -270,6 +271,8 @@ export default function Home() {
           text: key,
         })),
       };
+
+      setHeaderRow(headerRowTemp);
 
       const getRows = (data: any[]): Row[] => {
         const dataRows = data.map<Row>((item, idx) => ({
@@ -286,7 +289,7 @@ export default function Home() {
           }),
         }));
 
-        return [headerRow, ...dataRows];
+        return [headerRowTemp, ...dataRows];
       };
 
       setRows(getRows(worksheet.data));
