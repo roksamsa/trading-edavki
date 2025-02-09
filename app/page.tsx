@@ -10,6 +10,9 @@ import { Button } from "@heroui/button";
 import { MdClose } from "react-icons/md";
 import { AiOutlineStock } from "react-icons/ai";
 
+import { ReactGrid, Column, Row } from "@silevis/reactgrid";
+import "@silevis/reactgrid/styles.css";
+
 const taxPayerTypes = [
   { key: "FO", label: "Fizična oseba" },
   { key: "PO", label: "Pravna oseba" },
@@ -42,6 +45,8 @@ export default function Home() {
 
   const [pageTabs, setPageTabs] = useState<any[]>([]);
   const [selectedPageTab, setSelectedPageTab] = useState<string>("Dividends");
+  const [selectedPageTableColumns, setSelectedPageTableColumns] =
+    useState<Column[]>();
   const [selectedPageTabContent, setSelectedPageTabContent] = useState<any>();
 
   const [importedDataFileDetails, setImportedDataFileDetails] = useState<any>();
@@ -100,11 +105,25 @@ export default function Home() {
   };
 
   useEffect(() => {
-    if (importedData && selectedPageTab) {
-      const worksheet = importedData[selectedPageTab];
-      const importedDataJson = utils.sheet_to_json(worksheet);
+    if (importedData && importedData.length > 0 && selectedPageTab) {
+      const selectedPageTabData = pageTabs.find(
+        (tab) => tab.label === selectedPageTab,
+      );
+      const worksheet = importedData[selectedPageTabData?.index];
+      const importedDataJson: any[] = utils.sheet_to_json(worksheet?.data);
+      const columns: Column[] = importedDataJson?.[0]?.map((key) => ({
+        columnId: key,
+        width: 150,
+      }));
+
+      console.log("worksheetworksheet", worksheet);
+      console.log("selectedPageTabData", selectedPageTabData);
+      console.log("importedDataJson", importedDataJson);
+      console.log("importedData", importedData);
+      console.log("columns", columns);
 
       setSelectedPageTabContent(importedDataJson);
+      setSelectedPageTableColumns(columns);
     }
   }, [selectedPageTab, importedData]);
 
