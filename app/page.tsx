@@ -4,7 +4,7 @@ import { AiOutlineStock } from "react-icons/ai";
 import { Button } from "@heroui/button";
 import { Input } from "@heroui/input";
 import { MdClose } from "react-icons/md";
-import { ReactGrid, Row, Id } from "@silevis/reactgrid";
+import { ReactGrid, Row, Column, Id } from "@silevis/reactgrid";
 import { read, utils } from "xlsx";
 import { saveAs } from "file-saver";
 import { Select, SelectItem } from "@heroui/select";
@@ -12,9 +12,6 @@ import { Tabs, Tab } from "@heroui/tabs";
 import { Tooltip } from "@heroui/tooltip";
 import React, { useEffect, useState } from "react";
 
-import "@silevis/reactgrid/styles.css";
-
-import { ReactGrid, Column, Row } from "@silevis/reactgrid";
 import "@silevis/reactgrid/styles.css";
 
 const taxPayerTypes = [
