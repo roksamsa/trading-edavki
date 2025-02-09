@@ -55,7 +55,6 @@ export default function Home() {
   const [dividendsData, setDividendsData] = useState<any[]>([]);
   const [isDragging, setIsDragging] = useState(false);
 
-  const [headerRow, setHeaderRow] = useState<any>();
   const [columns, setColumns] = useState<any[]>([]);
   const [rows, setRows] = useState<any[]>([]);
 
@@ -99,26 +98,46 @@ export default function Home() {
   const handleFillMissingISIN = async () => {
     const selectedPageTabContentEdited = await Promise.all(
       selectedPageTabContent.map(async (row: any) => {
-        if (!row.ISIN) {
+        /*if (!row.ISIN) {
           const generatedISIN = await handleGenerateContent(
             row["Instrument Name"],
           );
 
           row.ISIN = generatedISIN.response.replace(/\n/g, "");
-        }
+        }*/
 
         return row;
       }),
     );
 
-    setColumns((prevColumns) => [
-      ...prevColumns,
-      { columnId: "ISIN", resizable: true },
-    ]);
+    /*setColumns((prevColumns) => {
+      if (!prevColumns.some((col) => col.columnId === "ISIN")) {
+        return [...prevColumns, { columnId: "ISIN", resizable: true }];
+      }
+
+      return prevColumns;
+    });
+    
+    setRows(getRows(worksheet.data));*/
+
+    const sheetsToUpdate = ["Dividends", "Closed Positions"];
+
+    setImportedData((prevData) => {
+      return prevData?.map((sheet) => {
+        if (
+          sheetsToUpdate.includes(sheet.name.label) &&
+          !sheet.data[0].hasOwnProperty("ISIN")
+        ) {
+          sheet.data = sheet.data.map((row) => ({ ...row, ISIN: "" }));
+        }
+
+        return sheet;
+      });
+    });
 
     console.log("selectedPageTabContentEdited", selectedPageTabContentEdited);
 
-    setSelectedPageTabContent(selectedPageTabContentEdited);
+    //setSelectedPageTabContent(selectedPageTabContentEdited);
   };
 
   useEffect(() => {
@@ -139,7 +158,7 @@ export default function Home() {
       console.log("importedData", importedData);
       console.log("columns", columns);
 
-      setSelectedPageTabContent(importedDataJson);
+      //setSelectedPageTabContent(importedDataJson);
       setSelectedPageTableColumns(columns);
     }
   }, [selectedPageTab, importedData]);
@@ -172,8 +191,9 @@ export default function Home() {
         return `
 		<Dividend>
 			<Date>${row.Date}</Date>
-			<PayerIdentificationNumber>${row.PayerIdentificationNumber
-          }</PayerIdentificationNumber>
+			<PayerIdentificationNumber>${
+        row.PayerIdentificationNumber
+      }</PayerIdentificationNumber>
 			<PayerName>${row.PayerName}</PayerName>
 			<PayerAddress>${row.PayerAddress}</PayerAddress>
 			<PayerCountry>${row.PayerCountry}</PayerCountry>
@@ -288,8 +308,6 @@ export default function Home() {
         })),
       };
 
-      setHeaderRow(headerRowTemp);
-
       const getRows = (data: any[]): Row[] => {
         const dataRows = data.map<Row>((item, idx) => ({
           rowId: idx,
@@ -315,7 +333,7 @@ export default function Home() {
           resizable: true,
         })),
       );
-      setSelectedPageTabContent(worksheet.data);
+      // setSelectedPageTabContent(worksheet.data);
     }
   }, [selectedPageTab, importedData]);
 
@@ -464,7 +482,7 @@ export default function Home() {
         <div
           className={`page__content-container ${!selectedPageTabContent && "flex items-center justify-center"}`}
         >
-          {selectedPageTabContent?.length > 0 ? (
+          {importedData ? (
             <ReactGrid
               columns={columns}
               rows={rows}
