@@ -1,0 +1,5749 @@
+[
+  {
+    "Symbol": "00001.HK",
+    "ISIN": "KYG217651051",
+    "Name": "CK Hutchison Holdings Ltd",
+    "Address": "48th Floor, Cheung Kong Center 2 Queens Road, Central, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00006.HK",
+    "ISIN": "HK0006000050",
+    "Name": "Power Assets Holdings Ltd",
+    "Address": "10 Harcourt Road, Hutchison Ho 19/F, Rooms 1913-1914 Central Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00011.HK",
+    "ISIN": "HK0011000095",
+    "Name": "Hang Seng Bank Ltd",
+    "Address": "83 Des Voeux Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00019.HK",
+    "ISIN": "HK0019000162",
+    "Name": "Swire Pacific Ltd",
+    "Address": "1 Pacific Place 33th Floor, 88 Queensway Central Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00135.HK",
+    "ISIN": "BMG5320C1082",
+    "Name": "Kunlun Energy Co Ltd",
+    "Address": "39/F., 118 Connaught Road West, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00268.HK",
+    "ISIN": "KYG525681477",
+    "Name": "Kingdee International Software",
+    "Address": "Kingdee Software Park, No.2 Kejinan 12 Road, South District, High-Tech Industrial Park, Nanshan, Shenzhen, Guangdong, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "00285.HK",
+    "ISIN": "HK0285041858",
+    "Name": "BYD Electronic International",
+    "Address": "No. 3001, Bao He Road, Baolong, Longgang, Shenzhen, Guangdong 518116, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "00388.HK",
+    "ISIN": "HK0388045442",
+    "Name": "Hong Kong Exchanges and Clearing",
+    "Address": "8/F Two Exchange Square 8 Connaught Place, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00788.HK",
+    "ISIN": "CNE100003688",
+    "Name": "China Tower Corp Ltd",
+    "Address": "19/F, No. 73 Fucheng Road, Haidian District, Beijing 100000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "00857.HK",
+    "ISIN": "CNE1000003W8",
+    "Name": "PetroChina Co Ltd",
+    "Address": "No. 9, Dongzhimen North Street, Dongcheng District, Beijing 100007, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "01093.HK",
+    "ISIN": "HK1093012172",
+    "Name": "CSPC Pharmaceutical Group Ltd",
+    "Address": "Suite 3206, 32nd Floor, Central Plaza 18 Harbour Road, HK- Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "01177.HK",
+    "ISIN": "KYG8167W1380",
+    "Name": "Sino Biopharmaceutical Ltd",
+    "Address": "Rm 4109, Office Tower, Convention Plaza, 1 Harbour Road, HK- Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "02020.HK",
+    "ISIN": "KYG040111059",
+    "Name": "ANTA Sports Products Ltd",
+    "Address": "ANTA Sports Products Limited, Cricket Square, Hutchins Drive, P.O. Box 2681, KY1-1111 Grand Cayman, Cayman Islands",
+    "CountryCode": "KY"
+  },
+  {
+    "Symbol": "02382.HK",
+    "ISIN": "KYG8586D1097",
+    "Name": "Sunny Optical Technology Group",
+    "Address": "Unit 2304-5, 23rd Floor, Henley Building, 5 Queens Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "02386.HK",
+    "ISIN": "CNE100001NV2",
+    "Name": "SINOPEC Engineering (Group) Co, Ltd",
+    "Address": "Tower B, No.19, Anhuibeil, Chaoyang District, Beijing 100101, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "02688.HK",
+    "ISIN": "KYG3066L1014",
+    "Name": "ENN Energy Holdings Ltd",
+    "Address": "Building A, ENN Industrial Park, Xinyuan DongDao Road, Economic & Technological Dev Zone, Langfang, Hubei 065001, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "06881.HK",
+    "ISIN": "CNE100001NT6",
+    "Name": "China Galaxy Securities Co Ltd",
+    "Address": "2-6/F, Block C, No.35, Jinrong Street, Xicheng Dist., 100000 Beijing",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0700.HK",
+    "ISIN": "KYG875721634",
+    "Name": "Tencent Holdings Ltd",
+    "Address": "Tencent Binhai Towers, No. 33 Haitian 2nd Road, Nanshan District, Shenzhen, Guangdong 518054, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0728.HK",
+    "ISIN": "CNE1000002V2",
+    "Name": "China Telecom Corp Ltd",
+    "Address": "31 Jinrong Street, Xicheng District, Beijing 100033, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0753.HK",
+    "ISIN": "CNE1000001S0",
+    "Name": "Air China Ltd",
+    "Address": "Airport Industrial Zone 30 Tianzhu Road, CN-BJ 101300 Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0762.HK",
+    "ISIN": "HK0000049939",
+    "Name": "China Unicom HK Ltd",
+    "Address": "75th Floor The Center 99 Queens Road Central Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0883.HK",
+    "ISIN": "HK0883013259",
+    "Name": "Cnooc Ltd",
+    "Address": "65th floor, Bank of China Tower 1 Garden Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0914.HK",
+    "ISIN": "CNE1000001W2",
+    "Name": "Anhui Conch Cement Co Ltd",
+    "Address": "No. 39 Wenhua Road, Wuhu City, Anhui 241000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0941.HK",
+    "ISIN": "HK0941009539",
+    "Name": "China Mobile Ltd",
+    "Address": "99 Queens Road, 60th Floor, The Center Central, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0968.HK",
+    "ISIN": "KYG9829N1025",
+    "Name": "Xinyi Solar Holdings Ltd",
+    "Address": "Xinyi PV Glass Industrial Zone, 2 Xinyi Road, Wuhu Economic and Tech Dev Zone, Wuhu, Anhui 241009, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0992.HK",
+    "ISIN": "HK0992009065",
+    "Name": "Lenovo Group Ltd",
+    "Address": "23rd Floor, Lincoln House, Taikoo Place 979 Road, Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0998.HK",
+    "ISIN": "CNE1000001Q4",
+    "Name": "China CITIC Bank Co Ltd",
+    "Address": "9 Chaoyangmen Beidajie, CN-BJ 100010 Beijing, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "1339.HK",
+    "ISIN": "CNE100001MK7",
+    "Name": "Peoples Insurance Company (Group) of China Ltd",
+    "Address": "1-13/F, 88 West Chang an Avenue, CN-BJ 100031 Beijing, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "1585.HK",
+    "ISIN": "KYG9830F1063",
+    "Name": "Yadea Group Holdings Ltd",
+    "Address": "Xishan Road, Dacheng Industrial Zone, Anzhen Town, Xishan District, Wuxi, Jiangsu 214000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2318.HK",
+    "ISIN": "CNE1000003X6",
+    "Name": "Ping An Insurance (Group) Company of China Ltd",
+    "Address": "Ping An Finance Center No. 5033, Yitian Road Futian District, Shenzhen, 518033 China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2328.HK",
+    "ISIN": "CNE100000593",
+    "Name": "PICC Property and Casualty Co Ltd",
+    "Address": "No. 2 Jianguomenwai Avenue, Tower 2, Chaoyang District, Beijing 100022, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2601.HK",
+    "ISIN": "CNE1000009Q7",
+    "Name": "China Pacific Insurance (Group) Co Ltd",
+    "Address": "1 Zhongshan South Road Huangpu District, Shanghai, 200010 China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2883.HK",
+    "ISIN": "CNE1000002P4",
+    "Name": "China Oilfield Services Ltd",
+    "Address": "Room 902, CNOOC Plaza, 6 Dongzhimenwai Xiaojie, Dongcheng District, Beijing 100027, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "3888.HK",
+    "ISIN": "KYG5264Y1089",
+    "Name": "Kingsoft Corp Ltd",
+    "Address": "Kingsoft Tower, No. 33 Xiaoying West Road, Haidan District, Beijing 100085, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "AAPL",
+    "ISIN": "US0378331005",
+    "Name": "Apple Inc",
+    "Address": "One Apple Park Way, Cupertino, CA 95014-2083, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ADT",
+    "ISIN": "US00090Q1031",
+    "Name": "ADT Inc",
+    "Address": "1501 Yamato Road Boca Raton, FL 33431, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BAC",
+    "ISIN": "US0605051046",
+    "Name": "Bank of America Corp",
+    "Address": "100 North Tryon Street, Charlotte, NC 28255, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BMW.DE",
+    "ISIN": "DE0005190003",
+    "Name": "Bayerische Motoren Werke Aktiengesellschaft",
+    "Address": "BMW AG, Petuelring 130, DE-80788 München, Bayern, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "BP.L",
+    "ISIN": "GB0007980591",
+    "Name": "BP plc",
+    "Address": "1 St James Square, SW1Y 4PD London",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "C",
+    "ISIN": "US1729674242",
+    "Name": "Citigroup Inc",
+    "Address": "388 Greenwich Street, New York, NY 10013, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "COST",
+    "ISIN": "US22160K1051",
+    "Name": "Costco Wholesale Corp",
+    "Address": "999 Lake Drive, WA 98027 Issaquah, Washington, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DJ30",
+    "ISIN": "US2605661048",
+    "Name": "DJ30",
+    "Address": "3322 HH Dow Way Midland, MI 48674 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DSM.NV",
+    "ISIN": "NL0000009827",
+    "Name": "Koninklijke DSM NV",
+    "Address": "Royal DSM N.V., Het Overloon 1, PO Box 6500, NL-6411 TE Heerlen",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "DUFN.ZU",
+    "ISIN": "CH0023405456",
+    "Name": "Dufry AG",
+    "Address": "Brunngasslein 12, Basel, Basel-Stadt (Basle Town) 4010",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "EBAY",
+    "ISIN": "US2786421030",
+    "Name": "eBay Inc",
+    "Address": "2025 Hamilton Avenue, San Jose, CA 95125",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "EWZ",
+    "ISIN": "US4642864007",
+    "Name": "iShares Inc, MSCI Brazil Capped ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GAW",
+    "ISIN": "GB0003718474",
+    "Name": "Games Workshop Group plc",
+    "Address": "Willow Road, Lenton, Nottingham NG7 2WS",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "GE",
+    "ISIN": "US3696043013",
+    "Name": "General Electric Co",
+    "Address": "41 Farnsworth Street, Boston, MA 02210, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GILD",
+    "ISIN": "US3755581036",
+    "Name": "Gilead Sciences Inc",
+    "Address": "333 Lakeside Drive, CA 94404 San Mateo, California",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HD",
+    "ISIN": "US4370761029",
+    "Name": "Home Depot Inc",
+    "Address": "2455 Paces Ferry Road, Atlanta, GA 30339-4024",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IAG.L",
+    "ISIN": "ES0177542018",
+    "Name": "International Consolidated Airlines",
+    "Address": "International Consolidated Airlines Group, S.A., Waterside (HAA2) Speedbird Way, PO Box 365, UB7 0GB Harmondsworth, Greater London",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "IBM",
+    "ISIN": "US4592001014",
+    "Name": "IBM Corp",
+    "Address": "International Business Machines Corp., 1 New Orchard Road, Armonk, NY 10504-1722",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IMB.L",
+    "ISIN": "GB0004544929",
+    "Name": "Imperial Brands PLC",
+    "Address": "121 Winterstoke Road, BS3 2LL Bristol, Bristol",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "INDA",
+    "ISIN": "US46429B5984",
+    "Name": "iShares MSCI India ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "INTC",
+    "ISIN": "US4581401001",
+    "Name": "Intel Corp",
+    "Address": "2200 Mission College Boulevard, Santa Clara, CA 95054-1549",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JPM",
+    "ISIN": "US46625H1005",
+    "Name": "JPMorgan Chase and Co",
+    "Address": "383 Madison Avenue, New York, NY 10017-2070",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KO",
+    "ISIN": "US1912161007",
+    "Name": "The Coca-Cola Co",
+    "Address": "One Coca-Cola Plaza, Atlanta, GA 30313-2420",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KRE",
+    "ISIN": "US78464A6982",
+    "Name": "SPDR S and P Regional Banking ETF",
+    "Address": "1 Iron Street, Boston, MA 02210",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MA",
+    "ISIN": "US57636Q1040",
+    "Name": "Mastercard Inc",
+    "Address": "2000 Purchase Street, Purchase, NY 10577",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MCD",
+    "ISIN": "US5801351017",
+    "Name": "McDonalds Corp",
+    "Address": "110 North Carpenter Street, Chicago, IL 60523",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MCHI",
+    "ISIN": "US46429B6719",
+    "Name": "iShares MSCI China ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MGM",
+    "ISIN": "US5529531015",
+    "Name": "MGM Resorts International",
+    "Address": "3600 Las Vegas Boulevard South, NV 89109 Las Vegas, Nevada",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MSFT",
+    "ISIN": "US5949181045",
+    "Name": "Microsoft Corp",
+    "Address": "One Microsoft Way, Redmond, WA 98052-6399",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MTX.DE",
+    "ISIN": "DE000A0D9PT0",
+    "Name": "MTU Aero Engines AG",
+    "Address": "Dachauer Strasse 665, DE-80995 München, Bayern",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "NEE",
+    "ISIN": "US65339F1012",
+    "Name": "NextEra Energy Inc",
+    "Address": "700 Boulevard Universe, PO Box 14000, FL 33408-0420 Juno Beach, Florida",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NSDQ100",
+    "ISIN": "US6311011026",
+    "Name": "NASDAQ100",
+    "Address": "Nasdaq Global Headquarters, 151 W. 42nd Street, New York City, NY, 10036, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NVDA",
+    "ISIN": "US67066G1040",
+    "Name": "NVIDIA Corporation",
+    "Address": "NVIDIA Corporation, 2788 San Tomas Expressway, CA 95051 Santa Clara, California",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "OXY",
+    "ISIN": "US6745991058",
+    "Name": "Occidental Petroleum Corp",
+    "Address": "Suite 110 5 Plaza Greenway, TX 77046 Houston, Texas",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PFE",
+    "ISIN": "US7170811035",
+    "Name": "Pfizer Inc",
+    "Address": "235 East 42nd Street, US-10017 New York, NY, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QCOM",
+    "ISIN": "US7475251036",
+    "Name": "Qualcomm Inc",
+    "Address": "5775 Morehouse Drive, San Diego, CA 92121-171",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RDS.A",
+    "ISIN": "GB00B03MLX29",
+    "Name": "Royal Dutch ADR",
+    "Address": "Royal Dutch Shell plc, Carel van Bylandtlaan 30, PO Box 162, NL-2596 HR Den Haag",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "RDS.B",
+    "ISIN": "GB00B03MM408",
+    "Name": "Royal Dutch Shell Shs B",
+    "Address": "Royal Dutch Shell plc, Carel van Bylandtlaan 30, PO Box 162, NL-2596 HR Den Haag",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "RDSB.L",
+    "ISIN": "GB00B03MM408",
+    "Name": "Royal Dutch Shell B",
+    "Address": "Royal Dutch Shell plc, Carel van Bylandtlaan 30, PO Box 162, NL-2596 HR Den Haag",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "RR.L",
+    "ISIN": "GB00B63H8491",
+    "Name": "Rolls-Royce Holdings plc",
+    "Address": "90 York Way, N1 9FX London",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "RTX",
+    "ISIN": "US75513E1010",
+    "Name": "Raytheon-Technologies Corp",
+    "Address": "10 Road Farm Springs, CT 06103 Hartford, Connecticut",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SOXX",
+    "ISIN": "US4642875235",
+    "Name": "iShares PHLX Semiconductor ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPG",
+    "ISIN": "US8288061091",
+    "Name": "Simon Property Group Inc",
+    "Address": "225 Street West Washington, IN 46204 Indianapolis, Indiana",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPR",
+    "ISIN": "US8485741099",
+    "Name": "Spirit AeroSystems Holdings Inc",
+    "Address": "3801 SOUTH OLIVER, WICHITA KS 67210",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPX500",
+    "ISIN": "US78378X1072",
+    "Name": "SPX500",
+    "Address": "S and P Dow Jones Indices LLC, 55 Water Street, New York City, New York, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "T",
+    "ISIN": "US00206R1023",
+    "Name": "AT and T Inc",
+    "Address": "208 South Akard Street, Dallas, TX 75202",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TGT",
+    "ISIN": "US87612E1064",
+    "Name": "Target Corp",
+    "Address": "100 Nicollet Mall, MN 55403 Minneapolis, Minnesota",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TRIG",
+    "ISIN": "GG00BBHX2H91",
+    "Name": "Renewables Infrastructure Group Ltd",
+    "Address": "East Wing, Trafalgar Court, Les Banques, St. Peter Port, Guernsey GY1 3PP",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "UPS",
+    "ISIN": "US9113121068",
+    "Name": "United Parcel Service Inc",
+    "Address": "55 Glenlake Parkway NE, Atlanta, GA 30328",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "USRT",
+    "ISIN": "US4642885218",
+    "Name": "iShares Core U.S. REIT ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "V",
+    "ISIN": "US92826C8394",
+    "Name": "Visa Inc",
+    "Address": "PO Box 8999, San Francisco, CA 94128-8999",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VIAC",
+    "ISIN": "US92556H1077",
+    "Name": "VIACOMCBS Inc",
+    "Address": "51 Street West 52nd, NY 10019 New York City, New York",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VNQ",
+    "ISIN": "US9229085538",
+    "Name": "Vanguard Real Estate ETF",
+    "Address": "Vanguard REIT Index Fund, 100 Vanguard Boulevard, Malvern, PA 19355-2331",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VOO",
+    "ISIN": "US9229083632",
+    "Name": "Vanguard S&P 500 ETF",
+    "Address": "The Vanguard Group Instl Investor Information Dept P.O. Box 2900 Valley Forge, PA 19482-2900 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VWO",
+    "ISIN": "US9220428588",
+    "Name": "Vanguard FTSE Emerging Markets",
+    "Address": "The Vanguard Group Instl Investor Information Dept P.O. Box 2900 Valley Forge, PA 19482-2900 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WLL",
+    "ISIN": "US9663875089",
+    "Name": "Whiting Petroleum Corp",
+    "Address": "1700 Broadway Suite 2300 Denver, CO 80290 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLE",
+    "ISIN": "US81369Y5069",
+    "Name": "Energy Select Sector SPDR",
+    "Address": "Energy Select Sector SPDR Fund, 1 Lincoln Street, Boston, MA 02111",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KER",
+    "ISIN": "FR0000121485",
+    "Name": "Kering",
+    "Address": "40 rue de Sèvres, Paris 7e, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "ORSTED",
+    "ISIN": "DK0060094928",
+    "Name": "Ørsted A/S",
+    "Address": "Kraftværksvej 53 - Skærbæk, 7000 Fredericia, Denmark",
+    "CountryCode": "DK"
+  },
+  {
+    "Symbol": "HYG",
+    "ISIN": "US4642885135",
+    "Name": "Iboxx $ High Yield Corporate Bd Ishares",
+    "Address": "iShares/BlackRock, 400 Howard St., San Francisco, CA 94105",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DANSKE",
+    "ISIN": "DK0010274414",
+    "Name": "Danske Bank A/S",
+    "Address": "Koebenhavn K, 1092 Denmark",
+    "CountryCode": "DK"
+  },
+  {
+    "Symbol": "NTES",
+    "ISIN": "US64110W1027",
+    "Name": "NetEase, Inc",
+    "Address": "NetEase Building No. 599 Wangshang Road Binjiang District Hangzhou 310052, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "BLK",
+    "ISIN": "US09247X1019",
+    "Name": "BlackRock Inc",
+    "Address": "40 East 52nd Street, New York, NY, United States 10022",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ALB",
+    "ISIN": "US0126531013",
+    "Name": "Albemarle Corporation",
+    "Address": "South Fourth Street 330, US-23219 Richmond, Virginia",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RCL",
+    "ISIN": "LR0008862868",
+    "Name": "Royal Caribbean Cruises",
+    "Address": "Royal Caribbean Group, 1050 Caribbean Way, Miami, FL 33132-2096",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "STLD",
+    "ISIN": "US8581191009",
+    "Name": "Steel Dynamics",
+    "Address": "Pointe Inverness Way, Suite 200 6714, US-46804 Fort Wayne, IN",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CVS",
+    "ISIN": "US1266501006",
+    "Name": "CVS Health",
+    "Address": "CVS Health, One CVS Drive, Woonsocket, Rhode Island 02895",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TGS",
+    "ISIN": "NO0003078800",
+    "Name": "TGS-NOPEC Geophysical Company",
+    "Address": "10451 Clay Road, Houston, Texas, 77041, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RHM.DE",
+    "ISIN": "DE0007030009",
+    "Name": "Rheinmetall Group",
+    "Address": "Rheinmetall Platz 1 40476 Düsseldorf, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "JNK",
+    "ISIN": "US78468R6229",
+    "Name": "SPDR Bloomberg Barclays High Y",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "00257.HK",
+    "ISIN": "HK0257001336",
+    "Name": "China Everbright International",
+    "Address": "Room 2703, Far East Finance Centre, Hong Kong Island, Hong Kong, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "NVTKL.L",
+    "ISIN": "US6698881090",
+    "Name": "NOVATEK OAO",
+    "Address": "2 Udaltsova Street, Moscow, 119415, Russian Federation",
+    "CountryCode": "RU"
+  },
+  {
+    "Symbol": "LDOS",
+    "ISIN": "US5253271028",
+    "Name": "Leidos Holdings Inc",
+    "Address": "1750 Presidents St, Reston, VA 20190, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MC",
+    "ISIN": "US5024413065",
+    "Name": "LVMH Moet Hennessy Louis Vuitton SA",
+    "Address": "22, avenue Montaigne, 75008 Paris - France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "SLB",
+    "ISIN": "AN8068571086",
+    "Name": "Schlumberger",
+    "Address": "Risabergvegen 3, PO Box 8013, Tananger, Stavanger, 4068 Stavanger, 4056, Norway",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CMCSA",
+    "ISIN": "US20030N1019",
+    "Name": "Comcast Corp",
+    "Address": "1701 John F Kennedy Blvd, Philadelphia, PA 19103, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HUSQB.ST",
+    "ISIN": "SE0001662230",
+    "Name": "Husqvarna AB Ser. B",
+    "Address": "Box 7454 SE-103 92 Stockholm",
+    "CountryCode": "SE"
+  },
+  {
+    "Symbol": "SPY",
+    "ISIN": "US78462F1030",
+    "Name": "SPDR S&P 500 Trust ETF",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HAS",
+    "ISIN": "US4180561072",
+    "Name": "Hasbro Inc",
+    "Address": "Pawtucket, Rhode Island, U.S.",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "UBSG",
+    "ISIN": "CH0244767585",
+    "Name": "UBS Group AG",
+    "Address": "Bahnhofstrasse 45, 8001 Zurich, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "CDI.PA",
+    "ISIN": "FR0000130403",
+    "Name": "Christian Dior",
+    "Address": "30 Avenue Montaigne Paris, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "LMT",
+    "ISIN": "US5398301094",
+    "Name": "Lockheed Martin Corporation",
+    "Address": "Bethesda, Maryland, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TXN",
+    "ISIN": "US8825081040",
+    "Name": "Texas Instruments Incorporated",
+    "Address": "12500 TI Boulevard Dallas, TX 75243 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ULVR.L",
+    "ISIN": "GB00B10RZP78",
+    "Name": "Unilever PLC",
+    "Address": "Unilever House 100 Victoria Embankment London EC4Y 0DY United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "VZ",
+    "ISIN": "US92343V1044",
+    "Name": "Verizon Communications Inc.",
+    "Address": "1095 Avenue of the Americas, New York, NY 10036",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HEN3.DE",
+    "ISIN": "DE0006048432",
+    "Name": "Henkel AG & Co. KGaA",
+    "Address": "Henkelstrasse 67, Düsseldorf 40589, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "MPW",
+    "ISIN": "US58463J3041",
+    "Name": "Medical Properties Trust, Inc.",
+    "Address": "1000 Urban Center Drive, Suite 501, Birmingham, AL 35242, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BA",
+    "ISIN": "US0970231058",
+    "Name": "The Boeing Company",
+    "Address": "100 North Riverside Plaza, Chicago, IL 60606-1596, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HL.L",
+    "ISIN": "GB00B1VZ0M25",
+    "Name": "Hargreaves Lansdown plc",
+    "Address": "One College Square South, Anchor Road, Bristol BS1 5HL, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "TIP",
+    "ISIN": "US4642871762",
+    "Name": "iShares TIPS Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MCHP",
+    "ISIN": "US5950171042",
+    "Name": "Microchip Technology Incorporated",
+    "Address": "2355 West Chandler Boulevard, Chandler, AZ 85224-6199, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ITW",
+    "ISIN": "US4523081093",
+    "Name": "Illinois Tool Works Inc.",
+    "Address": "155 Harlem Avenue, Glenview, IL 60025-4075, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TLT",
+    "ISIN": "US4642874329",
+    "Name": "iShares 20+ Year Treasury Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KR",
+    "ISIN": "US501044DN88",
+    "Name": "The Kroger Co.",
+    "Address": "1014 Vine Street, Cincinnati, OH 45202, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMAT",
+    "ISIN": "US0382221051",
+    "Name": "Applied Materials, Inc.",
+    "Address": "3050 Bowers Avenue, PO Box 58039, Santa Clara, CA 95052-3299, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLV",
+    "ISIN": "US81369Y2090",
+    "Name": "Health Care Select Sector SPDR Fund",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NXPI",
+    "ISIN": "NL0009538784",
+    "Name": "NXP Semiconductors N.V.",
+    "Address": "High Tech Campus 60, Eindhoven 5656 AG, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "BPY",
+    "ISIN": "BMG162491077",
+    "Name": "Brookfield Property Partners L.P.",
+    "Address": "73 Front Street, 5th Floor, Hamilton HM 12, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "GRMN",
+    "ISIN": "CH0114405324",
+    "Name": "Garmin Ltd.",
+    "Address": "Mühlentalstrasse 2, Schaffhausen 8200, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "ATVI",
+    "ISIN": "US00507V1098",
+    "Name": "Activision Blizzard, Inc.",
+    "Address": "3100 Ocean Park Boulevard, Santa Monica, CA 90405, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CME",
+    "ISIN": "US12572Q1058",
+    "Name": "CME Group Inc.",
+    "Address": "20 South Wacker Drive, Chicago, IL 60606, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AGN",
+    "ISIN": "CA01559R1038",
+    "Name": "Algernon Pharmaceuticals Inc.",
+    "Address": "700 West Pender Street, Suite 915, Vancouver, BC V6C 1G8, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "2333.HK",
+    "ISIN": "CNE100000338",
+    "Name": "Great Wall Motor",
+    "Address": "South Chaoyang Street No 2266, Baoding, 071000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "AZN",
+    "ISIN": "US0463531089",
+    "Name": "AstraZeneca PLC ADR",
+    "Address": "Cambridge Biomedical Campus, 1 Francis Crick Avenue, Cambridge, Cambridgeshire CB2 0AA, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "2238.HK",
+    "ISIN": "CNE100000Q35",
+    "Name": "Guangzhou Automobile",
+    "Address": "GAC Center, No. 23 Xingguo Road, Zhujiang New Town, Tianhe District, Guangzhou, Guangdong 510623, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2899.HK",
+    "ISIN": "CNE100000502",
+    "Name": "Zijin Mining",
+    "Address": "Shangang County 1 Zijin Road, CN-FJ 364200 Longyan, Fujian, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "IIPR",
+    "ISIN": "US45781V1017",
+    "Name": "Innovative Industrial Properties Inc. A",
+    "Address": "11440 WEST BERNARDO COURT, SUITE 220 SAN DIEGO CA 92127, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "00175.HK",
+    "ISIN": "KYG3777B1032",
+    "Name": "Geely Automobile Holdings Ltd",
+    "Address": "Room 2301 23 Floor, Great Eagle Centre 23 Harbour Road, HK- Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "VOW3.DE",
+    "ISIN": "DE0007664039",
+    "Name": "Volkswagen AG",
+    "Address": "Berliner Ring 2, Wolfsburg, Niedersachsen (Lwr Saxony) 38440, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "PAH3.DE",
+    "ISIN": "DE000PAH0038",
+    "Name": "Porsche Automobil Holding SE",
+    "Address": "Porscheplatz 1, DE-70435 Stuttgart, Baden-Württemberg, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "02196.HK",
+    "ISIN": "CNE100001M79",
+    "Name": "Shanghai Fosun Pharmaceutical",
+    "Address": "Building A, No. 1289 Yishan Road, Shanghai 200233, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "MCRO.L",
+    "ISIN": "GB00BJ1F4N75",
+    "Name": "Micro Focus International PLC",
+    "Address": "The Lawn, 22-30 Old Bath Road, Newbury, Berkshire RG14 1QN, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "00763.HK",
+    "ISIN": "CNE1000004Y2",
+    "Name": "ZTE Corp",
+    "Address": "No. 55 Siciene & Tech South Road, Nanshan District, Shenzhen, Guangdong 518057, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2338.HK",
+    "ISIN": "CNE1000004L9",
+    "Name": "Weichai Power",
+    "Address": "No. 197 Fu Shou East Street, Section A, High Technology Industrial Dev Zone, Weifang, Shandong 261061, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "1958.HK",
+    "ISIN": "CNE100001TJ4",
+    "Name": "BAIC Motor Corp Ltd",
+    "Address": "No. 99, Shuanghe Street, Renhe Town, Shunyi District, Beijing 101300, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "LHA.DE",
+    "ISIN": "DE0008232125",
+    "Name": "Deutsche Lufthansa Aktiengesellschaft",
+    "Address": "Linnicher Strasse 48, Cologne, Nordrhein-Westfalen 50933, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "LOGN.ZU",
+    "ISIN": "CH0025751329",
+    "Name": "Logitech International SA",
+    "Address": "EPFL - Quartier de l'Innovation Daniel Borel Innovation Center, CH-1015 Lausanne, Waadt, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "00384.HK",
+    "ISIN": "BMG2109G1033",
+    "Name": "China Gas Holdings Ltd",
+    "Address": "Room 1601, 16th Floor, AXA Centre, 151 Gloucester Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "TUI.L",
+    "ISIN": "DE000TUAG505",
+    "Name": "TUI AG",
+    "Address": "Karl-Wiechert-Allee 4, Hannover, Niedersachsen (Lwr Saxony) 30625, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "ASML",
+    "ISIN": "USN070592100",
+    "Name": "ASML Holding NV",
+    "Address": "De Run 6501, Veldhoven, Noord-Brabant 5504 DR, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "1628.HK",
+    "ISIN": "KYG9884T1013",
+    "Name": "Yuzhou Properties Co Ltd",
+    "Address": "Yuzhou Plaza, 299 Jingang Road, Pudong New District, Shanghai 361003, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "ARKG",
+    "ISIN": "US00214Q3020",
+    "Name": "ARK Genomic Revolution ETF",
+    "Address": "155 WEST 19TH STREET, FIFTH FLOOR, NEW YORK, NY 10011, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ET",
+    "ISIN": "US29273V1008",
+    "Name": "Energy Transfer LP",
+    "Address": "8111 Westchester Drive, Suite 600, Dallas, TX 75225",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHEL.L",
+    "ISIN": "GB00BP6MXD84",
+    "Name": "Shell PLC",
+    "Address": "Carel van Bylandtlaan 30, The Hague 2596 HR, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "YINN",
+    "ISIN": "US25459W7719",
+    "Name": "Direxion Daily FTSE China Bull 3X Shares",
+    "Address": "1301 Avenue of the Americas, 6th Avenue 28th Floor, New York, 10019, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HMMJ",
+    "ISIN": "CA44054J1012",
+    "Name": "Horizons Marijuana Life Sciences Index ETF",
+    "Address": "55 University Ave Suite 800, Toronto, ON M5E 1S2, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "SESG.PA",
+    "ISIN": "LU0088087324",
+    "Name": "SES GLOBAL FDR",
+    "Address": "Chateau de Betzdorf, Betzdorf, Betzdorf 6815, Luxembourg",
+    "CountryCode": "LU"
+  },
+  {
+    "Symbol": "BBD",
+    "ISIN": "US0594603039",
+    "Name": "Banco Bradesco ADR",
+    "Address": "Cidade De Deus, Vila Yara, Osasco, SP 06029-900, Brazil",
+    "CountryCode": "BR"
+  },
+  {
+    "Symbol": "KIE",
+    "ISIN": "GB0004915632",
+    "Name": "Kier Group PLC",
+    "Address": "Optimum House, 2nd Floor Clippers Quay, Salford M50 3XP, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "00966.HK",
+    "ISIN": "HK0000055878",
+    "Name": "China Taiping Insurance Holdin",
+    "Address": "18 King Wah Road, 25th Floor, North Point, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "INVP",
+    "ISIN": "GB00B17BBQ50",
+    "Name": "Investec PLC",
+    "Address": "100 Grayston Drive, Sandown, Sandton 2196, South Africa",
+    "CountryCode": "ZA"
+  },
+  {
+    "Symbol": "HKG50",
+    "ISIN": "HK0000004322",
+    "Name": "HKG50",
+    "Address": "Hang Seng Indexes Co Ltd, 83 Des Voeux Road Central Hong Kong (SAR), Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "01211.HK",
+    "ISIN": "CNE100000296",
+    "Name": "BYD Co Ltd",
+    "Address": "3009, BYD Road, Pingshan District, Shenzhen, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "MJ",
+    "ISIN": "US26924G5080",
+    "Name": "ETFMG Alternative Harvest ETF",
+    "Address": "ETF Managers Group 30 Maple Ave, Suite 2 Summit, NJ 07091 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MU",
+    "ISIN": "US5951121038",
+    "Name": "Micron Technology, Inc.",
+    "Address": "8000 South Federal Way, Boise, ID 83716-9632, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "APRN",
+    "ISIN": "US09523Q2003",
+    "Name": "Blue Apron Holdings Inc.",
+    "Address": "28 Liberty Street, New York, NY 10005, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ARKK",
+    "ISIN": "US00214Q1040",
+    "Name": "ARK Innovation ETF",
+    "Address": "3 E 28th Street, 7th Floor, New York, NY 10016, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AM.PA",
+    "ISIN": "FR0014004L86",
+    "Name": "Dassault Aviation SA",
+    "Address": "Immeuble Marcel-Dassault 9 Rond-Point des Champs-Elysées, FR-75008 Paris",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "FXPO",
+    "ISIN": "GB00B1XH2C03",
+    "Name": "Ferrexpo Plc",
+    "Address": "Bahnhofstrasse 13, Baar, Zug 6340",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "GOLD.BARRICK",
+    "ISIN": "CA0679011084",
+    "Name": "Barrick Gold",
+    "Address": "Brookfield Place, TD Canada Trust Tower, 161 Bay Street, Suite 3700, Toronto, ON M5J 2S1",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "MC.PA",
+    "ISIN": "FR0000121014",
+    "Name": "LVMH Moet Hennessy Louis Vuitton SA",
+    "Address": "22 Avenue Montaigne Paris, 75008 France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "NTDOY",
+    "ISIN": "US6544453037",
+    "Name": "Nintendo CO Ltd",
+    "Address": "4600 150th Ave NE, Redmond, WA 98052, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SMSN.L",
+    "ISIN": "US7960508882",
+    "Name": "Samsung Electronics Co Ltd",
+    "Address": "129 Samsung-ro, Yeongtong-gu Suwon, Gyeonggi, 16677 Republic Of Korea",
+    "CountryCode": "KR"
+  },
+  {
+    "Symbol": "SONY",
+    "ISIN": "US8356993076",
+    "Name": "Sony",
+    "Address": "25 Madison Avenue, New York City, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VALE",
+    "ISIN": "US91912E1055",
+    "Name": "Vale SA",
+    "Address": "Praia de Botafogo, 186 Rio De Janeiro, RJ 22250-145 Brazil",
+    "CountryCode": "BR"
+  },
+  {
+    "Symbol": "WY",
+    "ISIN": "US9621661043",
+    "Name": "Weyerhaeuser Co",
+    "Address": "220 Occidental Avenue South, Seattle, WA 98104-7800",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TER",
+    "ISIN": "US8807701029",
+    "Name": "Teradyne Inc",
+    "Address": "600 Riverpark Drive, North Reading, MA 01864",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ARKF",
+    "ISIN": "US00214Q7088",
+    "Name": "ARK FINTECH INNOVATION ETF",
+    "Address": "ARK Invest, 155 West 19th Street 5th Floor, New York, NY 10011, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BLOK",
+    "ISIN": "US0321086078",
+    "Name": "Amplify Transformational Data Sharing ETF",
+    "Address": "AMPLIFY ETF TRUST. AMPLIFY INVESTMENTS LLC. 3250 Lacey Road, Suite 130. Downers Grove, IL 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AVV",
+    "ISIN": "GB00BBG9VN75",
+    "Name": "AVEVA Group PLC",
+    "Address": "AVEVA Group plc, High Cross Madingley Road, CB3 0HB Cambridge, Cambridgeshire, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "FDX",
+    "ISIN": "US31428X1063",
+    "Name": "FedEx Corporation",
+    "Address": "FedEx Corporation, 942 Road South Shady Grove, TN 38120 Memphis, Tennessee, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PLUS.L",
+    "ISIN": "IL0011284465",
+    "Name": "PLUS 500 LTD",
+    "Address": "Plus500 Ltd., Building 25, Matam, Haifa 31905, Israel",
+    "CountryCode": "IL"
+  },
+  {
+    "Symbol": "BESI.NV",
+    "ISIN": "NL0012866412",
+    "Name": "BE Semiconductor Industries NV",
+    "Address": "BE Semiconductor Industries N.V., Ratio 6, NL-6921 RW Duiven, NL",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "06862.HK",
+    "ISIN": "KYG4290A1013",
+    "Name": "Haidilao International Holding",
+    "Address": "Haidilao International Holding Ltd., Hutchins Drive Criquet Square, PO Box 2681, KY1-1111 Grand Cayman",
+    "CountryCode": "KY"
+  },
+  {
+    "Symbol": "WBA",
+    "ISIN": "US9314271084",
+    "Name": "Walgreens Boots Alliance Inc",
+    "Address": "108 Wilmot Road Deerfield, IL 60015 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PHM",
+    "ISIN": "US7458671010",
+    "Name": "PulteGroup Inc",
+    "Address": "350 Peachtree Road Northeast Suite 150 Atlanta, GA 30326 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHIP",
+    "ISIN": "MHY737604006",
+    "Name": "Seanergy Maritime Holdings Corp",
+    "Address": "154 Vouliagmenis Avenue, Athens, 166 74, Greece",
+    "CountryCode": "GR"
+  },
+  {
+    "Symbol": "VOLV-A",
+    "ISIN": "SE0000115420",
+    "Name": "Volvo AB ser. A",
+    "Address": "GropegArdsgatan 2, Gothenburg, 417 15, Sweden",
+    "CountryCode": "SE"
+  },
+  {
+    "Symbol": "9618.HK",
+    "ISIN": "KYG8208B1014",
+    "Name": "JD.com Inc",
+    "Address": "No. 18 Kechuang 11 Street, 20th Floor, Building A, Daxing District, Beijing 101111, China",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "GS",
+    "ISIN": "US38141G1040",
+    "Name": "Goldman Sachs Group Inc",
+    "Address": "200 West Street New York, NY 10282 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "URA",
+    "ISIN": "US37954Y8710",
+    "Name": "Global X Uranium ETF",
+    "Address": "605 Third Avenue 43rd Floor New York, NY 10158, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GDXJ",
+    "ISIN": "US92189F7915",
+    "Name": "VanEck Vectors Junior Gold Miners ETF",
+    "Address": "33 Sir John Rogerson's Quay Dublin 2 Ireland",
+    "CountryCode": "IE"
+  },
+  {
+    "Symbol": "MRVL",
+    "ISIN": "US5738741041",
+    "Name": "Marvell Technology Group Ltd",
+    "Address": "Canon s Court 22 Victoria Street, BM-HM 12 Hamilton, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "VST",
+    "ISIN": "US92840M1027",
+    "Name": "Vistra Corp",
+    "Address": "6555 Sierra Drive, Irving, TX 75039, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HPQ",
+    "ISIN": "US40434L1052",
+    "Name": "Hewlett Packard",
+    "Address": "1501 Road Page Mill, CA 94304 Palo Alto, California, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BMY",
+    "ISIN": "US1101221083",
+    "Name": "Bristol-Myers Squibb Co",
+    "Address": "14th Floor 430 E Street 29th, NY 10016 New York City, New York, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SIG",
+    "ISIN": "BMG812761002",
+    "Name": "Signet Jewelers LTD",
+    "Address": "Clarendon House, 2 Church Street, Hamilton HM11, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "TAK",
+    "ISIN": "US8740602052",
+    "Name": "Takeda Pharmaceutical Co Ltd-ADR",
+    "Address": "4-1-1 Dosho-machi, Chuo-Ku, Osaka 540-8645, Japan",
+    "CountryCode": "JP"
+  },
+  {
+    "Symbol": "SBRY.L",
+    "ISIN": "GB00B019KW72",
+    "Name": "J Sainsbury PLC",
+    "Address": "33 Holborn, EC1N 2HT London, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "HOG",
+    "ISIN": "US4128221086",
+    "Name": "Harley-Davidson Inc",
+    "Address": "3700 West Juneau Avenue, Milwaukee, WI 53208-2818, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "3.HK",
+    "ISIN": "HK0003000038",
+    "Name": "Hong Kong & China Gas Co Ltd",
+    "Address": "23rd Floor 363 Java Road, HK- Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "SBUX",
+    "ISIN": "US8552441094",
+    "Name": "Starbucks Corporation",
+    "Address": "2401 Utah Avenue South, PO Box 34507, WA 98134 Seattle, Washington, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CQQQ",
+    "ISIN": "US46138E8003",
+    "Name": "Invesco China Technology ETF",
+    "Address": "3500 Lacey Road Suite 700, Downers Grove, 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "UK100",
+    "ISIN": "GB0001383545",
+    "Name": "FTSE 100 Index",
+    "Address": "FTSE International Limited, 10 Paternoster Square, London, EC4M 7LS, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "JNUG",
+    "ISIN": "US25460G8318",
+    "Name": "Direxion Daily Junior Gold Miners Index Bull 2X Shares",
+    "Address": "Rafferty Asset Management, LLC, 1301 Avenue of the Americas 28th Floor, New York, 10019, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JD.US",
+    "ISIN": "US47215P1066",
+    "Name": "JD.com-ADR",
+    "Address": "JD.com, Inc., BuildingA, North Star Century Center No. 8 Beichen West Street, 100101, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "INGA.NV",
+    "ISIN": "NL0011821202",
+    "Name": "ING Groep NV",
+    "Address": "ING Groep NV, Amsterdamse Poort Bijlmerplein 888, 1102 MG, Amsterdam",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "FITB",
+    "ISIN": "US3167731005",
+    "Name": "Fifth Third Bancorp",
+    "Address": "Fifth Third Bancorp, 38 Fountain Square Plaza, 45263, Cincinnati, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IGG",
+    "ISIN": "GB00B06QFB75",
+    "Name": "IG Group Holdings PLC",
+    "Address": "IG Group Holdings plc, Cannon Bridge House 25 Dowgate Hill, EC4R 2YA, London, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "DIA.US",
+    "ISIN": "US78467X1090",
+    "Name": "SPDR Dow Jones Industrial Average ETF Trust",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FCX",
+    "ISIN": "US35671D8570",
+    "Name": "Freeport-McMoRan Inc",
+    "Address": "Freeport-McMoRan Inc., 333 Avenue North Central, AZ 85004 Phoenix, Arizona, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GLEN.L",
+    "ISIN": "JE00B4T3BW64",
+    "Name": "Glencore Plc",
+    "Address": "Glencore plc, Baarermattstrasse 3, CH-6341 Baar, Zug, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "ENI",
+    "ISIN": "IT0003132476",
+    "Name": "Eni Energy Company",
+    "Address": "Eni SpA, Piazzale Enrico Mattei 1, IT-00144 Roma, Lazio, Italy",
+    "CountryCode": "IT"
+  },
+  {
+    "Symbol": "WFC",
+    "ISIN": "US9497461015",
+    "Name": "Wells Fargo & Co",
+    "Address": "Wells Fargo & Company, 420 Street Montgomery, CA 94104 San Francisco, California, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NKE",
+    "ISIN": "US6541061031",
+    "Name": "NIKE",
+    "Address": "Nike, Inc., 1 Bowerman Drive, OR 97005 Beaverton, Oregon, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLU",
+    "ISIN": "US81369Y8865",
+    "Name": "Utilities Select Sector SPDR",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "UUP",
+    "ISIN": "US46141D2036",
+    "Name": "Invesco DB US Dollar Index Bullish Fund",
+    "Address": "Invesco Capital Management, LLC, 3500 Lacey Road, Suite 700, Downers Grove, IL 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QQQ",
+    "ISIN": "US46090E1038",
+    "Name": "Invesco QQQ",
+    "Address": "Invesco Capital Management, LLC, 3500 Lacey Road, Suite 700, Downers Grove, IL 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QSR",
+    "ISIN": "CA76131D1033",
+    "Name": "Restaurant Brands International Inc.",
+    "Address": "226 Wyecroft Road, L6K 3X7, Oakville, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GSK.L",
+    "ISIN": "GB00BN7SWP63",
+    "Name": "GlaxoSmithKline",
+    "Address": "980 Great West Road Brentford, TW8 9GS, Middlesex, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "FL",
+    "ISIN": "US3448491049",
+    "Name": "Foot Locker Inc",
+    "Address": "112 West 34th Street, 10120, New York, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CWK",
+    "ISIN": "GB0002318888",
+    "Name": "Cranswick PLC",
+    "Address": "74 Helsinki Road Sutton Fields, HU7 0YW, Hull, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "SIE.DE",
+    "ISIN": "DE0007236101",
+    "Name": "Siemens Aktiengesellschaft",
+    "Address": "Nonnendammallee 101, 13629, Berlin, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "PG",
+    "ISIN": "US7427181091",
+    "Name": "Procter & Gamble Co",
+    "Address": "One Procter & Gamble Plaza, Cincinnati, Ohio 45202, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ADM",
+    "ISIN": "US0394831020",
+    "Name": "Archer-Daniels-Midland Co",
+    "Address": "77 W. Wacker Dr., Chicago, Illinois 60601, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JNJ",
+    "ISIN": "US4781601046",
+    "Name": "Johnson & Johnson",
+    "Address": "One Johnson & Johnson Plz, New Brunswick, New Jersey 08933, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SWKS",
+    "ISIN": "US83088M1027",
+    "Name": "Skyworks Solutions",
+    "Address": "5260 California Avenue, Irvine, California 92617, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MHFI",
+    "ISIN": "US78409V1044",
+    "Name": "S&P Global Inc",
+    "Address": "55 Water Street, New York, New York 10041, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "YUM",
+    "ISIN": "US9884981013",
+    "Name": "Yum Brands Inc",
+    "Address": "1441 Gardiner Lane, Louisville, Kentucky 40213, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "STAG",
+    "ISIN": "US85254J1025",
+    "Name": "STAG Industrial Inc.",
+    "Address": "One Federal Street, 23rd Floor, Boston, Massachusetts 02110, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NEM",
+    "ISIN": "US6516391066",
+    "Name": "Newmont Mining Corp",
+    "Address": "6900 E Layton Ave, Suite 700, Denver, Colorado 80237, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "D",
+    "ISIN": "US25746U1097",
+    "Name": "Dominion Energy Inc",
+    "Address": "120 Tredegar Street, Richmond, Virginia 23219, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ROG.ZU",
+    "ISIN": "CH0012032048",
+    "Name": "Roche Holding Ltd",
+    "Address": "Grenzacherstrasse 124, 4058, Basel, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "WM",
+    "ISIN": "US94106L1098",
+    "Name": "Waste Management Inc",
+    "Address": "800 Capitol Street, Ste 3000, Houston, Texas 77002, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PEP",
+    "ISIN": "US7134481081",
+    "Name": "PepsiCo",
+    "Address": "700 Anderson Hill Rd, Purchase, New York 10577, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NESTE",
+    "ISIN": "FI0009013296",
+    "Name": "Neste Oyj",
+    "Address": "Neste Corp., Keilaranta 21, 00095, Espoo",
+    "CountryCode": "FI"
+  },
+  {
+    "Symbol": "WMT",
+    "ISIN": "US9311421039",
+    "Name": "Walmart Inc.",
+    "Address": "702 Southwest 8th St, Bentonville, Arkansas 72716, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MRK",
+    "ISIN": "US58933Y1055",
+    "Name": "Merck & Co.",
+    "Address": "2000 Galloping Hill Road, Kenilworth, New Jersey 07033, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LRCX",
+    "ISIN": "US5128071082",
+    "Name": "Lam Research Corp",
+    "Address": "4650 Cushing Blvd, Fremont, California 94538, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HDV",
+    "ISIN": "US46429B6636",
+    "Name": "iShares Core High Dividend ETF",
+    "Address": "BlackRock, Inc., 55 East 52nd Street, New York, NY 10055, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IVV",
+    "ISIN": "US4642872000",
+    "Name": "iShares Core S&P 500 ETF",
+    "Address": "BlackRock, Inc., 55 East 52nd Street, New York, NY 10055, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NESN",
+    "ISIN": "CH0038863350",
+    "Name": "Nestle SA",
+    "Address": "Avenue Nestlé 55, 1800, Vevey, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "CSCO",
+    "ISIN": "US17275R1023",
+    "Name": "Cisco Systems Inc",
+    "Address": "170 West Tasman Dr, San Jose, California 95134-1706, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BAYN.DE",
+    "ISIN": "DE000BAY0017",
+    "Name": "Bayer AG",
+    "Address": "Kaiser-Wilhelm-Allee 1, 51373 Leverkusen, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "OR",
+    "ISIN": "FR0000120321",
+    "Name": "LOreal SA",
+    "Address": "41 rue Martre, Clichy Cedex CLICHY 92117, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "GD",
+    "ISIN": "US3695501086",
+    "Name": "General Dynamics Corp",
+    "Address": "11011 Sunset Hills Rd, Reston, Virginia 20190, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RIO.L",
+    "ISIN": "GB0007188757",
+    "Name": "Rio Tinto",
+    "Address": "6 St James's Square LONDON SW1Y 4AD United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "PUM.DE",
+    "ISIN": "DE0006969603",
+    "Name": "PUMA AG",
+    "Address": "PUMA Way 1. DE-91074 Herzogenaurach, Bayern. Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "EPD",
+    "ISIN": "US2937921078",
+    "Name": "Enterprise Products Partners LP",
+    "Address": "1100 Louisiana 10th Floor, Houston, Texas 77002, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JUP",
+    "ISIN": "GB00B53P2009",
+    "Name": "Jupiter Fund Management PLC",
+    "Address": "The Zig Zag Building, 70 Victoria Street LONDON SW1E 6SQ United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "NSC",
+    "ISIN": "US6558441084",
+    "Name": "Norfolk Southern Corp",
+    "Address": "650 W Peachtree Street Nw, Atlanta, Georgia 30308, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MONY",
+    "ISIN": "GB00B1ZBKY84",
+    "Name": "Moneysupermarket.com Group PLC",
+    "Address": "Moneysupermarket House St David's Park Ewloe Chester CH5 3UZ United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "S92.DE",
+    "ISIN": "DE000A0DJ6J9",
+    "Name": "SMA Solar Technology AG",
+    "Address": "Sonnenallee 1 ; 34266 Niestetal ; Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "AJG",
+    "ISIN": "US3635761097",
+    "Name": "Arthur J.Gallagher & Co",
+    "Address": "2850 Golf Road, Rolling Meadows, Illinois 60008-4050, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DKS",
+    "ISIN": "US2533931026",
+    "Name": "Dicks Sporting Goods Inc",
+    "Address": "345 Court Street, Coraopolis, Pennsylvania 15108, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BIG",
+    "ISIN": "US0893021032",
+    "Name": "Big Lots Inc",
+    "Address": "4900 E Dublin Granville Rd, Columbus, Ohio 43081-7651, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QIWI",
+    "ISIN": "US74735M1080",
+    "Name": "Qiwi Plc-ADR",
+    "Address": "12-14 Kennedy Ave., Kennedy Business Centre, Office 203, Nicosia, G4 1087, Cyprus",
+    "CountryCode": "CY"
+  },
+  {
+    "Symbol": "BBY",
+    "ISIN": "US0865161014",
+    "Name": "Best Buy Co Inc",
+    "Address": "7601 Penn Ave South, Richfield, Minnesota 55423, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PGR",
+    "ISIN": "US7433151039",
+    "Name": "Progressive Corp",
+    "Address": "6300 Wilson Mills Rd, Mayfield Village, Ohio 44143, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "THO",
+    "ISIN": "US8851601018",
+    "Name": "Thor Industries Inc",
+    "Address": "601 E. Beardsley Avenue, Elkhart, Indiana 46514, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DOX",
+    "ISIN": "GB0022569080",
+    "Name": "Amdocs Ltd",
+    "Address": "Hirzel House, Smith Street, St. Peter Port, Guernsey, X0 GY1 2NG, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "PAY",
+    "ISIN": "GB00B02QND93",
+    "Name": "PayPoint PLC",
+    "Address": "1 The Boulevard, Shire Park, Welwyn Garden City, Hertfordshire, AL7 1EL, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "JOUT",
+    "ISIN": "US4791671088",
+    "Name": "Johnson Outdoors Inc.",
+    "Address": "Johnson Outdoors Inc., 555 Main Street, Suite 100, Racine, WI 53403, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NUE",
+    "ISIN": "US6703461052",
+    "Name": "Nucor Corp",
+    "Address": "1915 Rexford Rd, Charlotte, North Carolina 28211, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AON",
+    "ISIN": "IE00BLP1HW54",
+    "Name": "Aon plc",
+    "Address": "Metropolitan Building, James Joyce Street, Dublin 1, L2 D01 K0Y8, Ireland",
+    "CountryCode": "IE"
+  },
+  {
+    "Symbol": "PSN.L",
+    "ISIN": "GB0006825383",
+    "Name": "Persimmon",
+    "Address": "Persimmon House, Fulford, York YO19 4FE, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "CLX",
+    "ISIN": "US1890541097",
+    "Name": "Clorox Co",
+    "Address": "1221 Broadway, Oakland, California 94612-1888, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CASY",
+    "ISIN": "US1475281036",
+    "Name": "Casey's General Stores Inc",
+    "Address": "Po Box 3001, Ankeny, Iowa 50021, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BTI",
+    "ISIN": "US1104481072",
+    "Name": "British American Tobacco PLC ADR",
+    "Address": "Globe House, 4 Temple Place, London, X0 WC2R 2PG, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "SCCO",
+    "ISIN": "US84265V1052",
+    "Name": "Southern Copper Corp",
+    "Address": "7310 North 16th St., Suite 135, Phoenix, Arizona 85020, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WSM",
+    "ISIN": "US9699041011",
+    "Name": "Williams-Sonoma Inc",
+    "Address": "3250 Van Ness Avenue, San Francisco, California 94109, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WEC",
+    "ISIN": "US92939U1060",
+    "Name": "WEC Energy Group",
+    "Address": "231 W Michigan St, P O Box 1331, Milwaukee, Wisconsin 53201, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CHD",
+    "ISIN": "US1713401024",
+    "Name": "Church & Dwight Co Inc",
+    "Address": "500 Charles Ewing Boulevard, Ewing, New Jersey 08628, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AWK",
+    "ISIN": "US0304201033",
+    "Name": "American Water Works Co Inc",
+    "Address": "1 Water Street, Camden, New Jersey 08102-1658, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ENB",
+    "ISIN": "CA29250N1050",
+    "Name": "Enbridge Inc",
+    "Address": "200 425 - 1st Street Sw, Calgary, A0 T2P 3L8, Alberta, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "KGC",
+    "ISIN": "CA4969024047",
+    "Name": "Kinross Gold Corp",
+    "Address": "25 York Street, 17th Floor, Toronto, A6 M5J 2V5, Ontario, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "NUS",
+    "ISIN": "US67018T1051",
+    "Name": "Nu Skin Enterprises Inc",
+    "Address": "75 West Center St, Attn: Gregory Belliston, Provo, Utah 84601, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMGN",
+    "ISIN": "US0311621009",
+    "Name": "Amgen Inc",
+    "Address": "One Amgen Center Drive, Thousand Oaks, California 91320, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WPM",
+    "ISIN": "CA9628791027",
+    "Name": "Wheaton Precious Metals Corp",
+    "Address": "Suite 3500, 1021 West Hastings Streeet, Vancouver, A1 V6E 0C3, British Columbia, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "SHW",
+    "ISIN": "US8243481061",
+    "Name": "Sherwin-Williams Co",
+    "Address": "101 Prospect Ave Nw, Cleveland, Ohio 44115, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ZIM",
+    "ISIN": "IL0065100930",
+    "Name": "ZIM Shipping Services Ltd",
+    "Address": "9 Andrei Sakharov Street, P.o. Box 15067, Haifa, L3 3190500, Israel",
+    "CountryCode": "IL"
+  },
+  {
+    "Symbol": "SLGN",
+    "ISIN": "US8270481091",
+    "Name": "Silgan Holdings Inc",
+    "Address": "4 Landmark Sq, Stamford, Connecticut 06901, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LIN",
+    "ISIN": "IE000S9YS762",
+    "Name": "Linde PLC",
+    "Address": "Forge, 43 Church Street West, Woking Surrey, X0 GU216HT, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "BHP",
+    "ISIN": "US0886061086",
+    "Name": "BHP Group Ltd ADR",
+    "Address": "16/171 Collins Street, Melbourne, Victoria Australia, C3 3000, Australia",
+    "CountryCode": "AU"
+  },
+  {
+    "Symbol": "RIO",
+    "ISIN": "US7672041008",
+    "Name": "Rio Tinto PLC ADR",
+    "Address": "6 St James's Square, London, Sw1y 4ad, X0 00000, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "RMD",
+    "ISIN": "US7611521078",
+    "Name": "ResMed Inc",
+    "Address": "9001 Spectrum Center Blvd., San Diego, California 92123, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DGRO",
+    "ISIN": "US46434V6213",
+    "Name": "iShares Core Dividend Growth ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HOC",
+    "ISIN": "GB00B1FW5029",
+    "Name": "Hochschild Mining PLC",
+    "Address": "4th Floor, Saltire Court, 20 Castle Terrace, Edinburgh, EH1 2EN, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "IAPD",
+    "ISIN": "IE00B14X4T88",
+    "Name": "iShares Asia Pacific Dividend UCITS ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WGO",
+    "ISIN": "US9746371007",
+    "Name": "Winnebago Industries Inc.",
+    "Address": "13200 Pioneer Trail, Suite 150, Eden Prairie, Minnesota 55347, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HUN",
+    "ISIN": "US4470111075",
+    "Name": "Huntsman Corp",
+    "Address": "10003 Woodloch Forest Drive, The Woodlands, Texas 77380, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FNV",
+    "ISIN": "CA3518581051",
+    "Name": "Franco-Nevada Corp",
+    "Address": "199 Bay Street, Suite 2000, Commerce Court West, Toronto, A6 M5L 1G9, Ontario, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "CEY",
+    "ISIN": "JE00B5TT1872",
+    "Name": "Centamin PLC",
+    "Address": "Centamin Plc, 2 Mulcaster Street, JE2 3NJ, St. Helier",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "DLR",
+    "ISIN": "US2538681030",
+    "Name": "Digital Realty Trust Inc",
+    "Address": "5707 Southwest Parkway, Building 1, Suite 275, Austin, Texas 78735, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VTIP",
+    "ISIN": "US9220208055",
+    "Name": "Vanguard Short-Term Inflation-Protected Securities ETF",
+    "Address": "Vanguard Group, 100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DIV",
+    "ISIN": "US37950E2919",
+    "Name": "Global SuperDividend US ETF",
+    "Address": "623 Fifth Avenue, 15th Floor, New York, NY 10022, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "O",
+    "ISIN": "US7561091049",
+    "Name": "Realty Income Corp",
+    "Address": "11995 El Camino Real, San Diego, California 92130, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMT",
+    "ISIN": "US03027X1000",
+    "Name": "American Tower Corp",
+    "Address": "116 Huntington Ave, Boston, Massachusetts 02116, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FMC",
+    "ISIN": "US3024913036",
+    "Name": "FMC Corp",
+    "Address": "2929 Walnut Street, Philadelphia, Pennsylvania 19104, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DELL",
+    "ISIN": "US24703L2025",
+    "Name": "Dell Technologies Inc C",
+    "Address": "One Dell Way, Round Rock, Texas 78682, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BATS.L",
+    "ISIN": "GB0002875804",
+    "Name": "British American Tobacco",
+    "Address": "Globe House, London, WC2R 2PG, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "CE",
+    "ISIN": "US1508701034",
+    "Name": "Celanese Corp",
+    "Address": "222 W. Las Colinas Blvd., Suite 900n, Irving, Texas 75039-5421, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VNA.DE",
+    "ISIN": "DE000A1ML7J1",
+    "Name": "Vonovia SE",
+    "Address": "Vonovia SE, Universitätsstr. 133, 44803 Bochum, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "LKQ",
+    "ISIN": "US5018892084",
+    "Name": "LKQ Corp",
+    "Address": "500 West Madison Street, Suite 2800, Chicago, Illinois 60661, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PSX",
+    "ISIN": "US7185461040",
+    "Name": "Phillips 66",
+    "Address": "2331 Citywest Blvd., Houston, Texas 77042, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BC",
+    "ISIN": "US1170431092",
+    "Name": "Brunswick Corp",
+    "Address": "26125 N. Riverwoods Blvd. Suite 500, Mettawa, Illinois 60045-3420, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NOC",
+    "ISIN": "US6668071029",
+    "Name": "Northrop Grumman Corp",
+    "Address": "2980 Fairview Park Drive, C/o Northrop Grumman Corp, Falls Church, Virginia 22042, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ISF",
+    "ISIN": "IE0005042456",
+    "Name": "iShares Core FTSE 100 UCITS ETF (Dist)",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VGT",
+    "ISIN": "US92204A7028",
+    "Name": "Vanguard Information Technology",
+    "Address": "100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VUG",
+    "ISIN": "US9229087369",
+    "Name": "Vanguard Growth ETF",
+    "Address": "100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VTI",
+    "ISIN": "US9229087690",
+    "Name": "Vanguard Total Stock Market ETF",
+    "Address": "100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TEF",
+    "ISIN": "US8793822086",
+    "Name": "Telefonica SA (US)-ADR",
+    "Address": "Gran Via 28, 28013 Madrid, U3 00000, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "GPN",
+    "ISIN": "US37940X1028",
+    "Name": "Global Payments Inc",
+    "Address": "3550 Lenox Road, Atlanta, Georgia 30326, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PCH",
+    "ISIN": "US7376301039",
+    "Name": "PotlatchDeltic Corp",
+    "Address": "601 West First Avenue Suite 1600, 99201, Spokane, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AVGO",
+    "ISIN": "US11135F1012",
+    "Name": "Broadcom Inc",
+    "Address": "1320 Ridder Park Drive, 95131-2313, San Jose, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SEIC",
+    "ISIN": "US7841171033",
+    "Name": "SEI Investments Company",
+    "Address": "1 Freedom Valley Drive, Oaks, PA 19456, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ABBV",
+    "ISIN": "US00287Y1091",
+    "Name": "AbbVie Inc",
+    "Address": "1 North Waukegan Road, North Chicago, IL 60064, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "X",
+    "ISIN": "US9129091081",
+    "Name": "United States Steel Corp",
+    "Address": "600 Grant Street, Pittsburgh, PA 15219, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MMM",
+    "ISIN": "US88579Y1010",
+    "Name": "3M",
+    "Address": "3M Center, St. Paul, MN 55144, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BFH",
+    "ISIN": "US0185811082",
+    "Name": "Bread Financial Holdings Inc",
+    "Address": "850 Dixie Highway, Louisville, KY 40210, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VCIT",
+    "ISIN": "US92206C8709",
+    "Name": "Vanguard Intermediate-Term Corp",
+    "Address": "100 Vanguard Boulevard, Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CAJPY",
+    "ISIN": "US1380063099",
+    "Name": "Canon Inc - ADR",
+    "Address": "30-2, Shimomaruko 3-chome, Ohta-ku, Tokyo 146-8501, Japan",
+    "CountryCode": "JP"
+  },
+  {
+    "Symbol": "JCI",
+    "ISIN": "IE00BY7QL619",
+    "Name": "Johnson Controls Inc",
+    "Address": "507 E. Michigan Street, Milwaukee, WI 53202, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "USB",
+    "ISIN": "US9029733048",
+    "Name": "US Bancorp",
+    "Address": "U.S. Bancorp Center, 800 Nicollet Mall, Minneapolis, MN 55402, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPLV",
+    "ISIN": "US46138E3541",
+    "Name": "Invesco S&P 500 Low Volatility",
+    "Address": "1555 Peachtree Street NE, Atlanta, GA 30309, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ADS.DE",
+    "ISIN": "DE000A1EWWW0",
+    "Name": "Adidas AG",
+    "Address": "Adi-Dassler-Strasse 1, 91074 Herzogenaurach, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "LEVI",
+    "ISIN": "US52736R1023",
+    "Name": "Levi Strauss & Co.",
+    "Address": "1155 Battery Street, San Francisco, CA 94111, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SAOC",
+    "ISIN": "SA14TG012N13",
+    "Name": "Aramco Saudi Arabian Oil Corp",
+    "Address": "Dhahran, 31311, Saudi Arabia",
+    "CountryCode": "SA"
+  },
+  {
+    "Symbol": "F",
+    "ISIN": "US3453708600",
+    "Name": "Ford Motor Co",
+    "Address": "3131 East Michigan Avenue, Dearborn, MI 48126, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHEL",
+    "ISIN": "US7802593050",
+    "Name": "Shell PLC (ADR)",
+    "Address": "Carel van Bylandtlaan 30, 2596 HR The Hague, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "NOKI",
+    "ISIN": "US6549022043",
+    "Name": "Nokia Oyj-ADR",
+    "Address": "Karaportti 3, 02610 Espoo, Finland",
+    "CountryCode": "FI"
+  },
+  {
+    "Symbol": "CRK",
+    "ISIN": "US2057683029",
+    "Name": "Comstock Resources Inc",
+    "Address": "5300 Town and Country Blvd., Suite 500, Frisco, TX 75034, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JOE",
+    "ISIN": "US7901481009",
+    "Name": "The St. Joe Company",
+    "Address": "133 South WaterSound Parkway, Suite 100, Watersound, FL 32461, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ATHM",
+    "ISIN": "US05278C1071",
+    "Name": "Autohome-ADR",
+    "Address": "Tower B, CEC Plaza, 3 Dan Ling Street, Haidian District, Beijing 100080, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "VET",
+    "ISIN": "CA9237251058",
+    "Name": "Vermilion Energy",
+    "Address": "300, 520-3rd Avenue SW, Calgary, Alberta, T2P 0R3, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "OCI.NV",
+    "ISIN": "NL0010558797",
+    "Name": "OCI NV",
+    "Address": "Amstelplein 1, 1096 HA Amsterdam, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "SKM",
+    "ISIN": "US78440P3064",
+    "Name": "SK Telecom Co Ltd-ADR",
+    "Address": "11 Euljiro 2-gil, Jung-gu, Seoul, South Korea",
+    "CountryCode": "KR"
+  },
+  {
+    "Symbol": "3323.HK",
+    "ISIN": "CNE1000002N9",
+    "Name": "China National Building Material",
+    "Address": "7088 Shennan Boulevard, Futian District, Shenzhen, Guangdong, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "MDT.US",
+    "ISIN": "IE00BTN1Y115",
+    "Name": "Medtronic PLC",
+    "Address": "20 Lower Hatch Street, Dublin 2, Ireland",
+    "CountryCode": "IE"
+  },
+  {
+    "Symbol": "SHV",
+    "ISIN": "US4642886794",
+    "Name": "iShares Short Treasury Bond ETF",
+    "Address": "No. 221, Huangpu Avenue, Tianhe District, Guangzhou, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "DG.US",
+    "ISIN": "US2566771059",
+    "Name": "Dollar General Corporation",
+    "Address": "100 Mission Ridge, Goodlettsville, TN 37072, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CTAS",
+    "ISIN": "US1729081059",
+    "Name": "Cintas Corp",
+    "Address": "6800 Cintas Boulevard, P.O. Box 625737, Cincinnati, OH 45262-5737, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FXI",
+    "ISIN": "US4642871846",
+    "Name": "iShares China Large-Cap ETF",
+    "Address": "55 East 52nd Street, New York, NY 10055, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AGR.US",
+    "ISIN": "US05351W1036",
+    "Name": "Avangrid Inc",
+    "Address": "180 Marsh Hill Road, Orange, CT 06477, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QYLD",
+    "ISIN": "US37954Y4834",
+    "Name": "Global X Nasdaq 100 Covered Call ETF",
+    "Address": "Mirae Asset Global Investments Co., Ltd., 625 Madison Avenue, 3rd Floor New York, NY 10022",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IBE",
+    "ISIN": "ES0144580Y14",
+    "Name": "Iberdrola",
+    "Address": "PL EUSKADI 5, 48008 BILBAO, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "AQN",
+    "ISIN": "CA0158571053",
+    "Name": "Algonquin Power & Utilities Corp",
+    "Address": "354 Davis Road, Suite 100, Oakville, ON L6J 2X1, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "SPHD",
+    "ISIN": "US46138E3624",
+    "Name": "Invesco S&P 500 High Dividend Low Volatility ETF",
+    "Address": "Invesco Ltd., Two Peachtree Pointe, 1555 Peachtree Street, N.E., Suite 1800, Atlanta, Georgia 30309",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHY",
+    "ISIN": "US4642874576",
+    "Name": "iShares 1-3 Year Treasury Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IEF",
+    "ISIN": "US4642874402",
+    "Name": "iShares 7-10 Year Treasury Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SDIV",
+    "ISIN": "US37960A6698",
+    "Name": "Global X SuperDividend ETF",
+    "Address": "Mirae Asset Global Investments Co., Ltd., 625 Madison Avenue, 3rd Floor New York, NY 10022",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LNT",
+    "ISIN": "US0188021085",
+    "Name": "Alliant Energy Corp",
+    "Address": "4902 North Biltmore Lane, 53718 Madison, WI, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SSE.L",
+    "ISIN": "GB0007908733",
+    "Name": "SSE",
+    "Address": "SSE plc, Inveralmond House, 200 Dunkeld Road, Perth PH1 3AQ, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "EL",
+    "ISIN": "US5184391044",
+    "Name": "Estee Lauder Companies Inc",
+    "Address": "767 Fifth Avenue, New York, NY 10153, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ED",
+    "ISIN": "US2091151041",
+    "Name": "Consolidated Edison Inc",
+    "Address": "4 Irving Place, New York, New York 10003, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VEU",
+    "ISIN": "US9220427754",
+    "Name": "Vanguard FTSE All-World ex-US",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ORA.US",
+    "ISIN": "US6866881021",
+    "Name": "Ormat Technologies Inc.",
+    "Address": "6140 Plumas Street, Reno, NV 89519-6075, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VTV",
+    "ISIN": "US9229087443",
+    "Name": "Vanguard Value ETF",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SCHD",
+    "ISIN": "US8085247976",
+    "Name": "Schwab US Dividend Equity ETF",
+    "Address": "Charles Schwab & Co., Inc., 1360 3RD Ave FL 1 New York, NY, 10075-0461 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NOBL",
+    "ISIN": "US74348A4673",
+    "Name": "ProShares S&P 500 Dividend Aristocrats ETF",
+    "Address": "ProShares, 7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IJR",
+    "ISIN": "US4642878049",
+    "Name": "iShares Core S&P Small-Cap ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VOOG",
+    "ISIN": "US9219325050",
+    "Name": "Vanguard S&P 500 Growth ETF",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VFH",
+    "ISIN": "US92204A4058",
+    "Name": "Vanguard Financials ETF",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AY",
+    "ISIN": "GB00BLP5YB54",
+    "Name": "Atlantica Sustainable Infrastructure PLC",
+    "Address": "Great West House, GW1 17th Floor Great West Road, Brentford TW8 9DF, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "LQDE",
+    "ISIN": "IE0032895942",
+    "Name": "iShares $ Corporate Bond UCITS ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "EDP.LSB",
+    "ISIN": "PTEDP0AM0009",
+    "Name": "EDP - Energias de Portugal SA",
+    "Address": "Avenida 24 de Julho 12, 4th Floor, Lisbon 1249-300, Portugal",
+    "CountryCode": "PT"
+  },
+  {
+    "Symbol": "ENGI",
+    "ISIN": "FR0010208488",
+    "Name": "Engie SA",
+    "Address": "1, place Samuel de Champlain, Courbevoie 92400, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "RWE.DE",
+    "ISIN": "DE0007037129",
+    "Name": "RWE AG",
+    "Address": "RWE Platz 1-7, 45141 Essen, Deutschland",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "NIBEB.ST",
+    "ISIN": "SE0015988019",
+    "Name": "Nibe Industrier AB Ser. B",
+    "Address": "Järnvägsgatan 40, Markaryd 285 32, Sweden",
+    "CountryCode": "SE"
+  },
+  {
+    "Symbol": "RSP",
+    "ISIN": "US46137V3574",
+    "Name": "Invesco S&P 500 Equal Weight ETF",
+    "Address": "Invesco Ltd., Two Peachtree Pointe, 1555 Peachtree Street, N.E., Suite 1800, Atlanta, Georgia 30309",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLP",
+    "ISIN": "US81369Y3080",
+    "Name": "Consumer Staples Select Sector SPDR",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SQQQ",
+    "ISIN": "US74347G4322",
+    "Name": "ProShares UltraPro Short QQQ",
+    "Address": "ProShares, 7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SRTY",
+    "ISIN": "US74347G3902",
+    "Name": "ProShares UltraPro Short Russell2000",
+    "Address": "ProShares, 7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TMF",
+    "ISIN": "US25460G1388",
+    "Name": "Direxion Daily 20 Year Plus Treasury Bull 3x Shares",
+    "Address": "1301 Avenue of the Americas, 6th Avenue 28th Floor, New York, 10019, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "3800.HK",
+    "ISIN": "KYG3774X1088",
+    "Name": "GCL Technology Holdings Ltd",
+    "Address": "International Commerce Centre, Level 17 Unit 1703B-1706 1 Austin Road West, Kowloon, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "ANA",
+    "ISIN": "ES0125220311",
+    "Name": "Acciona",
+    "Address": "Avenida de Europa, 18, Parque Empresarial La Moraleja, Alcobendas 28108, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "0916.HK",
+    "ISIN": "CNE100000HD4",
+    "Name": "China Longyuan",
+    "Address": "Block C, 6-9 Fuchengmen North Street Bejing, China, 100034",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "TAN",
+    "ISIN": "US46138G7060",
+    "Name": "Invesco Solar ETF",
+    "Address": "Invesco Ltd., Two Peachtree Pointe, 1555 Peachtree Street, N.E., Suite 1800, Atlanta, Georgia 30309",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LQD",
+    "ISIN": "US4642872422",
+    "Name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PLS.ASX",
+    "ISIN": "AU000000PLS0",
+    "Name": "Pilbara Minerals Limited",
+    "Address": "146 Colin Street Level 2, 6005, West Perth",
+    "CountryCode": "AU"
+  },
+  {
+    "Symbol": "TECK",
+    "ISIN": "CA8787422044",
+    "Name": "Teck Resources Ltd",
+    "Address": "550 Burrard Street Suite 3300, Bentall 5, V6C 0B3, Vancouver",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "MCK",
+    "ISIN": "US58155Q1031",
+    "Name": "McKesson Corp",
+    "Address": "6555 State Highway 161, 75039, Irving",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VICI",
+    "ISIN": "US9256521090",
+    "Name": "VICI Properties Inc",
+    "Address": "535 Madison Avenue 20th floor, 10022, New York",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BBVA.US",
+    "ISIN": "US05946K1016",
+    "Name": "Banco Bilbao Vizcaya Argentaria SA-ADR",
+    "Address": "Ciudad BBVA Calle Azul 4\n28050, Madrid",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "SUBC",
+    "ISIN": "LU0075646355",
+    "Name": "Subsea 7",
+    "Address": "40 Brighton Road Sutton, SM2 5BN, London",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "HSBA.L",
+    "ISIN": "GB0005405286",
+    "Name": "HSBC Holdings",
+    "Address": "8 Canada Square, E14 5HQ, London",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "AKRBP.OL",
+    "ISIN": "NO0010345853",
+    "Name": "Aker BP ASA",
+    "Address": "Fornebuporten Building B Oksenoyveien 10, 1366, Lysaker",
+    "CountryCode": "NO"
+  },
+  {
+    "Symbol": "NHY",
+    "ISIN": "NO0005052605",
+    "Name": "Norsk Hydro",
+    "Address": "Drammensveien 264, 0283, Oslo",
+    "CountryCode": "NO"
+  },
+  {
+    "Symbol": "RTY",
+    "ISIN": "US7827001089",
+    "Name": "Russell 2000 Index",
+    "Address": "10 Paternoster Square, London, EC4M 7LS",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "BRBY.L",
+    "ISIN": "GB0031743007",
+    "Name": "Burberry Group",
+    "Address": "Horseferry House Horseferry Road, SW1 P2AW, London",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "NOVO-B",
+    "ISIN": "DK0062498333",
+    "Name": "Novo Nordisk B A/S",
+    "Address": "Novo Allé 1, 2880, Bagsværd",
+    "CountryCode": "DK"
+  },
+  {
+    "Symbol": "LLY",
+    "ISIN": "US5324571083",
+    "Name": "Eli Lilly & Co",
+    "Address": "Lilly Corporate Center, 46285, Indianapolis",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GEST.MC",
+    "ISIN": "ES0105223004",
+    "Name": "Gestamp Automocion",
+    "Address": "Calle Alfonso XII, 16, 28014, Madrid, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "QFIN",
+    "ISIN": "US88557W1018",
+    "Name": "Qifu Technology Inc",
+    "Address": "7/F Lujiazui Finance Plaza No. 1217 Dongfang Road, 200122, Shanghai",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "DIS",
+    "ISIN": "US2546871060",
+    "Name": "Walt Disney",
+    "Address": "500 South Buena Vista Street, 91521-6205, Burbank, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPXS",
+    "ISIN": "US25460E2651",
+    "Name": "Direxion Daily S&P 500 Bear 3X Shares",
+    "Address": "Direxion, 1301 Avenue of the Americas (6th Avenue), 28 th Floor, New York, New York 10019, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "META",
+    "ISIN": "US30303M1027",
+    "Name": "Meta Platforms Inc",
+    "Address": "1 Meta Way, 94025, Menlo Park, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HSBC",
+    "ISIN": "US4042804066",
+    "Name": "HSBC-ADR",
+    "Address": "8 Canada Square, London, E14 5HQ, United Kingdom",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "LLOY.L",
+    "ISIN": "GB0008706128",
+    "Name": "Lloyd's Banking Group PLC",
+    "Address": "25 Gresham Street, EC2V 7HN, London, UK",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "NN.NV",
+    "ISIN": "NL0010773842",
+    "Name": "NN Group NV",
+    "Address": "NN Group NV, Schenkkade 65, 2595 AS, The Hague, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "TME",
+    "ISIN": "US88034P1093",
+    "Name": "Tencent Music Entertainment Group-ADR",
+    "Address": "Kexing Science Park, Hi-Tech Park Kejizhongsan Avenue, Unit 3, 518057, Shenzhen, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "BABA",
+    "ISIN": "US01609W1027",
+    "Name": "Alibaba-ADR",
+    "Address": "969 West Wen Yi Road Yu Hang District, 311121, Hangzhou, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "9988.HK",
+    "ISIN": "KYG017191142",
+    "Name": "Alibaba Group Holding Ltd (Hong Kong)",
+    "Address": "969 West Wen Yi Road Yu Hang District, 311121, Hangzhou, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "3988.HK",
+    "ISIN": "CNE1000001Z5",
+    "Name": "Bank of China",
+    "Address": "No. 1 Fuxingmen Nei Dajie Xicheng District, 100818, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "TNK",
+    "ISIN": "BMG8726X1065",
+    "Name": "Teekay Tankers Ltd",
+    "Address": "Swan Building 26 Victoria Street, HM 12, Hamilton, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "DOYU",
+    "ISIN": "US25985W2044",
+    "Name": "Douyu -ADR",
+    "Address": "DouYu International Holdings Ltd., New Development International Center No. 473 Guanshan Avenue, 430073, Wuhan, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "SPXL",
+    "ISIN": "US25459W8626",
+    "Name": "Direxion Daily S&P 500 Bull 3X",
+    "Address": "Direxion, 1301 Avenue of the Americas (6th Avenue), 28 th Floor, New York, New York 10019, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TQQQ",
+    "ISIN": "US74347X8314",
+    "Name": "ProShares UltraPro QQQ",
+    "Address": "7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GOOG",
+    "ISIN": "US02079K1079",
+    "Name": "Alphabet",
+    "Address": "1600 Amphitheatre Parkway, 94043, Mountain View, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ARM",
+    "ISIN": "US0420682058",
+    "Name": "ARM Holdings PLC",
+    "Address": "110 Fulbourn Road, Cambridge, CB1 9NJ, United Kingdom",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "TSM",
+    "ISIN": "US8740391003",
+    "Name": "Taiwan Semiconductor Manufacturing Co Ltd – ADR",
+    "Address": "Hsinchu Science Park, No. 8, Li-Hsin Road 6, Hsinchu City, 300096, Taiwan",
+    "CountryCode": "TW"
+  },
+  {
+    "Symbol": "SPOT",
+    "ISIN": "LU1778762911",
+    "Name": "Spotify Technologies SA",
+    "Address": "5, Place de la Gare, Luxembourg, 1616, Luxembourg",
+    "CountryCode": "LU"
+  },
+  {
+    "Symbol": "SNAP",
+    "ISIN": "US83304A1060",
+    "Name": "Snapchat Inc",
+    "Address": "3000 31st Street, Santa Monica, California 90405, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VERX",
+    "ISIN": "US92538J1060",
+    "Name": "Vertex Inc",
+    "Address": "2301 Renaissance Boulevard, King of Prussia, Pennsylvania 19406, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AI",
+    "ISIN": "US12468P1049",
+    "Name": "C3.ai Inc.",
+    "Address": "1400 Seaport Boulevard, Redwood City, California 94063, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMD",
+    "ISIN": "US0079031078",
+    "Name": "Advanced Micro Devices Inc",
+    "Address": "2485 Augustine Drive, Santa Clara, California 95054, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TSLA",
+    "ISIN": "US88160R1014",
+    "Name": "Tesla Motors, Inc.",
+    "Address": "1 Tesla Road, Austin, Texas 78725, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "00001.HK",
+    "ISIN": "KYG217651051",
+    "Name": "CK Hutchison Holdings Ltd",
+    "Address": "48th Floor, Cheung Kong Center 2 Queens Road, Central, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00006.HK",
+    "ISIN": "HK0006000050",
+    "Name": "Power Assets Holdings Ltd",
+    "Address": "10 Harcourt Road, Hutchison Ho 19/F, Rooms 1913-1914 Central Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00011.HK",
+    "ISIN": "HK0011000095",
+    "Name": "Hang Seng Bank Ltd",
+    "Address": "83 Des Voeux Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00019.HK",
+    "ISIN": "HK0019000162",
+    "Name": "Swire Pacific Ltd",
+    "Address": "1 Pacific Place 33th Floor, 88 Queensway Central Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00135.HK",
+    "ISIN": "BMG5320C1082",
+    "Name": "Kunlun Energy Co Ltd",
+    "Address": "39/F., 118 Connaught Road West, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00268.HK",
+    "ISIN": "KYG525681477",
+    "Name": "Kingdee International Software",
+    "Address": "Kingdee Software Park, No.2 Kejinan 12 Road, South District, High-Tech Industrial Park, Nanshan, Shenzhen, Guangdong, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "00285.HK",
+    "ISIN": "HK0285041858",
+    "Name": "BYD Electronic International",
+    "Address": "No. 3001, Bao He Road, Baolong, Longgang, Shenzhen, Guangdong 518116, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "00388.HK",
+    "ISIN": "HK0388045442",
+    "Name": "Hong Kong Exchanges and Clearing",
+    "Address": "8/F Two Exchange Square 8 Connaught Place, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "00788.HK",
+    "ISIN": "CNE100003688",
+    "Name": "China Tower Corp Ltd",
+    "Address": "19/F, No. 73 Fucheng Road, Haidian District, Beijing 100000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "00857.HK",
+    "ISIN": "CNE1000003W8",
+    "Name": "PetroChina Co Ltd",
+    "Address": "No. 9, Dongzhimen North Street, Dongcheng District, Beijing 100007, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "01093.HK",
+    "ISIN": "HK1093012172",
+    "Name": "CSPC Pharmaceutical Group Ltd",
+    "Address": "Suite 3206, 32nd Floor, Central Plaza 18 Harbour Road, HK- Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "01177.HK",
+    "ISIN": "KYG8167W1380",
+    "Name": "Sino Biopharmaceutical Ltd",
+    "Address": "Rm 4109, Office Tower, Convention Plaza, 1 Harbour Road, HK- Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "02020.HK",
+    "ISIN": "KYG040111059",
+    "Name": "ANTA Sports Products Ltd",
+    "Address": "ANTA Sports Products Limited, Cricket Square, Hutchins Drive, P.O. Box 2681, KY1-1111 Grand Cayman, Cayman Islands",
+    "CountryCode": "KY"
+  },
+  {
+    "Symbol": "02382.HK",
+    "ISIN": "KYG8586D1097",
+    "Name": "Sunny Optical Technology Group",
+    "Address": "Unit 2304-5, 23rd Floor, Henley Building, 5 Queens Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "02386.HK",
+    "ISIN": "CNE100001NV2",
+    "Name": "SINOPEC Engineering (Group) Co, Ltd",
+    "Address": "Tower B, No.19, Anhuibeil, Chaoyang District, Beijing 100101, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "02688.HK",
+    "ISIN": "KYG3066L1014",
+    "Name": "ENN Energy Holdings Ltd",
+    "Address": "Building A, ENN Industrial Park, Xinyuan DongDao Road, Economic & Technological Dev Zone, Langfang, Hubei 065001, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "06881.HK",
+    "ISIN": "CNE100001NT6",
+    "Name": "China Galaxy Securities Co Ltd",
+    "Address": "2-6/F, Block C, No.35, Jinrong Street, Xicheng Dist., 100000 Beijing",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0700.HK",
+    "ISIN": "KYG875721634",
+    "Name": "Tencent Holdings Ltd",
+    "Address": "Tencent Binhai Towers, No. 33 Haitian 2nd Road, Nanshan District, Shenzhen, Guangdong 518054, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0728.HK",
+    "ISIN": "CNE1000002V2",
+    "Name": "China Telecom Corp Ltd",
+    "Address": "31 Jinrong Street, Xicheng District, Beijing 100033, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0753.HK",
+    "ISIN": "CNE1000001S0",
+    "Name": "Air China Ltd",
+    "Address": "Airport Industrial Zone 30 Tianzhu Road, CN-BJ 101300 Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0762.HK",
+    "ISIN": "HK0000049939",
+    "Name": "China Unicom HK Ltd",
+    "Address": "75th Floor The Center 99 Queens Road Central Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0883.HK",
+    "ISIN": "HK0883013259",
+    "Name": "Cnooc Ltd",
+    "Address": "65th floor, Bank of China Tower 1 Garden Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0914.HK",
+    "ISIN": "CNE1000001W2",
+    "Name": "Anhui Conch Cement Co Ltd",
+    "Address": "No. 39 Wenhua Road, Wuhu City, Anhui 241000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0941.HK",
+    "ISIN": "HK0941009539",
+    "Name": "China Mobile Ltd",
+    "Address": "99 Queens Road, 60th Floor, The Center Central, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0968.HK",
+    "ISIN": "KYG9829N1025",
+    "Name": "Xinyi Solar Holdings Ltd",
+    "Address": "Xinyi PV Glass Industrial Zone, 2 Xinyi Road, Wuhu Economic and Tech Dev Zone, Wuhu, Anhui 241009, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "0992.HK",
+    "ISIN": "HK0992009065",
+    "Name": "Lenovo Group Ltd",
+    "Address": "23rd Floor, Lincoln House, Taikoo Place 979 Road, Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "0998.HK",
+    "ISIN": "CNE1000001Q4",
+    "Name": "China CITIC Bank Co Ltd",
+    "Address": "9 Chaoyangmen Beidajie, CN-BJ 100010 Beijing, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "1339.HK",
+    "ISIN": "CNE100001MK7",
+    "Name": "Peoples Insurance Company (Group) of China Ltd",
+    "Address": "1-13/F, 88 West Chang an Avenue, CN-BJ 100031 Beijing, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "1585.HK",
+    "ISIN": "KYG9830F1063",
+    "Name": "Yadea Group Holdings Ltd",
+    "Address": "Xishan Road, Dacheng Industrial Zone, Anzhen Town, Xishan District, Wuxi, Jiangsu 214000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2318.HK",
+    "ISIN": "CNE1000003X6",
+    "Name": "Ping An Insurance (Group) Company of China Ltd",
+    "Address": "Ping An Finance Center No. 5033, Yitian Road Futian District, Shenzhen, 518033 China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2328.HK",
+    "ISIN": "CNE100000593",
+    "Name": "PICC Property and Casualty Co Ltd",
+    "Address": "No. 2 Jianguomenwai Avenue, Tower 2, Chaoyang District, Beijing 100022, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2601.HK",
+    "ISIN": "CNE1000009Q7",
+    "Name": "China Pacific Insurance (Group) Co Ltd",
+    "Address": "1 Zhongshan South Road Huangpu District, Shanghai, 200010 China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2883.HK",
+    "ISIN": "CNE1000002P4",
+    "Name": "China Oilfield Services Ltd",
+    "Address": "Room 902, CNOOC Plaza, 6 Dongzhimenwai Xiaojie, Dongcheng District, Beijing 100027, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "3888.HK",
+    "ISIN": "KYG5264Y1089",
+    "Name": "Kingsoft Corp Ltd",
+    "Address": "Kingsoft Tower, No. 33 Xiaoying West Road, Haidan District, Beijing 100085, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "AAPL",
+    "ISIN": "US0378331005",
+    "Name": "Apple Inc",
+    "Address": "One Apple Park Way, Cupertino, CA 95014-2083, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ADT",
+    "ISIN": "US00090Q1031",
+    "Name": "ADT Inc",
+    "Address": "1501 Yamato Road Boca Raton, FL 33431, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BAC",
+    "ISIN": "US0605051046",
+    "Name": "Bank of America Corp",
+    "Address": "100 North Tryon Street, Charlotte, NC 28255, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BMW.DE",
+    "ISIN": "DE0005190003",
+    "Name": "Bayerische Motoren Werke Aktiengesellschaft",
+    "Address": "BMW AG, Petuelring 130, DE-80788 München, Bayern, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "BP.L",
+    "ISIN": "GB0007980591",
+    "Name": "BP plc",
+    "Address": "1 St James Square, SW1Y 4PD London",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "C",
+    "ISIN": "US1729674242",
+    "Name": "Citigroup Inc",
+    "Address": "388 Greenwich Street, New York, NY 10013, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "COST",
+    "ISIN": "US22160K1051",
+    "Name": "Costco Wholesale Corp",
+    "Address": "999 Lake Drive, WA 98027 Issaquah, Washington, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DJ30",
+    "ISIN": "US2605661048",
+    "Name": "DJ30",
+    "Address": "3322 HH Dow Way Midland, MI 48674 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DSM.NV",
+    "ISIN": "NL0000009827",
+    "Name": "Koninklijke DSM NV",
+    "Address": "Royal DSM N.V., Het Overloon 1, PO Box 6500, NL-6411 TE Heerlen",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "DUFN.ZU",
+    "ISIN": "CH0023405456",
+    "Name": "Dufry AG",
+    "Address": "Brunngasslein 12, Basel, Basel-Stadt (Basle Town) 4010",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "EBAY",
+    "ISIN": "US2786421030",
+    "Name": "eBay Inc",
+    "Address": "2025 Hamilton Avenue, San Jose, CA 95125",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "EWZ",
+    "ISIN": "US4642864007",
+    "Name": "iShares Inc, MSCI Brazil Capped ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GAW",
+    "ISIN": "GB0003718474",
+    "Name": "Games Workshop Group plc",
+    "Address": "Willow Road, Lenton, Nottingham NG7 2WS",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "GE",
+    "ISIN": "US3696043013",
+    "Name": "General Electric Co",
+    "Address": "41 Farnsworth Street, Boston, MA 02210, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GILD",
+    "ISIN": "US3755581036",
+    "Name": "Gilead Sciences Inc",
+    "Address": "333 Lakeside Drive, CA 94404 San Mateo, California",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HD",
+    "ISIN": "US4370761029",
+    "Name": "Home Depot Inc",
+    "Address": "2455 Paces Ferry Road, Atlanta, GA 30339-4024",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IAG.L",
+    "ISIN": "ES0177542018",
+    "Name": "International Consolidated Airlines",
+    "Address": "International Consolidated Airlines Group, S.A., Waterside (HAA2) Speedbird Way, PO Box 365, UB7 0GB Harmondsworth, Greater London",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "IBM",
+    "ISIN": "US4592001014",
+    "Name": "IBM Corp",
+    "Address": "International Business Machines Corp., 1 New Orchard Road, Armonk, NY 10504-1722",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IMB.L",
+    "ISIN": "GB0004544929",
+    "Name": "Imperial Brands PLC",
+    "Address": "121 Winterstoke Road, BS3 2LL Bristol, Bristol",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "INDA",
+    "ISIN": "US46429B5984",
+    "Name": "iShares MSCI India ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "INTC",
+    "ISIN": "US4581401001",
+    "Name": "Intel Corp",
+    "Address": "2200 Mission College Boulevard, Santa Clara, CA 95054-1549",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JPM",
+    "ISIN": "US46625H1005",
+    "Name": "JPMorgan Chase and Co",
+    "Address": "383 Madison Avenue, New York, NY 10017-2070",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KO",
+    "ISIN": "US1912161007",
+    "Name": "The Coca-Cola Co",
+    "Address": "One Coca-Cola Plaza, Atlanta, GA 30313-2420",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KRE",
+    "ISIN": "US78464A6982",
+    "Name": "SPDR S and P Regional Banking ETF",
+    "Address": "1 Iron Street, Boston, MA 02210",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MA",
+    "ISIN": "US57636Q1040",
+    "Name": "Mastercard Inc",
+    "Address": "2000 Purchase Street, Purchase, NY 10577",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MCD",
+    "ISIN": "US5801351017",
+    "Name": "McDonalds Corp",
+    "Address": "110 North Carpenter Street, Chicago, IL 60523",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MCHI",
+    "ISIN": "US46429B6719",
+    "Name": "iShares MSCI China ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MGM",
+    "ISIN": "US5529531015",
+    "Name": "MGM Resorts International",
+    "Address": "3600 Las Vegas Boulevard South, NV 89109 Las Vegas, Nevada",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MSFT",
+    "ISIN": "US5949181045",
+    "Name": "Microsoft Corp",
+    "Address": "One Microsoft Way, Redmond, WA 98052-6399",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MTX.DE",
+    "ISIN": "DE000A0D9PT0",
+    "Name": "MTU Aero Engines AG",
+    "Address": "Dachauer Strasse 665, DE-80995 München, Bayern",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "NEE",
+    "ISIN": "US65339F1012",
+    "Name": "NextEra Energy Inc",
+    "Address": "700 Boulevard Universe, PO Box 14000, FL 33408-0420 Juno Beach, Florida",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NSDQ100",
+    "ISIN": "US6311011026",
+    "Name": "NASDAQ100",
+    "Address": "Nasdaq Global Headquarters, 151 W. 42nd Street, New York City, NY, 10036, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NVDA",
+    "ISIN": "US67066G1040",
+    "Name": "NVIDIA Corporation",
+    "Address": "NVIDIA Corporation, 2788 San Tomas Expressway, CA 95051 Santa Clara, California",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "OXY",
+    "ISIN": "US6745991058",
+    "Name": "Occidental Petroleum Corp",
+    "Address": "Suite 110 5 Plaza Greenway, TX 77046 Houston, Texas",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PFE",
+    "ISIN": "US7170811035",
+    "Name": "Pfizer Inc",
+    "Address": "235 East 42nd Street, US-10017 New York, NY, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QCOM",
+    "ISIN": "US7475251036",
+    "Name": "Qualcomm Inc",
+    "Address": "5775 Morehouse Drive, San Diego, CA 92121-171",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RDS.A",
+    "ISIN": "GB00B03MLX29",
+    "Name": "Royal Dutch ADR",
+    "Address": "Royal Dutch Shell plc, Carel van Bylandtlaan 30, PO Box 162, NL-2596 HR Den Haag",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "RDS.B",
+    "ISIN": "GB00B03MM408",
+    "Name": "Royal Dutch Shell Shs B",
+    "Address": "Royal Dutch Shell plc, Carel van Bylandtlaan 30, PO Box 162, NL-2596 HR Den Haag",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "RDSB.L",
+    "ISIN": "GB00B03MM408",
+    "Name": "Royal Dutch Shell B",
+    "Address": "Royal Dutch Shell plc, Carel van Bylandtlaan 30, PO Box 162, NL-2596 HR Den Haag",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "RR.L",
+    "ISIN": "GB00B63H8491",
+    "Name": "Rolls-Royce Holdings plc",
+    "Address": "90 York Way, N1 9FX London",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "RTX",
+    "ISIN": "US75513E1010",
+    "Name": "Raytheon-Technologies Corp",
+    "Address": "10 Road Farm Springs, CT 06103 Hartford, Connecticut",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SOXX",
+    "ISIN": "US4642875235",
+    "Name": "iShares PHLX Semiconductor ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPG",
+    "ISIN": "US8288061091",
+    "Name": "Simon Property Group Inc",
+    "Address": "225 Street West Washington, IN 46204 Indianapolis, Indiana",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPR",
+    "ISIN": "US8485741099",
+    "Name": "Spirit AeroSystems Holdings Inc",
+    "Address": "3801 SOUTH OLIVER, WICHITA KS 67210",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPX500",
+    "ISIN": "US78378X1072",
+    "Name": "SPX500",
+    "Address": "S and P Dow Jones Indices LLC, 55 Water Street, New York City, New York, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "T",
+    "ISIN": "US00206R1023",
+    "Name": "AT and T Inc",
+    "Address": "208 South Akard Street, Dallas, TX 75202",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TGT",
+    "ISIN": "US87612E1064",
+    "Name": "Target Corp",
+    "Address": "100 Nicollet Mall, MN 55403 Minneapolis, Minnesota",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TRIG",
+    "ISIN": "GG00BBHX2H91",
+    "Name": "Renewables Infrastructure Group Ltd",
+    "Address": "East Wing, Trafalgar Court, Les Banques, St. Peter Port, Guernsey GY1 3PP",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "UPS",
+    "ISIN": "US9113121068",
+    "Name": "United Parcel Service Inc",
+    "Address": "55 Glenlake Parkway NE, Atlanta, GA 30328",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "USRT",
+    "ISIN": "US4642885218",
+    "Name": "iShares Core U.S. REIT ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "V",
+    "ISIN": "US92826C8394",
+    "Name": "Visa Inc",
+    "Address": "PO Box 8999, San Francisco, CA 94128-8999",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VIAC",
+    "ISIN": "US92556H1077",
+    "Name": "VIACOMCBS Inc",
+    "Address": "51 Street West 52nd, NY 10019 New York City, New York",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VNQ",
+    "ISIN": "US9229085538",
+    "Name": "Vanguard Real Estate ETF",
+    "Address": "Vanguard REIT Index Fund, 100 Vanguard Boulevard, Malvern, PA 19355-2331",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VOO",
+    "ISIN": "US9229083632",
+    "Name": "Vanguard S&P 500 ETF",
+    "Address": "The Vanguard Group Instl Investor Information Dept P.O. Box 2900 Valley Forge, PA 19482-2900 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VWO",
+    "ISIN": "US9220428588",
+    "Name": "Vanguard FTSE Emerging Markets",
+    "Address": "The Vanguard Group Instl Investor Information Dept P.O. Box 2900 Valley Forge, PA 19482-2900 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WLL",
+    "ISIN": "US9663875089",
+    "Name": "Whiting Petroleum Corp",
+    "Address": "1700 Broadway Suite 2300 Denver, CO 80290 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLE",
+    "ISIN": "US81369Y5069",
+    "Name": "Energy Select Sector SPDR",
+    "Address": "Energy Select Sector SPDR Fund, 1 Lincoln Street, Boston, MA 02111",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KER",
+    "ISIN": "FR0000121485",
+    "Name": "Kering",
+    "Address": "40 rue de Sèvres, Paris 7e, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "ORSTED",
+    "ISIN": "DK0060094928",
+    "Name": "Ørsted A/S",
+    "Address": "Kraftværksvej 53 - Skærbæk, 7000 Fredericia, Denmark",
+    "CountryCode": "DK"
+  },
+  {
+    "Symbol": "HYG",
+    "ISIN": "US4642885135",
+    "Name": "Iboxx $ High Yield Corporate Bd Ishares",
+    "Address": "iShares/BlackRock, 400 Howard St., San Francisco, CA 94105",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DANSKE",
+    "ISIN": "DK0010274414",
+    "Name": "Danske Bank A/S",
+    "Address": "Koebenhavn K, 1092 Denmark",
+    "CountryCode": "DK"
+  },
+  {
+    "Symbol": "NTES",
+    "ISIN": "US64110W1027",
+    "Name": "NetEase, Inc",
+    "Address": "NetEase Building No. 599 Wangshang Road Binjiang District Hangzhou 310052, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "BLK",
+    "ISIN": "US09247X1019",
+    "Name": "BlackRock Inc",
+    "Address": "40 East 52nd Street, New York, NY, United States 10022",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ALB",
+    "ISIN": "US0126531013",
+    "Name": "Albemarle Corporation",
+    "Address": "South Fourth Street 330, US-23219 Richmond, Virginia",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RCL",
+    "ISIN": "LR0008862868",
+    "Name": "Royal Caribbean Cruises",
+    "Address": "Royal Caribbean Group, 1050 Caribbean Way, Miami, FL 33132-2096",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "STLD",
+    "ISIN": "US8581191009",
+    "Name": "Steel Dynamics",
+    "Address": "Pointe Inverness Way, Suite 200 6714, US-46804 Fort Wayne, IN",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CVS",
+    "ISIN": "US1266501006",
+    "Name": "CVS Health",
+    "Address": "CVS Health, One CVS Drive, Woonsocket, Rhode Island 02895",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TGS",
+    "ISIN": "NO0003078800",
+    "Name": "TGS-NOPEC Geophysical Company",
+    "Address": "10451 Clay Road, Houston, Texas, 77041, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RHM.DE",
+    "ISIN": "DE0007030009",
+    "Name": "Rheinmetall Group",
+    "Address": "Rheinmetall Platz 1 40476 Düsseldorf, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "JNK",
+    "ISIN": "US78468R6229",
+    "Name": "SPDR Bloomberg Barclays High Y",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "00257.HK",
+    "ISIN": "HK0257001336",
+    "Name": "China Everbright International",
+    "Address": "Room 2703, Far East Finance Centre, Hong Kong Island, Hong Kong, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "NVTKL.L",
+    "ISIN": "US6698881090",
+    "Name": "NOVATEK OAO",
+    "Address": "2 Udaltsova Street, Moscow, 119415, Russian Federation",
+    "CountryCode": "RU"
+  },
+  {
+    "Symbol": "LDOS",
+    "ISIN": "US5253271028",
+    "Name": "Leidos Holdings Inc",
+    "Address": "1750 Presidents St, Reston, VA 20190, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MC",
+    "ISIN": "US5024413065",
+    "Name": "LVMH Moet Hennessy Louis Vuitton SA",
+    "Address": "22, avenue Montaigne, 75008 Paris - France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "SLB",
+    "ISIN": "AN8068571086",
+    "Name": "Schlumberger",
+    "Address": "Risabergvegen 3, PO Box 8013, Tananger, Stavanger, 4068 Stavanger, 4056, Norway",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CMCSA",
+    "ISIN": "US20030N1019",
+    "Name": "Comcast Corp",
+    "Address": "1701 John F Kennedy Blvd, Philadelphia, PA 19103, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HUSQB.ST",
+    "ISIN": "SE0001662230",
+    "Name": "Husqvarna AB Ser. B",
+    "Address": "Box 7454 SE-103 92 Stockholm",
+    "CountryCode": "SE"
+  },
+  {
+    "Symbol": "SPY",
+    "ISIN": "US78462F1030",
+    "Name": "SPDR S&P 500 Trust ETF",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HAS",
+    "ISIN": "US4180561072",
+    "Name": "Hasbro Inc",
+    "Address": "Pawtucket, Rhode Island, U.S.",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "UBSG",
+    "ISIN": "CH0244767585",
+    "Name": "UBS Group AG",
+    "Address": "Bahnhofstrasse 45, 8001 Zurich, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "CDI.PA",
+    "ISIN": "FR0000130403",
+    "Name": "Christian Dior",
+    "Address": "30 Avenue Montaigne Paris, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "LMT",
+    "ISIN": "US5398301094",
+    "Name": "Lockheed Martin Corporation",
+    "Address": "Bethesda, Maryland, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TXN",
+    "ISIN": "US8825081040",
+    "Name": "Texas Instruments Incorporated",
+    "Address": "12500 TI Boulevard Dallas, TX 75243 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ULVR.L",
+    "ISIN": "GB00B10RZP78",
+    "Name": "Unilever PLC",
+    "Address": "Unilever House 100 Victoria Embankment London EC4Y 0DY United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "VZ",
+    "ISIN": "US92343V1044",
+    "Name": "Verizon Communications Inc.",
+    "Address": "1095 Avenue of the Americas, New York, NY 10036",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HEN3.DE",
+    "ISIN": "DE0006048432",
+    "Name": "Henkel AG & Co. KGaA",
+    "Address": "Henkelstrasse 67, Düsseldorf 40589, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "MPW",
+    "ISIN": "US58463J3041",
+    "Name": "Medical Properties Trust, Inc.",
+    "Address": "1000 Urban Center Drive, Suite 501, Birmingham, AL 35242, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BA",
+    "ISIN": "US0970231058",
+    "Name": "The Boeing Company",
+    "Address": "100 North Riverside Plaza, Chicago, IL 60606-1596, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HL.L",
+    "ISIN": "GB00B1VZ0M25",
+    "Name": "Hargreaves Lansdown plc",
+    "Address": "One College Square South, Anchor Road, Bristol BS1 5HL, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "TIP",
+    "ISIN": "US4642871762",
+    "Name": "iShares TIPS Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MCHP",
+    "ISIN": "US5950171042",
+    "Name": "Microchip Technology Incorporated",
+    "Address": "2355 West Chandler Boulevard, Chandler, AZ 85224-6199, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ITW",
+    "ISIN": "US4523081093",
+    "Name": "Illinois Tool Works Inc.",
+    "Address": "155 Harlem Avenue, Glenview, IL 60025-4075, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TLT",
+    "ISIN": "US4642874329",
+    "Name": "iShares 20+ Year Treasury Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "KR",
+    "ISIN": "US501044DN88",
+    "Name": "The Kroger Co.",
+    "Address": "1014 Vine Street, Cincinnati, OH 45202, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMAT",
+    "ISIN": "US0382221051",
+    "Name": "Applied Materials, Inc.",
+    "Address": "3050 Bowers Avenue, PO Box 58039, Santa Clara, CA 95052-3299, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLV",
+    "ISIN": "US81369Y2090",
+    "Name": "Health Care Select Sector SPDR Fund",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NXPI",
+    "ISIN": "NL0009538784",
+    "Name": "NXP Semiconductors N.V.",
+    "Address": "High Tech Campus 60, Eindhoven 5656 AG, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "BPY",
+    "ISIN": "BMG162491077",
+    "Name": "Brookfield Property Partners L.P.",
+    "Address": "73 Front Street, 5th Floor, Hamilton HM 12, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "GRMN",
+    "ISIN": "CH0114405324",
+    "Name": "Garmin Ltd.",
+    "Address": "Mühlentalstrasse 2, Schaffhausen 8200, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "ATVI",
+    "ISIN": "US00507V1098",
+    "Name": "Activision Blizzard, Inc.",
+    "Address": "3100 Ocean Park Boulevard, Santa Monica, CA 90405, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CME",
+    "ISIN": "US12572Q1058",
+    "Name": "CME Group Inc.",
+    "Address": "20 South Wacker Drive, Chicago, IL 60606, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AGN",
+    "ISIN": "CA01559R1038",
+    "Name": "Algernon Pharmaceuticals Inc.",
+    "Address": "700 West Pender Street, Suite 915, Vancouver, BC V6C 1G8, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "2333.HK",
+    "ISIN": "CNE100000338",
+    "Name": "Great Wall Motor",
+    "Address": "South Chaoyang Street No 2266, Baoding, 071000, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "AZN",
+    "ISIN": "US0463531089",
+    "Name": "AstraZeneca PLC ADR",
+    "Address": "Cambridge Biomedical Campus, 1 Francis Crick Avenue, Cambridge, Cambridgeshire CB2 0AA, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "2238.HK",
+    "ISIN": "CNE100000Q35",
+    "Name": "Guangzhou Automobile",
+    "Address": "GAC Center, No. 23 Xingguo Road, Zhujiang New Town, Tianhe District, Guangzhou, Guangdong 510623, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2899.HK",
+    "ISIN": "CNE100000502",
+    "Name": "Zijin Mining",
+    "Address": "Shangang County 1 Zijin Road, CN-FJ 364200 Longyan, Fujian, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "IIPR",
+    "ISIN": "US45781V1017",
+    "Name": "Innovative Industrial Properties Inc. A",
+    "Address": "11440 WEST BERNARDO COURT, SUITE 220 SAN DIEGO CA 92127, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "00175.HK",
+    "ISIN": "KYG3777B1032",
+    "Name": "Geely Automobile Holdings Ltd",
+    "Address": "Room 2301 23 Floor, Great Eagle Centre 23 Harbour Road, HK- Wanchai, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "VOW3.DE",
+    "ISIN": "DE0007664039",
+    "Name": "Volkswagen AG",
+    "Address": "Berliner Ring 2, Wolfsburg, Niedersachsen (Lwr Saxony) 38440, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "PAH3.DE",
+    "ISIN": "DE000PAH0038",
+    "Name": "Porsche Automobil Holding SE",
+    "Address": "Porscheplatz 1, DE-70435 Stuttgart, Baden-Württemberg, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "02196.HK",
+    "ISIN": "CNE100001M79",
+    "Name": "Shanghai Fosun Pharmaceutical",
+    "Address": "Building A, No. 1289 Yishan Road, Shanghai 200233, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "MCRO.L",
+    "ISIN": "GB00BJ1F4N75",
+    "Name": "Micro Focus International PLC",
+    "Address": "The Lawn, 22-30 Old Bath Road, Newbury, Berkshire RG14 1QN, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "00763.HK",
+    "ISIN": "CNE1000004Y2",
+    "Name": "ZTE Corp",
+    "Address": "No. 55 Siciene & Tech South Road, Nanshan District, Shenzhen, Guangdong 518057, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "2338.HK",
+    "ISIN": "CNE1000004L9",
+    "Name": "Weichai Power",
+    "Address": "No. 197 Fu Shou East Street, Section A, High Technology Industrial Dev Zone, Weifang, Shandong 261061, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "1958.HK",
+    "ISIN": "CNE100001TJ4",
+    "Name": "BAIC Motor Corp Ltd",
+    "Address": "No. 99, Shuanghe Street, Renhe Town, Shunyi District, Beijing 101300, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "LHA.DE",
+    "ISIN": "DE0008232125",
+    "Name": "Deutsche Lufthansa Aktiengesellschaft",
+    "Address": "Linnicher Strasse 48, Cologne, Nordrhein-Westfalen 50933, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "LOGN.ZU",
+    "ISIN": "CH0025751329",
+    "Name": "Logitech International SA",
+    "Address": "EPFL - Quartier de l'Innovation Daniel Borel Innovation Center, CH-1015 Lausanne, Waadt, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "00384.HK",
+    "ISIN": "BMG2109G1033",
+    "Name": "China Gas Holdings Ltd",
+    "Address": "Room 1601, 16th Floor, AXA Centre, 151 Gloucester Road, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "TUI.L",
+    "ISIN": "DE000TUAG505",
+    "Name": "TUI AG",
+    "Address": "Karl-Wiechert-Allee 4, Hannover, Niedersachsen (Lwr Saxony) 30625, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "ASML",
+    "ISIN": "USN070592100",
+    "Name": "ASML Holding NV",
+    "Address": "De Run 6501, Veldhoven, Noord-Brabant 5504 DR, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "1628.HK",
+    "ISIN": "KYG9884T1013",
+    "Name": "Yuzhou Properties Co Ltd",
+    "Address": "Yuzhou Plaza, 299 Jingang Road, Pudong New District, Shanghai 361003, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "ARKG",
+    "ISIN": "US00214Q3020",
+    "Name": "ARK Genomic Revolution ETF",
+    "Address": "155 WEST 19TH STREET, FIFTH FLOOR, NEW YORK, NY 10011, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ET",
+    "ISIN": "US29273V1008",
+    "Name": "Energy Transfer LP",
+    "Address": "8111 Westchester Drive, Suite 600, Dallas, TX 75225",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHEL.L",
+    "ISIN": "GB00BP6MXD84",
+    "Name": "Shell PLC",
+    "Address": "Carel van Bylandtlaan 30, The Hague 2596 HR, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "YINN",
+    "ISIN": "US25459W7719",
+    "Name": "Direxion Daily FTSE China Bull 3X Shares",
+    "Address": "1301 Avenue of the Americas, 6th Avenue 28th Floor, New York, 10019, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HMMJ",
+    "ISIN": "CA44054J1012",
+    "Name": "Horizons Marijuana Life Sciences Index ETF",
+    "Address": "55 University Ave Suite 800, Toronto, ON M5E 1S2, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "SESG.PA",
+    "ISIN": "LU0088087324",
+    "Name": "SES GLOBAL FDR",
+    "Address": "Chateau de Betzdorf, Betzdorf, Betzdorf 6815, Luxembourg",
+    "CountryCode": "LU"
+  },
+  {
+    "Symbol": "BBD",
+    "ISIN": "US0594603039",
+    "Name": "Banco Bradesco ADR",
+    "Address": "Cidade De Deus, Vila Yara, Osasco, SP 06029-900, Brazil",
+    "CountryCode": "BR"
+  },
+  {
+    "Symbol": "KIE",
+    "ISIN": "GB0004915632",
+    "Name": "Kier Group PLC",
+    "Address": "Optimum House, 2nd Floor Clippers Quay, Salford M50 3XP, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "00966.HK",
+    "ISIN": "HK0000055878",
+    "Name": "China Taiping Insurance Holdin",
+    "Address": "18 King Wah Road, 25th Floor, North Point, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "INVP",
+    "ISIN": "GB00B17BBQ50",
+    "Name": "Investec PLC",
+    "Address": "100 Grayston Drive, Sandown, Sandton 2196, South Africa",
+    "CountryCode": "ZA"
+  },
+  {
+    "Symbol": "HKG50",
+    "ISIN": "HK0000004322",
+    "Name": "HKG50",
+    "Address": "Hang Seng Indexes Co Ltd, 83 Des Voeux Road Central Hong Kong (SAR), Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "01211.HK",
+    "ISIN": "CNE100000296",
+    "Name": "BYD Co Ltd",
+    "Address": "3009, BYD Road, Pingshan District, Shenzhen, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "MJ",
+    "ISIN": "US26924G5080",
+    "Name": "ETFMG Alternative Harvest ETF",
+    "Address": "ETF Managers Group 30 Maple Ave, Suite 2 Summit, NJ 07091 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MU",
+    "ISIN": "US5951121038",
+    "Name": "Micron Technology, Inc.",
+    "Address": "8000 South Federal Way, Boise, ID 83716-9632, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "APRN",
+    "ISIN": "US09523Q2003",
+    "Name": "Blue Apron Holdings Inc.",
+    "Address": "28 Liberty Street, New York, NY 10005, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ARKK",
+    "ISIN": "US00214Q1040",
+    "Name": "ARK Innovation ETF",
+    "Address": "3 E 28th Street, 7th Floor, New York, NY 10016, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AM.PA",
+    "ISIN": "FR0014004L86",
+    "Name": "Dassault Aviation SA",
+    "Address": "Immeuble Marcel-Dassault 9 Rond-Point des Champs-Elysées, FR-75008 Paris",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "FXPO",
+    "ISIN": "GB00B1XH2C03",
+    "Name": "Ferrexpo Plc",
+    "Address": "Bahnhofstrasse 13, Baar, Zug 6340",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "GOLD.BARRICK",
+    "ISIN": "CA0679011084",
+    "Name": "Barrick Gold",
+    "Address": "Brookfield Place, TD Canada Trust Tower, 161 Bay Street, Suite 3700, Toronto, ON M5J 2S1",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "MC.PA",
+    "ISIN": "FR0000121014",
+    "Name": "LVMH Moet Hennessy Louis Vuitton SA",
+    "Address": "22 Avenue Montaigne Paris, 75008 France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "NTDOY",
+    "ISIN": "US6544453037",
+    "Name": "Nintendo CO Ltd",
+    "Address": "4600 150th Ave NE, Redmond, WA 98052, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SMSN.L",
+    "ISIN": "US7960508882",
+    "Name": "Samsung Electronics Co Ltd",
+    "Address": "129 Samsung-ro, Yeongtong-gu Suwon, Gyeonggi, 16677 Republic Of Korea",
+    "CountryCode": "KR"
+  },
+  {
+    "Symbol": "SONY",
+    "ISIN": "US8356993076",
+    "Name": "Sony",
+    "Address": "25 Madison Avenue, New York City, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VALE",
+    "ISIN": "US91912E1055",
+    "Name": "Vale SA",
+    "Address": "Praia de Botafogo, 186 Rio De Janeiro, RJ 22250-145 Brazil",
+    "CountryCode": "BR"
+  },
+  {
+    "Symbol": "WY",
+    "ISIN": "US9621661043",
+    "Name": "Weyerhaeuser Co",
+    "Address": "220 Occidental Avenue South, Seattle, WA 98104-7800",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TER",
+    "ISIN": "US8807701029",
+    "Name": "Teradyne Inc",
+    "Address": "600 Riverpark Drive, North Reading, MA 01864",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ARKF",
+    "ISIN": "US00214Q7088",
+    "Name": "ARK FINTECH INNOVATION ETF",
+    "Address": "ARK Invest, 155 West 19th Street 5th Floor, New York, NY 10011, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BLOK",
+    "ISIN": "US0321086078",
+    "Name": "Amplify Transformational Data Sharing ETF",
+    "Address": "AMPLIFY ETF TRUST. AMPLIFY INVESTMENTS LLC. 3250 Lacey Road, Suite 130. Downers Grove, IL 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AVV",
+    "ISIN": "GB00BBG9VN75",
+    "Name": "AVEVA Group PLC",
+    "Address": "AVEVA Group plc, High Cross Madingley Road, CB3 0HB Cambridge, Cambridgeshire, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "FDX",
+    "ISIN": "US31428X1063",
+    "Name": "FedEx Corporation",
+    "Address": "FedEx Corporation, 942 Road South Shady Grove, TN 38120 Memphis, Tennessee, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PLUS.L",
+    "ISIN": "IL0011284465",
+    "Name": "PLUS 500 LTD",
+    "Address": "Plus500 Ltd., Building 25, Matam, Haifa 31905, Israel",
+    "CountryCode": "IL"
+  },
+  {
+    "Symbol": "BESI.NV",
+    "ISIN": "NL0012866412",
+    "Name": "BE Semiconductor Industries NV",
+    "Address": "BE Semiconductor Industries N.V., Ratio 6, NL-6921 RW Duiven, NL",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "06862.HK",
+    "ISIN": "KYG4290A1013",
+    "Name": "Haidilao International Holding",
+    "Address": "Haidilao International Holding Ltd., Hutchins Drive Criquet Square, PO Box 2681, KY1-1111 Grand Cayman",
+    "CountryCode": "KY"
+  },
+  {
+    "Symbol": "WBA",
+    "ISIN": "US9314271084",
+    "Name": "Walgreens Boots Alliance Inc",
+    "Address": "108 Wilmot Road Deerfield, IL 60015 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PHM",
+    "ISIN": "US7458671010",
+    "Name": "PulteGroup Inc",
+    "Address": "350 Peachtree Road Northeast Suite 150 Atlanta, GA 30326 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHIP",
+    "ISIN": "MHY737604006",
+    "Name": "Seanergy Maritime Holdings Corp",
+    "Address": "154 Vouliagmenis Avenue, Athens, 166 74, Greece",
+    "CountryCode": "GR"
+  },
+  {
+    "Symbol": "VOLV-A",
+    "ISIN": "SE0000115420",
+    "Name": "Volvo AB ser. A",
+    "Address": "GropegArdsgatan 2, Gothenburg, 417 15, Sweden",
+    "CountryCode": "SE"
+  },
+  {
+    "Symbol": "9618.HK",
+    "ISIN": "KYG8208B1014",
+    "Name": "JD.com Inc",
+    "Address": "No. 18 Kechuang 11 Street, 20th Floor, Building A, Daxing District, Beijing 101111, China",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "GS",
+    "ISIN": "US38141G1040",
+    "Name": "Goldman Sachs Group Inc",
+    "Address": "200 West Street New York, NY 10282 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "URA",
+    "ISIN": "US37954Y8710",
+    "Name": "Global X Uranium ETF",
+    "Address": "605 Third Avenue 43rd Floor New York, NY 10158, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GDXJ",
+    "ISIN": "US92189F7915",
+    "Name": "VanEck Vectors Junior Gold Miners ETF",
+    "Address": "33 Sir John Rogerson's Quay Dublin 2 Ireland",
+    "CountryCode": "IE"
+  },
+  {
+    "Symbol": "MRVL",
+    "ISIN": "US5738741041",
+    "Name": "Marvell Technology Group Ltd",
+    "Address": "Canon s Court 22 Victoria Street, BM-HM 12 Hamilton, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "VST",
+    "ISIN": "US92840M1027",
+    "Name": "Vistra Corp",
+    "Address": "6555 Sierra Drive, Irving, TX 75039, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HPQ",
+    "ISIN": "US40434L1052",
+    "Name": "Hewlett Packard",
+    "Address": "1501 Road Page Mill, CA 94304 Palo Alto, California, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BMY",
+    "ISIN": "US1101221083",
+    "Name": "Bristol-Myers Squibb Co",
+    "Address": "14th Floor 430 E Street 29th, NY 10016 New York City, New York, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SIG",
+    "ISIN": "BMG812761002",
+    "Name": "Signet Jewelers LTD",
+    "Address": "Clarendon House, 2 Church Street, Hamilton HM11, Bermuda",
+    "CountryCode": "BM"
+  },
+  {
+    "Symbol": "TAK",
+    "ISIN": "US8740602052",
+    "Name": "Takeda Pharmaceutical Co Ltd-ADR",
+    "Address": "4-1-1 Dosho-machi, Chuo-Ku, Osaka 540-8645, Japan",
+    "CountryCode": "JP"
+  },
+  {
+    "Symbol": "SBRY.L",
+    "ISIN": "GB00B019KW72",
+    "Name": "J Sainsbury PLC",
+    "Address": "33 Holborn, EC1N 2HT London, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "HOG",
+    "ISIN": "US4128221086",
+    "Name": "Harley-Davidson Inc",
+    "Address": "3700 West Juneau Avenue, Milwaukee, WI 53208-2818, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "3.HK",
+    "ISIN": "HK0003000038",
+    "Name": "Hong Kong & China Gas Co Ltd",
+    "Address": "23rd Floor 363 Java Road, HK- Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "SBUX",
+    "ISIN": "US8552441094",
+    "Name": "Starbucks Corporation",
+    "Address": "2401 Utah Avenue South, PO Box 34507, WA 98134 Seattle, Washington, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CQQQ",
+    "ISIN": "US46138E8003",
+    "Name": "Invesco China Technology ETF",
+    "Address": "3500 Lacey Road Suite 700, Downers Grove, 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "UK100",
+    "ISIN": "GB0001383545",
+    "Name": "FTSE 100 Index",
+    "Address": "FTSE International Limited, 10 Paternoster Square, London, EC4M 7LS, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "JNUG",
+    "ISIN": "US25460G8318",
+    "Name": "Direxion Daily Junior Gold Miners Index Bull 2X Shares",
+    "Address": "Rafferty Asset Management, LLC, 1301 Avenue of the Americas 28th Floor, New York, 10019, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JD.US",
+    "ISIN": "US47215P1066",
+    "Name": "JD.com-ADR",
+    "Address": "JD.com, Inc., BuildingA, North Star Century Center No. 8 Beichen West Street, 100101, Beijing, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "INGA.NV",
+    "ISIN": "NL0011821202",
+    "Name": "ING Groep NV",
+    "Address": "ING Groep NV, Amsterdamse Poort Bijlmerplein 888, 1102 MG, Amsterdam",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "FITB",
+    "ISIN": "US3167731005",
+    "Name": "Fifth Third Bancorp",
+    "Address": "Fifth Third Bancorp, 38 Fountain Square Plaza, 45263, Cincinnati, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IGG",
+    "ISIN": "GB00B06QFB75",
+    "Name": "IG Group Holdings PLC",
+    "Address": "IG Group Holdings plc, Cannon Bridge House 25 Dowgate Hill, EC4R 2YA, London, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "DIA.US",
+    "ISIN": "US78467X1090",
+    "Name": "SPDR Dow Jones Industrial Average ETF Trust",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FCX",
+    "ISIN": "US35671D8570",
+    "Name": "Freeport-McMoRan Inc",
+    "Address": "Freeport-McMoRan Inc., 333 Avenue North Central, AZ 85004 Phoenix, Arizona, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GLEN.L",
+    "ISIN": "JE00B4T3BW64",
+    "Name": "Glencore Plc",
+    "Address": "Glencore plc, Baarermattstrasse 3, CH-6341 Baar, Zug, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "ENI",
+    "ISIN": "IT0003132476",
+    "Name": "Eni Energy Company",
+    "Address": "Eni SpA, Piazzale Enrico Mattei 1, IT-00144 Roma, Lazio, Italy",
+    "CountryCode": "IT"
+  },
+  {
+    "Symbol": "WFC",
+    "ISIN": "US9497461015",
+    "Name": "Wells Fargo & Co",
+    "Address": "Wells Fargo & Company, 420 Street Montgomery, CA 94104 San Francisco, California, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NKE",
+    "ISIN": "US6541061031",
+    "Name": "NIKE",
+    "Address": "Nike, Inc., 1 Bowerman Drive, OR 97005 Beaverton, Oregon, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLU",
+    "ISIN": "US81369Y8865",
+    "Name": "Utilities Select Sector SPDR",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "UUP",
+    "ISIN": "US46141D2036",
+    "Name": "Invesco DB US Dollar Index Bullish Fund",
+    "Address": "Invesco Capital Management, LLC, 3500 Lacey Road, Suite 700, Downers Grove, IL 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QQQ",
+    "ISIN": "US46090E1038",
+    "Name": "Invesco QQQ",
+    "Address": "Invesco Capital Management, LLC, 3500 Lacey Road, Suite 700, Downers Grove, IL 60515, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QSR",
+    "ISIN": "CA76131D1033",
+    "Name": "Restaurant Brands International Inc.",
+    "Address": "226 Wyecroft Road, L6K 3X7, Oakville, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GSK.L",
+    "ISIN": "GB00BN7SWP63",
+    "Name": "GlaxoSmithKline",
+    "Address": "980 Great West Road Brentford, TW8 9GS, Middlesex, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "FL",
+    "ISIN": "US3448491049",
+    "Name": "Foot Locker Inc",
+    "Address": "112 West 34th Street, 10120, New York, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CWK",
+    "ISIN": "GB0002318888",
+    "Name": "Cranswick PLC",
+    "Address": "74 Helsinki Road Sutton Fields, HU7 0YW, Hull, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "SIE.DE",
+    "ISIN": "DE0007236101",
+    "Name": "Siemens Aktiengesellschaft",
+    "Address": "Nonnendammallee 101, 13629, Berlin, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "PG",
+    "ISIN": "US7427181091",
+    "Name": "Procter & Gamble Co",
+    "Address": "One Procter & Gamble Plaza, Cincinnati, Ohio 45202, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ADM",
+    "ISIN": "US0394831020",
+    "Name": "Archer-Daniels-Midland Co",
+    "Address": "77 W. Wacker Dr., Chicago, Illinois 60601, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JNJ",
+    "ISIN": "US4781601046",
+    "Name": "Johnson & Johnson",
+    "Address": "One Johnson & Johnson Plz, New Brunswick, New Jersey 08933, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SWKS",
+    "ISIN": "US83088M1027",
+    "Name": "Skyworks Solutions",
+    "Address": "5260 California Avenue, Irvine, California 92617, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MHFI",
+    "ISIN": "US78409V1044",
+    "Name": "S&P Global Inc",
+    "Address": "55 Water Street, New York, New York 10041, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "YUM",
+    "ISIN": "US9884981013",
+    "Name": "Yum Brands Inc",
+    "Address": "1441 Gardiner Lane, Louisville, Kentucky 40213, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "STAG",
+    "ISIN": "US85254J1025",
+    "Name": "STAG Industrial Inc.",
+    "Address": "One Federal Street, 23rd Floor, Boston, Massachusetts 02110, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NEM",
+    "ISIN": "US6516391066",
+    "Name": "Newmont Mining Corp",
+    "Address": "6900 E Layton Ave, Suite 700, Denver, Colorado 80237, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "D",
+    "ISIN": "US25746U1097",
+    "Name": "Dominion Energy Inc",
+    "Address": "120 Tredegar Street, Richmond, Virginia 23219, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ROG.ZU",
+    "ISIN": "CH0012032048",
+    "Name": "Roche Holding Ltd",
+    "Address": "Grenzacherstrasse 124, 4058, Basel, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "WM",
+    "ISIN": "US94106L1098",
+    "Name": "Waste Management Inc",
+    "Address": "800 Capitol Street, Ste 3000, Houston, Texas 77002, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PEP",
+    "ISIN": "US7134481081",
+    "Name": "PepsiCo",
+    "Address": "700 Anderson Hill Rd, Purchase, New York 10577, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NESTE",
+    "ISIN": "FI0009013296",
+    "Name": "Neste Oyj",
+    "Address": "Neste Corp., Keilaranta 21, 00095, Espoo",
+    "CountryCode": "FI"
+  },
+  {
+    "Symbol": "WMT",
+    "ISIN": "US9311421039",
+    "Name": "Walmart Inc.",
+    "Address": "702 Southwest 8th St, Bentonville, Arkansas 72716, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MRK",
+    "ISIN": "US58933Y1055",
+    "Name": "Merck & Co.",
+    "Address": "2000 Galloping Hill Road, Kenilworth, New Jersey 07033, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LRCX",
+    "ISIN": "US5128071082",
+    "Name": "Lam Research Corp",
+    "Address": "4650 Cushing Blvd, Fremont, California 94538, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HDV",
+    "ISIN": "US46429B6636",
+    "Name": "iShares Core High Dividend ETF",
+    "Address": "BlackRock, Inc., 55 East 52nd Street, New York, NY 10055, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IVV",
+    "ISIN": "US4642872000",
+    "Name": "iShares Core S&P 500 ETF",
+    "Address": "BlackRock, Inc., 55 East 52nd Street, New York, NY 10055, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NESN",
+    "ISIN": "CH0038863350",
+    "Name": "Nestle SA",
+    "Address": "Avenue Nestlé 55, 1800, Vevey, Switzerland",
+    "CountryCode": "CH"
+  },
+  {
+    "Symbol": "CSCO",
+    "ISIN": "US17275R1023",
+    "Name": "Cisco Systems Inc",
+    "Address": "170 West Tasman Dr, San Jose, California 95134-1706, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BAYN.DE",
+    "ISIN": "DE000BAY0017",
+    "Name": "Bayer AG",
+    "Address": "Kaiser-Wilhelm-Allee 1, 51373 Leverkusen, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "OR",
+    "ISIN": "FR0000120321",
+    "Name": "LOreal SA",
+    "Address": "41 rue Martre, Clichy Cedex CLICHY 92117, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "GD",
+    "ISIN": "US3695501086",
+    "Name": "General Dynamics Corp",
+    "Address": "11011 Sunset Hills Rd, Reston, Virginia 20190, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "RIO.L",
+    "ISIN": "GB0007188757",
+    "Name": "Rio Tinto",
+    "Address": "6 St James's Square LONDON SW1Y 4AD United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "PUM.DE",
+    "ISIN": "DE0006969603",
+    "Name": "PUMA AG",
+    "Address": "PUMA Way 1. DE-91074 Herzogenaurach, Bayern. Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "EPD",
+    "ISIN": "US2937921078",
+    "Name": "Enterprise Products Partners LP",
+    "Address": "1100 Louisiana 10th Floor, Houston, Texas 77002, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JUP",
+    "ISIN": "GB00B53P2009",
+    "Name": "Jupiter Fund Management PLC",
+    "Address": "The Zig Zag Building, 70 Victoria Street LONDON SW1E 6SQ United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "NSC",
+    "ISIN": "US6558441084",
+    "Name": "Norfolk Southern Corp",
+    "Address": "650 W Peachtree Street Nw, Atlanta, Georgia 30308, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MONY",
+    "ISIN": "GB00B1ZBKY84",
+    "Name": "Moneysupermarket.com Group PLC",
+    "Address": "Moneysupermarket House St David's Park Ewloe Chester CH5 3UZ United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "S92.DE",
+    "ISIN": "DE000A0DJ6J9",
+    "Name": "SMA Solar Technology AG",
+    "Address": "Sonnenallee 1 ; 34266 Niestetal ; Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "AJG",
+    "ISIN": "US3635761097",
+    "Name": "Arthur J.Gallagher & Co",
+    "Address": "2850 Golf Road, Rolling Meadows, Illinois 60008-4050, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DKS",
+    "ISIN": "US2533931026",
+    "Name": "Dicks Sporting Goods Inc",
+    "Address": "345 Court Street, Coraopolis, Pennsylvania 15108, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BIG",
+    "ISIN": "US0893021032",
+    "Name": "Big Lots Inc",
+    "Address": "4900 E Dublin Granville Rd, Columbus, Ohio 43081-7651, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QIWI",
+    "ISIN": "US74735M1080",
+    "Name": "Qiwi Plc-ADR",
+    "Address": "12-14 Kennedy Ave., Kennedy Business Centre, Office 203, Nicosia, G4 1087, Cyprus",
+    "CountryCode": "CY"
+  },
+  {
+    "Symbol": "BBY",
+    "ISIN": "US0865161014",
+    "Name": "Best Buy Co Inc",
+    "Address": "7601 Penn Ave South, Richfield, Minnesota 55423, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PGR",
+    "ISIN": "US7433151039",
+    "Name": "Progressive Corp",
+    "Address": "6300 Wilson Mills Rd, Mayfield Village, Ohio 44143, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "THO",
+    "ISIN": "US8851601018",
+    "Name": "Thor Industries Inc",
+    "Address": "601 E. Beardsley Avenue, Elkhart, Indiana 46514, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DOX",
+    "ISIN": "GB0022569080",
+    "Name": "Amdocs Ltd",
+    "Address": "Hirzel House, Smith Street, St. Peter Port, Guernsey, X0 GY1 2NG, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "PAY",
+    "ISIN": "GB00B02QND93",
+    "Name": "PayPoint PLC",
+    "Address": "1 The Boulevard, Shire Park, Welwyn Garden City, Hertfordshire, AL7 1EL, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "JOUT",
+    "ISIN": "US4791671088",
+    "Name": "Johnson Outdoors Inc.",
+    "Address": "Johnson Outdoors Inc., 555 Main Street, Suite 100, Racine, WI 53403, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NUE",
+    "ISIN": "US6703461052",
+    "Name": "Nucor Corp",
+    "Address": "1915 Rexford Rd, Charlotte, North Carolina 28211, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AON",
+    "ISIN": "IE00BLP1HW54",
+    "Name": "Aon plc",
+    "Address": "Metropolitan Building, James Joyce Street, Dublin 1, L2 D01 K0Y8, Ireland",
+    "CountryCode": "IE"
+  },
+  {
+    "Symbol": "PSN.L",
+    "ISIN": "GB0006825383",
+    "Name": "Persimmon",
+    "Address": "Persimmon House, Fulford, York YO19 4FE, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "CLX",
+    "ISIN": "US1890541097",
+    "Name": "Clorox Co",
+    "Address": "1221 Broadway, Oakland, California 94612-1888, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CASY",
+    "ISIN": "US1475281036",
+    "Name": "Casey's General Stores Inc",
+    "Address": "Po Box 3001, Ankeny, Iowa 50021, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BTI",
+    "ISIN": "US1104481072",
+    "Name": "British American Tobacco PLC ADR",
+    "Address": "Globe House, 4 Temple Place, London, X0 WC2R 2PG, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "SCCO",
+    "ISIN": "US84265V1052",
+    "Name": "Southern Copper Corp",
+    "Address": "7310 North 16th St., Suite 135, Phoenix, Arizona 85020, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WSM",
+    "ISIN": "US9699041011",
+    "Name": "Williams-Sonoma Inc",
+    "Address": "3250 Van Ness Avenue, San Francisco, California 94109, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WEC",
+    "ISIN": "US92939U1060",
+    "Name": "WEC Energy Group",
+    "Address": "231 W Michigan St, P O Box 1331, Milwaukee, Wisconsin 53201, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CHD",
+    "ISIN": "US1713401024",
+    "Name": "Church & Dwight Co Inc",
+    "Address": "500 Charles Ewing Boulevard, Ewing, New Jersey 08628, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AWK",
+    "ISIN": "US0304201033",
+    "Name": "American Water Works Co Inc",
+    "Address": "1 Water Street, Camden, New Jersey 08102-1658, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ENB",
+    "ISIN": "CA29250N1050",
+    "Name": "Enbridge Inc",
+    "Address": "200 425 - 1st Street Sw, Calgary, A0 T2P 3L8, Alberta, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "KGC",
+    "ISIN": "CA4969024047",
+    "Name": "Kinross Gold Corp",
+    "Address": "25 York Street, 17th Floor, Toronto, A6 M5J 2V5, Ontario, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "NUS",
+    "ISIN": "US67018T1051",
+    "Name": "Nu Skin Enterprises Inc",
+    "Address": "75 West Center St, Attn: Gregory Belliston, Provo, Utah 84601, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMGN",
+    "ISIN": "US0311621009",
+    "Name": "Amgen Inc",
+    "Address": "One Amgen Center Drive, Thousand Oaks, California 91320, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WPM",
+    "ISIN": "CA9628791027",
+    "Name": "Wheaton Precious Metals Corp",
+    "Address": "Suite 3500, 1021 West Hastings Streeet, Vancouver, A1 V6E 0C3, British Columbia, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "SHW",
+    "ISIN": "US8243481061",
+    "Name": "Sherwin-Williams Co",
+    "Address": "101 Prospect Ave Nw, Cleveland, Ohio 44115, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ZIM",
+    "ISIN": "IL0065100930",
+    "Name": "ZIM Shipping Services Ltd",
+    "Address": "9 Andrei Sakharov Street, P.o. Box 15067, Haifa, L3 3190500, Israel",
+    "CountryCode": "IL"
+  },
+  {
+    "Symbol": "SLGN",
+    "ISIN": "US8270481091",
+    "Name": "Silgan Holdings Inc",
+    "Address": "4 Landmark Sq, Stamford, Connecticut 06901, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LIN",
+    "ISIN": "IE000S9YS762",
+    "Name": "Linde PLC",
+    "Address": "Forge, 43 Church Street West, Woking Surrey, X0 GU216HT, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "BHP",
+    "ISIN": "US0886061086",
+    "Name": "BHP Group Ltd ADR",
+    "Address": "16/171 Collins Street, Melbourne, Victoria Australia, C3 3000, Australia",
+    "CountryCode": "AU"
+  },
+  {
+    "Symbol": "RIO",
+    "ISIN": "US7672041008",
+    "Name": "Rio Tinto PLC ADR",
+    "Address": "6 St James's Square, London, Sw1y 4ad, X0 00000, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "RMD",
+    "ISIN": "US7611521078",
+    "Name": "ResMed Inc",
+    "Address": "9001 Spectrum Center Blvd., San Diego, California 92123, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DGRO",
+    "ISIN": "US46434V6213",
+    "Name": "iShares Core Dividend Growth ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HOC",
+    "ISIN": "GB00B1FW5029",
+    "Name": "Hochschild Mining PLC",
+    "Address": "4th Floor, Saltire Court, 20 Castle Terrace, Edinburgh, EH1 2EN, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "IAPD",
+    "ISIN": "IE00B14X4T88",
+    "Name": "iShares Asia Pacific Dividend UCITS ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "WGO",
+    "ISIN": "US9746371007",
+    "Name": "Winnebago Industries Inc.",
+    "Address": "13200 Pioneer Trail, Suite 150, Eden Prairie, Minnesota 55347, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "HUN",
+    "ISIN": "US4470111075",
+    "Name": "Huntsman Corp",
+    "Address": "10003 Woodloch Forest Drive, The Woodlands, Texas 77380, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FNV",
+    "ISIN": "CA3518581051",
+    "Name": "Franco-Nevada Corp",
+    "Address": "199 Bay Street, Suite 2000, Commerce Court West, Toronto, A6 M5L 1G9, Ontario, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "CEY",
+    "ISIN": "JE00B5TT1872",
+    "Name": "Centamin PLC",
+    "Address": "Centamin Plc, 2 Mulcaster Street, JE2 3NJ, St. Helier",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "DLR",
+    "ISIN": "US2538681030",
+    "Name": "Digital Realty Trust Inc",
+    "Address": "5707 Southwest Parkway, Building 1, Suite 275, Austin, Texas 78735, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VTIP",
+    "ISIN": "US9220208055",
+    "Name": "Vanguard Short-Term Inflation-Protected Securities ETF",
+    "Address": "Vanguard Group, 100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DIV",
+    "ISIN": "US37950E2919",
+    "Name": "Global SuperDividend US ETF",
+    "Address": "623 Fifth Avenue, 15th Floor, New York, NY 10022, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "O",
+    "ISIN": "US7561091049",
+    "Name": "Realty Income Corp",
+    "Address": "11995 El Camino Real, San Diego, California 92130, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AMT",
+    "ISIN": "US03027X1000",
+    "Name": "American Tower Corp",
+    "Address": "116 Huntington Ave, Boston, Massachusetts 02116, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FMC",
+    "ISIN": "US3024913036",
+    "Name": "FMC Corp",
+    "Address": "2929 Walnut Street, Philadelphia, Pennsylvania 19104, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "DELL",
+    "ISIN": "US24703L2025",
+    "Name": "Dell Technologies Inc C",
+    "Address": "One Dell Way, Round Rock, Texas 78682, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BATS.L",
+    "ISIN": "GB0002875804",
+    "Name": "British American Tobacco",
+    "Address": "Globe House, London, WC2R 2PG, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "CE",
+    "ISIN": "US1508701034",
+    "Name": "Celanese Corp",
+    "Address": "222 W. Las Colinas Blvd., Suite 900n, Irving, Texas 75039-5421, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VNA.DE",
+    "ISIN": "DE000A1ML7J1",
+    "Name": "Vonovia SE",
+    "Address": "Vonovia SE, Universitätsstr. 133, 44803 Bochum, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "LKQ",
+    "ISIN": "US5018892084",
+    "Name": "LKQ Corp",
+    "Address": "500 West Madison Street, Suite 2800, Chicago, Illinois 60661, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PSX",
+    "ISIN": "US7185461040",
+    "Name": "Phillips 66",
+    "Address": "2331 Citywest Blvd., Houston, Texas 77042, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BC",
+    "ISIN": "US1170431092",
+    "Name": "Brunswick Corp",
+    "Address": "26125 N. Riverwoods Blvd. Suite 500, Mettawa, Illinois 60045-3420, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NOC",
+    "ISIN": "US6668071029",
+    "Name": "Northrop Grumman Corp",
+    "Address": "2980 Fairview Park Drive, C/o Northrop Grumman Corp, Falls Church, Virginia 22042, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ISF",
+    "ISIN": "IE0005042456",
+    "Name": "iShares Core FTSE 100 UCITS ETF (Dist)",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VGT",
+    "ISIN": "US92204A7028",
+    "Name": "Vanguard Information Technology",
+    "Address": "100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VUG",
+    "ISIN": "US9229087369",
+    "Name": "Vanguard Growth ETF",
+    "Address": "100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VTI",
+    "ISIN": "US9229087690",
+    "Name": "Vanguard Total Stock Market ETF",
+    "Address": "100 Vanguard Blvd., Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TEF",
+    "ISIN": "US8793822086",
+    "Name": "Telefonica SA (US)-ADR",
+    "Address": "Gran Via 28, 28013 Madrid, U3 00000, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "GPN",
+    "ISIN": "US37940X1028",
+    "Name": "Global Payments Inc",
+    "Address": "3550 Lenox Road, Atlanta, Georgia 30326, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PCH",
+    "ISIN": "US7376301039",
+    "Name": "PotlatchDeltic Corp",
+    "Address": "601 West First Avenue Suite 1600, 99201, Spokane, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AVGO",
+    "ISIN": "US11135F1012",
+    "Name": "Broadcom Inc",
+    "Address": "1320 Ridder Park Drive, 95131-2313, San Jose, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SEIC",
+    "ISIN": "US7841171033",
+    "Name": "SEI Investments Company",
+    "Address": "1 Freedom Valley Drive, Oaks, PA 19456, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ABBV",
+    "ISIN": "US00287Y1091",
+    "Name": "AbbVie Inc",
+    "Address": "1 North Waukegan Road, North Chicago, IL 60064, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "X",
+    "ISIN": "US9129091081",
+    "Name": "United States Steel Corp",
+    "Address": "600 Grant Street, Pittsburgh, PA 15219, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "MMM",
+    "ISIN": "US88579Y1010",
+    "Name": "3M",
+    "Address": "3M Center, St. Paul, MN 55144, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BFH",
+    "ISIN": "US0185811082",
+    "Name": "Bread Financial Holdings Inc",
+    "Address": "850 Dixie Highway, Louisville, KY 40210, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VCIT",
+    "ISIN": "US92206C8709",
+    "Name": "Vanguard Intermediate-Term Corp",
+    "Address": "100 Vanguard Boulevard, Malvern, PA 19355, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CAJPY",
+    "ISIN": "US1380063099",
+    "Name": "Canon Inc - ADR",
+    "Address": "30-2, Shimomaruko 3-chome, Ohta-ku, Tokyo 146-8501, Japan",
+    "CountryCode": "JP"
+  },
+  {
+    "Symbol": "JCI",
+    "ISIN": "IE00BY7QL619",
+    "Name": "Johnson Controls Inc",
+    "Address": "507 E. Michigan Street, Milwaukee, WI 53202, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "USB",
+    "ISIN": "US9029733048",
+    "Name": "US Bancorp",
+    "Address": "U.S. Bancorp Center, 800 Nicollet Mall, Minneapolis, MN 55402, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SPLV",
+    "ISIN": "US46138E3541",
+    "Name": "Invesco S&P 500 Low Volatility",
+    "Address": "1555 Peachtree Street NE, Atlanta, GA 30309, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ADS.DE",
+    "ISIN": "DE000A1EWWW0",
+    "Name": "Adidas AG",
+    "Address": "Adi-Dassler-Strasse 1, 91074 Herzogenaurach, Germany",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "LEVI",
+    "ISIN": "US52736R1023",
+    "Name": "Levi Strauss & Co.",
+    "Address": "1155 Battery Street, San Francisco, CA 94111, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SAOC",
+    "ISIN": "SA14TG012N13",
+    "Name": "Aramco Saudi Arabian Oil Corp",
+    "Address": "Dhahran, 31311, Saudi Arabia",
+    "CountryCode": "SA"
+  },
+  {
+    "Symbol": "F",
+    "ISIN": "US3453708600",
+    "Name": "Ford Motor Co",
+    "Address": "3131 East Michigan Avenue, Dearborn, MI 48126, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHEL",
+    "ISIN": "US7802593050",
+    "Name": "Shell PLC (ADR)",
+    "Address": "Carel van Bylandtlaan 30, 2596 HR The Hague, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "NOKI",
+    "ISIN": "US6549022043",
+    "Name": "Nokia Oyj-ADR",
+    "Address": "Karaportti 3, 02610 Espoo, Finland",
+    "CountryCode": "FI"
+  },
+  {
+    "Symbol": "CRK",
+    "ISIN": "US2057683029",
+    "Name": "Comstock Resources Inc",
+    "Address": "5300 Town and Country Blvd., Suite 500, Frisco, TX 75034, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "JOE",
+    "ISIN": "US7901481009",
+    "Name": "The St. Joe Company",
+    "Address": "133 South WaterSound Parkway, Suite 100, Watersound, FL 32461, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ATHM",
+    "ISIN": "US05278C1071",
+    "Name": "Autohome-ADR",
+    "Address": "Tower B, CEC Plaza, 3 Dan Ling Street, Haidian District, Beijing 100080, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "VET",
+    "ISIN": "CA9237251058",
+    "Name": "Vermilion Energy",
+    "Address": "300, 520-3rd Avenue SW, Calgary, Alberta, T2P 0R3, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "OCI.NV",
+    "ISIN": "NL0010558797",
+    "Name": "OCI NV",
+    "Address": "Amstelplein 1, 1096 HA Amsterdam, Netherlands",
+    "CountryCode": "NL"
+  },
+  {
+    "Symbol": "SKM",
+    "ISIN": "US78440P3064",
+    "Name": "SK Telecom Co Ltd-ADR",
+    "Address": "11 Euljiro 2-gil, Jung-gu, Seoul, South Korea",
+    "CountryCode": "KR"
+  },
+  {
+    "Symbol": "3323.HK",
+    "ISIN": "CNE1000002N9",
+    "Name": "China National Building Material",
+    "Address": "7088 Shennan Boulevard, Futian District, Shenzhen, Guangdong, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "MDT.US",
+    "ISIN": "IE00BTN1Y115",
+    "Name": "Medtronic PLC",
+    "Address": "20 Lower Hatch Street, Dublin 2, Ireland",
+    "CountryCode": "IE"
+  },
+  {
+    "Symbol": "SHV",
+    "ISIN": "US4642886794",
+    "Name": "iShares Short Treasury Bond ETF",
+    "Address": "No. 221, Huangpu Avenue, Tianhe District, Guangzhou, China",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "DG.US",
+    "ISIN": "US2566771059",
+    "Name": "Dollar General Corporation",
+    "Address": "100 Mission Ridge, Goodlettsville, TN 37072, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "CTAS",
+    "ISIN": "US1729081059",
+    "Name": "Cintas Corp",
+    "Address": "6800 Cintas Boulevard, P.O. Box 625737, Cincinnati, OH 45262-5737, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "FXI",
+    "ISIN": "US4642871846",
+    "Name": "iShares China Large-Cap ETF",
+    "Address": "55 East 52nd Street, New York, NY 10055, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AGR.US",
+    "ISIN": "US05351W1036",
+    "Name": "Avangrid Inc",
+    "Address": "180 Marsh Hill Road, Orange, CT 06477, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "QYLD",
+    "ISIN": "US37954Y4834",
+    "Name": "Global X Nasdaq 100 Covered Call ETF",
+    "Address": "Mirae Asset Global Investments Co., Ltd., 625 Madison Avenue, 3rd Floor New York, NY 10022",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IBE",
+    "ISIN": "ES0144580Y14",
+    "Name": "Iberdrola",
+    "Address": "PL EUSKADI 5, 48008 BILBAO, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "AQN",
+    "ISIN": "CA0158571053",
+    "Name": "Algonquin Power & Utilities Corp",
+    "Address": "354 Davis Road, Suite 100, Oakville, ON L6J 2X1, Canada",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "SPHD",
+    "ISIN": "US46138E3624",
+    "Name": "Invesco S&P 500 High Dividend Low Volatility ETF",
+    "Address": "Invesco Ltd., Two Peachtree Pointe, 1555 Peachtree Street, N.E., Suite 1800, Atlanta, Georgia 30309",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SHY",
+    "ISIN": "US4642874576",
+    "Name": "iShares 1-3 Year Treasury Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IEF",
+    "ISIN": "US4642874402",
+    "Name": "iShares 7-10 Year Treasury Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SDIV",
+    "ISIN": "US37960A6698",
+    "Name": "Global X SuperDividend ETF",
+    "Address": "Mirae Asset Global Investments Co., Ltd., 625 Madison Avenue, 3rd Floor New York, NY 10022",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LNT",
+    "ISIN": "US0188021085",
+    "Name": "Alliant Energy Corp",
+    "Address": "4902 North Biltmore Lane, 53718 Madison, WI, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SSE.L",
+    "ISIN": "GB0007908733",
+    "Name": "SSE",
+    "Address": "SSE plc, Inveralmond House, 200 Dunkeld Road, Perth PH1 3AQ, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "EL",
+    "ISIN": "US5184391044",
+    "Name": "Estee Lauder Companies Inc",
+    "Address": "767 Fifth Avenue, New York, NY 10153, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ED",
+    "ISIN": "US2091151041",
+    "Name": "Consolidated Edison Inc",
+    "Address": "4 Irving Place, New York, New York 10003, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VEU",
+    "ISIN": "US9220427754",
+    "Name": "Vanguard FTSE All-World ex-US",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "ORA.US",
+    "ISIN": "US6866881021",
+    "Name": "Ormat Technologies Inc.",
+    "Address": "6140 Plumas Street, Reno, NV 89519-6075, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VTV",
+    "ISIN": "US9229087443",
+    "Name": "Vanguard Value ETF",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SCHD",
+    "ISIN": "US8085247976",
+    "Name": "Schwab US Dividend Equity ETF",
+    "Address": "Charles Schwab & Co., Inc., 1360 3RD Ave FL 1 New York, NY, 10075-0461 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "NOBL",
+    "ISIN": "US74348A4673",
+    "Name": "ProShares S&P 500 Dividend Aristocrats ETF",
+    "Address": "ProShares, 7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "IJR",
+    "ISIN": "US4642878049",
+    "Name": "iShares Core S&P Small-Cap ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VOOG",
+    "ISIN": "US9219325050",
+    "Name": "Vanguard S&P 500 Growth ETF",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VFH",
+    "ISIN": "US92204A4058",
+    "Name": "Vanguard Financials ETF",
+    "Address": "The Vanguard Group Instl, P.O. Box 2900 Valley Forge, PA 19482-2900 USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AY",
+    "ISIN": "GB00BLP5YB54",
+    "Name": "Atlantica Sustainable Infrastructure PLC",
+    "Address": "Great West House, GW1 17th Floor Great West Road, Brentford TW8 9DF, United Kingdom",
+    "CountryCode": "GB"
+  },
+  {
+    "Symbol": "LQDE",
+    "ISIN": "IE0032895942",
+    "Name": "iShares $ Corporate Bond UCITS ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105, USA",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "EDP.LSB",
+    "ISIN": "PTEDP0AM0009",
+    "Name": "EDP - Energias de Portugal SA",
+    "Address": "Avenida 24 de Julho 12, 4th Floor, Lisbon 1249-300, Portugal",
+    "CountryCode": "PT"
+  },
+  {
+    "Symbol": "ENGI",
+    "ISIN": "FR0010208488",
+    "Name": "Engie SA",
+    "Address": "1, place Samuel de Champlain, Courbevoie 92400, France",
+    "CountryCode": "FR"
+  },
+  {
+    "Symbol": "RWE.DE",
+    "ISIN": "DE0007037129",
+    "Name": "RWE AG",
+    "Address": "RWE Platz 1-7, 45141 Essen, Deutschland",
+    "CountryCode": "DE"
+  },
+  {
+    "Symbol": "NIBEB.ST",
+    "ISIN": "SE0015988019",
+    "Name": "Nibe Industrier AB Ser. B",
+    "Address": "Järnvägsgatan 40, Markaryd 285 32, Sweden",
+    "CountryCode": "SE"
+  },
+  {
+    "Symbol": "RSP",
+    "ISIN": "US46137V3574",
+    "Name": "Invesco S&P 500 Equal Weight ETF",
+    "Address": "Invesco Ltd., Two Peachtree Pointe, 1555 Peachtree Street, N.E., Suite 1800, Atlanta, Georgia 30309",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "XLP",
+    "ISIN": "US81369Y3080",
+    "Name": "Consumer Staples Select Sector SPDR",
+    "Address": "State Street Bank and Trust Company One Lincoln Center Boston, MA 02211 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SQQQ",
+    "ISIN": "US74347G4322",
+    "Name": "ProShares UltraPro Short QQQ",
+    "Address": "ProShares, 7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "SRTY",
+    "ISIN": "US74347G3902",
+    "Name": "ProShares UltraPro Short Russell2000",
+    "Address": "ProShares, 7272 Wisconsin Ave. 21st Floor Bethesda, MD 20814",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "TMF",
+    "ISIN": "US25460G1388",
+    "Name": "Direxion Daily 20 Year Plus Treasury Bull 3x Shares",
+    "Address": "1301 Avenue of the Americas, 6th Avenue 28th Floor, New York, 10019, United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "3800.HK",
+    "ISIN": "KYG3774X1088",
+    "Name": "GCL Technology Holdings Ltd",
+    "Address": "International Commerce Centre, Level 17 Unit 1703B-1706 1 Austin Road West, Kowloon, Hong Kong",
+    "CountryCode": "HK"
+  },
+  {
+    "Symbol": "ANA",
+    "ISIN": "ES0125220311",
+    "Name": "Acciona",
+    "Address": "Avenida de Europa, 18, Parque Empresarial La Moraleja, Alcobendas 28108, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "0916.HK",
+    "ISIN": "CNE100000HD4",
+    "Name": "China Longyuan",
+    "Address": "Block C, 6-9 Fuchengmen North Street Bejing, China, 100034",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "TAN",
+    "ISIN": "US46138G7060",
+    "Name": "Invesco Solar ETF",
+    "Address": "Invesco Ltd., Two Peachtree Pointe, 1555 Peachtree Street, N.E., Suite 1800, Atlanta, Georgia 30309",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "LQD",
+    "ISIN": "US4642872422",
+    "Name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+    "Address": "BlackRock Fund Advisors, 400 Howard Street, San Francisco, CA 94105",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "PLS.ASX",
+    "ISIN": "AU000000PLS0",
+    "Name": "Pilbara Minerals Limited",
+    "Address": "146 Colin Street Level 2, 6005, West Perth",
+    "CountryCode": "AU"
+  },
+  {
+    "Symbol": "TECK",
+    "ISIN": "CA8787422044",
+    "Name": "Teck Resources Ltd",
+    "Address": "550 Burrard Street Suite 3300, Bentall 5, V6C 0B3, Vancouver",
+    "CountryCode": "CA"
+  },
+  {
+    "Symbol": "MCK",
+    "ISIN": "US58155Q1031",
+    "Name": "McKesson Corp",
+    "Address": "6555 State Highway 161, 75039, Irving",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "VICI",
+    "ISIN": "US9256521090",
+    "Name": "VICI Properties Inc",
+    "Address": "535 Madison Avenue 20th floor, 10022, New York",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "BBVA.US",
+    "ISIN": "US05946K1016",
+    "Name": "Banco Bilbao Vizcaya Argentaria SA-ADR",
+    "Address": "Ciudad BBVA Calle Azul 4\n28050, Madrid",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "SUBC",
+    "ISIN": "LU0075646355",
+    "Name": "Subsea 7",
+    "Address": "40 Brighton Road Sutton, SM2 5BN, London",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "HSBA.L",
+    "ISIN": "GB0005405286",
+    "Name": "HSBC Holdings",
+    "Address": "8 Canada Square, E14 5HQ, London",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "AKRBP.OL",
+    "ISIN": "NO0010345853",
+    "Name": "Aker BP ASA",
+    "Address": "Fornebuporten Building B Oksenoyveien 10, 1366, Lysaker",
+    "CountryCode": "NO"
+  },
+  {
+    "Symbol": "NHY",
+    "ISIN": "NO0005052605",
+    "Name": "Norsk Hydro",
+    "Address": "Drammensveien 264, 0283, Oslo",
+    "CountryCode": "NO"
+  },
+  {
+    "Symbol": "RTY",
+    "ISIN": "US7827001089",
+    "Name": "Russell 2000 Index",
+    "Address": "10 Paternoster Square, London, EC4M 7LS",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "BRBY.L",
+    "ISIN": "GB0031743007",
+    "Name": "Burberry Group",
+    "Address": "Horseferry House Horseferry Road, SW1 P2AW, London",
+    "CountryCode": "UK"
+  },
+  {
+    "Symbol": "NOVO-B",
+    "ISIN": "DK0062498333",
+    "Name": "Novo Nordisk B A/S",
+    "Address": "Novo Allé 1, 2880, Bagsværd",
+    "CountryCode": "DK"
+  },
+  {
+    "Symbol": "LLY",
+    "ISIN": "US5324571083",
+    "Name": "Eli Lilly & Co",
+    "Address": "Lilly Corporate Center, 46285, Indianapolis",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "GEST.MC",
+    "ISIN": "ES0105223004",
+    "Name": "Gestamp Automocion",
+    "Address": "Calle Alfonso XII, 16, 28014, Madrid, Spain",
+    "CountryCode": "ES"
+  },
+  {
+    "Symbol": "QFIN",
+    "ISIN": "US88557W1018",
+    "Name": "Qifu Technology Inc",
+    "Address": "7/F Lujiazui Finance Plaza No. 1217 Dongfang Road, 200122, Shanghai",
+    "CountryCode": "CN"
+  },
+  {
+    "Symbol": "META",
+    "ISIN": "US30303M1027",
+    "Name": "Meta Platforms Inc",
+    "Address": "1 Meta Way Menlo Park, CA 94025 United States",
+    "CountryCode": "US"
+  },
+  {
+    "Symbol": "AXP",
+    "ISIN": "US0258161092",
+    "Name": "American Express CO",
+    "Address": "200 Vesey Street, New York City, United States",
+    "CountryCode": "US"
+  }
+]

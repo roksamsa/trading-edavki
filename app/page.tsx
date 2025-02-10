@@ -95,6 +95,29 @@ export default function Home() {
     }
   };
 
+  const getCompanyData = async (companyName: string) => {
+    console.log("companyNamecompanyNamecompanyName", companyName);
+    try {
+      const res = await fetch(
+        `/api/getCompanyData?companyName=${companyName}`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+        },
+      );
+
+      if (!res.ok) {
+        throw new Error("Failed to generate content");
+      }
+
+      const data = await res.json();
+
+      return data;
+    } catch (err) {
+      console.error("Error generating content:", err);
+    }
+  };
+
   const handleFillMissingISIN = async () => {
     const selectedPageTabContentEdited = await Promise.all(
       selectedPageTabContent.map(async (row: any) => {
@@ -128,7 +151,19 @@ export default function Home() {
           sheetsToUpdate.includes(sheet.name.label) &&
           !sheet.data[0].hasOwnProperty("ISIN")
         ) {
-          sheet.data = sheet.data.map((row) => ({ ...row, ISIN: "" }));
+          sheet.data = sheet.data.map(async (row) => {
+            if (!row.ISIN) {
+              const generatedISIN = await getCompanyData(
+                row["Instrument Name"],
+              );
+
+              console.log("generatedISIN", generatedISIN);
+
+              row.ISIN = generatedISIN.response.replace(/\n/g, "");
+            }
+
+            return { ...row, ISIN: row.ISIN || "" };
+          });
         }
 
         return sheet;
@@ -137,7 +172,7 @@ export default function Home() {
 
     console.log("selectedPageTabContentEdited", selectedPageTabContentEdited);
 
-    //setSelectedPageTabContent(selectedPageTabContentEdited);
+    setSelectedPageTabContent(selectedPageTabContentEdited);
   };
 
   useEffect(() => {
@@ -158,7 +193,7 @@ export default function Home() {
       console.log("importedData", importedData);
       console.log("columns", columns);
 
-      //setSelectedPageTabContent(importedDataJson);
+      setSelectedPageTabContent(importedDataJson);
       setSelectedPageTableColumns(columns);
     }
   }, [selectedPageTab, importedData]);
@@ -333,7 +368,7 @@ export default function Home() {
           resizable: true,
         })),
       );
-      // setSelectedPageTabContent(worksheet.data);
+      setSelectedPageTabContent(worksheet.data);
     }
   }, [selectedPageTab, importedData]);
 
