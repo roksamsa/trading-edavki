@@ -133,6 +133,26 @@ export default function Home() {
       }),
     );
 
+    /*
+    setRows((prevRows) => {
+      const headerRow = prevRows[0];
+      const headerCells = headerRow.cells;
+      const isinCell = { type: "header", text: "ISIN" };
+
+      const newHeaderRow = {
+        ...headerRow,
+        cells: [...headerCells, isinCell],
+      };
+
+      const restRows = {
+        ...headerRow,
+        cells: [...headerCells, isinCell],
+      };
+
+      return [newHeaderRow, ...prevRows.slice(1)];
+    });
+    */
+
     /*setColumns((prevColumns) => {
       if (!prevColumns.some((col) => col.columnId === "ISIN")) {
         return [...prevColumns, { columnId: "ISIN", resizable: true }];
@@ -226,9 +246,8 @@ export default function Home() {
         return `
 		<Dividend>
 			<Date>${row.Date}</Date>
-			<PayerIdentificationNumber>${
-        row.PayerIdentificationNumber
-      }</PayerIdentificationNumber>
+			<PayerIdentificationNumber>${row.PayerIdentificationNumber
+          }</PayerIdentificationNumber>
 			<PayerName>${row.PayerName}</PayerName>
 			<PayerAddress>${row.PayerAddress}</PayerAddress>
 			<PayerCountry>${row.PayerCountry}</PayerCountry>
