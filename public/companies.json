@@ -5745,5 +5745,35 @@
     "Name": "American Express CO",
     "Address": "200 Vesey Street, New York City, United States",
     "CountryCode": "US"
+  },
+  {
+    "Symbol": "New Company 123",
+    "Name": "New Company",
+    "Address": "New Address",
+    "ISIN": "New ISIN"
+  },
+  {
+    "Symbol": "New Company 123",
+    "Name": "New Company",
+    "Address": "New Address",
+    "ISIN": "New ISIN"
+  },
+  {
+    "Symbol": "New Company 123",
+    "Name": "New Company",
+    "Address": "New Address",
+    "ISIN": "New ISIN"
+  },
+  {
+    "Symbol": "New Company 123",
+    "Name": "New Company",
+    "Address": "New Address",
+    "ISIN": "New ISIN"
+  },
+  {
+    "Symbol": "New Company 123",
+    "Name": "New Company",
+    "Address": "New Address",
+    "ISIN": "New ISIN"
   }
 ]

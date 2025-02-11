@@ -73,35 +73,12 @@ export default function Home() {
     console.log("rows", rows);
   }, [rows]);
 
-  const handleGenerateContent = async (companyName: string) => {
-    const prompt = `Fill missing ISIN for the following ${companyName} common stock on all markets. If there are multiple options, give me all ISINs. And can you just return ISIN string not whole sentence`;
-
-    try {
-      const res = await fetch("/api/generative-ai", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prompt }),
-      });
-
-      if (!res.ok) {
-        throw new Error("Failed to generate content");
-      }
-
-      const data = await res.json();
-
-      return data;
-    } catch (err) {
-      console.error("Error generating content:", err);
-    }
-  };
-
   const getCompanyData = async (companyName: string) => {
-    console.log("companyNamecompanyNamecompanyName", companyName);
     try {
       const res = await fetch(
-        `/api/getCompanyData?companyName=${companyName}`,
+        `/api/companies/getCompanyData?companyName=${companyName}`,
         {
-          method: "POST",
+          method: "GET",
           headers: { "Content-Type": "application/json" },
         },
       );
@@ -165,35 +142,45 @@ export default function Home() {
 
     const sheetsToUpdate = ["Dividends", "Closed Positions"];
 
-    setImportedData((prevData) => {
-      return prevData?.map((sheet) => {
-        if (
-          sheetsToUpdate.includes(sheet.name.label) &&
-          !sheet.data[0].hasOwnProperty("ISIN")
-        ) {
-          sheet.data = sheet.data.map(async (row) => {
-            if (!row.ISIN) {
-              const generatedISIN = await getCompanyData(
-                row["Instrument Name"],
+    const updatedSheets = importedData
+      ? await Promise.all(
+          importedData.map(async (sheet) => {
+            if (
+              sheetsToUpdate.includes(sheet.name.label) &&
+              !sheet.data[0].hasOwnProperty("ISIN")
+            ) {
+              const updatedData = await Promise.all(
+                sheet.data.map(async (row: any) => {
+                  if (!row.ISIN && row["Instrument Name"]) {
+                    const companyData = await getCompanyData(
+                      row["Instrument Name"],
+                    );
+
+                    row.ISIN = companyData?.ISIN?.replace(/\n/g, "");
+                  }
+
+                  return { ...row, ISIN: row.ISIN || "" };
+                }),
               );
 
-              console.log("generatedISIN", generatedISIN);
-
-              row.ISIN = generatedISIN.response.replace(/\n/g, "");
+              return { ...sheet, data: updatedData };
             }
 
-            return { ...row, ISIN: row.ISIN || "" };
-          });
-        }
+            return sheet;
+          }),
+        )
+      : [];
 
-        return sheet;
-      });
-    });
+    setImportedData(updatedSheets);
 
     console.log("selectedPageTabContentEdited", selectedPageTabContentEdited);
 
     setSelectedPageTabContent(selectedPageTabContentEdited);
   };
+
+  useEffect(() => {
+    console.log("importedData4324324234", importedData);
+  }, [importedData]);
 
   useEffect(() => {
     if (importedData && importedData.length > 0 && selectedPageTab) {
@@ -246,8 +233,9 @@ export default function Home() {
         return `
 		<Dividend>
 			<Date>${row.Date}</Date>
-			<PayerIdentificationNumber>${row.PayerIdentificationNumber
-          }</PayerIdentificationNumber>
+			<PayerIdentificationNumber>${
+        row.PayerIdentificationNumber
+      }</PayerIdentificationNumber>
 			<PayerName>${row.PayerName}</PayerName>
 			<PayerAddress>${row.PayerAddress}</PayerAddress>
 			<PayerCountry>${row.PayerCountry}</PayerCountry>
